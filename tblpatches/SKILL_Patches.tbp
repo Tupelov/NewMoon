@@ -1,0 +1,1384 @@
+{
+  "Version": 1,
+  "Patches": [
+    {
+      "comment": "Segment: Skill Elements, Index: 8",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 16,
+      "data": "03 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 16",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 32,
+      "data": "06 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 25",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 50,
+      "data": "04 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 34",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 68,
+      "data": "05 FF"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 49",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 98,
+      "data": "08 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 55",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 110,
+      "data": "09 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 149",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 298,
+      "data": "01 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 150",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 300,
+      "data": "00 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 151",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 302,
+      "data": "00 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 152",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 304,
+      "data": "07 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 190",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 380,
+      "data": "10 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 191",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 382,
+      "data": "10 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 239",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 478,
+      "data": "11 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 240",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 480,
+      "data": "11 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 241",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 482,
+      "data": "11 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 242",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 484,
+      "data": "11 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 243",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 486,
+      "data": "0A 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 244",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 488,
+      "data": "0E 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 245",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 490,
+      "data": "0F 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 246",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 492,
+      "data": "0F 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 247",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 494,
+      "data": "11 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 248",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 496,
+      "data": "11 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 249",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 498,
+      "data": "0D 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 250",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 500,
+      "data": "11 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 295",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 590,
+      "data": "07 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 296",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 592,
+      "data": "07 00"
+    },
+    {
+      "comment": "Segment: Skill Elements, Index: 305",
+      "tbl": "SKILL",
+      "section": 0,
+      "offset": 610,
+      "data": "07 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 1",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 44,
+      "data": "00 02 02 02 03 00 00 00 00 02 00 00 00 00 62 01 01 01 28 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 2",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 88,
+      "data": "00 02 02 02 06 00 00 00 00 02 00 00 00 00 62 01 01 01 64 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 3",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 132,
+      "data": "00 02 02 02 0A 00 00 00 00 02 00 00 00 00 62 01 01 01 2C 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 4",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 176,
+      "data": "00 02 02 02 08 00 00 00 01 02 00 00 00 00 5F 01 01 01 28 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 5",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 220,
+      "data": "00 02 02 02 0E 00 00 00 01 02 00 00 00 00 5F 01 01 01 64 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 6",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 264,
+      "data": "00 02 02 02 14 00 00 00 01 02 00 00 00 00 5F 01 01 01 2C 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 7",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 308,
+      "data": "00 02 02 02 28 00 00 00 01 02 00 00 00 00 5F 01 01 01 58 02 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 8",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 352,
+      "data": "00 02 02 02 28 00 00 00 01 02 00 00 00 00 5F 01 01 01 58 02 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 9",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 396,
+      "data": "00 02 02 02 1E 00 00 00 00 02 00 00 00 00 62 01 01 01 58 02 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 10",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 440,
+      "data": "00 02 02 02 03 00 00 00 00 02 00 00 00 00 62 01 01 01 28 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 64 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 11",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 484,
+      "data": "00 02 02 02 06 00 00 00 00 02 00 00 00 00 62 01 01 01 64 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 12",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 528,
+      "data": "00 02 02 02 0A 00 00 00 00 02 00 00 00 00 62 01 01 01 2C 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 13",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 572,
+      "data": "00 02 02 02 08 00 00 00 01 02 00 00 00 00 5F 01 01 01 28 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 14",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 616,
+      "data": "00 02 02 02 0E 00 00 00 01 02 00 00 00 00 5F 01 01 01 64 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 15",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 660,
+      "data": "00 02 02 02 14 00 00 00 01 02 00 00 00 00 5F 01 01 01 2C 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 16",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 704,
+      "data": "00 02 02 02 28 00 00 00 01 02 00 00 00 00 5F 01 01 01 58 02 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 18",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 792,
+      "data": "00 02 02 02 1E 00 00 00 00 02 00 00 00 00 62 01 01 01 58 02 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 19",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 836,
+      "data": "00 02 02 02 04 00 00 00 00 02 00 00 00 00 62 01 01 01 28 00 00 00 00 00 01 0C 00 00 20 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 20",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 880,
+      "data": "00 02 02 02 08 00 00 00 00 02 00 00 00 00 62 01 01 01 64 00 00 00 00 00 01 10 00 00 20 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 21",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 924,
+      "data": "00 02 02 02 0C 00 00 00 00 02 00 00 00 00 62 01 01 01 2C 01 00 00 00 00 01 16 00 00 20 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 22",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 968,
+      "data": "00 02 02 02 0A 00 00 00 01 02 00 00 00 00 5F 01 01 01 28 00 00 00 00 00 01 0A 00 00 20 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 23",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1012,
+      "data": "00 02 02 02 10 00 00 00 01 02 00 00 00 00 5F 01 01 01 64 00 00 00 00 00 01 0E 00 00 20 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 24",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1056,
+      "data": "00 02 02 02 16 00 00 00 01 02 00 00 00 00 5F 01 01 01 2C 01 00 00 00 00 01 14 00 00 20 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 25",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1100,
+      "data": "00 02 02 02 2A 00 00 00 01 02 00 00 00 00 5F 01 01 01 58 02 00 00 00 00 01 18 00 00 20 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 27",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1188,
+      "data": "00 02 02 02 20 00 00 00 00 02 00 00 00 00 62 01 01 01 58 02 00 00 00 00 01 1A 00 00 20 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 28",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1232,
+      "data": "00 02 02 02 04 00 00 00 00 02 00 00 00 00 62 01 01 01 28 00 00 00 00 00 01 0C 00 00 40 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 29",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1276,
+      "data": "00 02 02 02 08 00 00 00 00 02 00 00 00 00 62 01 01 01 64 00 00 00 00 00 01 10 00 00 40 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 30",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1320,
+      "data": "00 02 02 02 0C 00 00 00 00 02 00 00 00 00 62 01 01 01 2C 01 00 00 00 00 01 16 00 00 40 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 31",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1364,
+      "data": "00 02 02 02 0A 00 00 00 01 02 00 00 00 00 5F 01 01 01 28 00 00 00 00 00 01 0A 00 00 40 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 32",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1408,
+      "data": "00 02 02 02 10 00 00 00 01 02 00 00 00 00 5F 01 01 01 64 00 00 00 00 00 01 0E 00 00 40 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 33",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1452,
+      "data": "00 02 02 02 16 00 00 00 01 02 00 00 00 00 5F 01 01 01 2C 01 00 00 00 00 01 14 00 00 40 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 34",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1496,
+      "data": "00 02 02 02 2A 00 00 00 01 02 00 00 00 00 5F 01 01 01 58 02 00 00 00 00 01 18 00 00 40 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 36",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1584,
+      "data": "00 02 02 02 20 00 00 00 00 02 00 00 00 00 62 01 01 01 58 02 00 00 00 00 01 1A 00 00 40 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 37",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1628,
+      "data": "00 02 02 02 12 00 00 00 01 02 00 00 00 00 5F 01 01 01 B4 00 00 00 00 00 01 04 00 00 00 00 10 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 38",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1672,
+      "data": "00 02 02 02 20 00 00 00 01 02 00 00 00 00 5F 01 01 01 40 01 00 00 00 00 01 08 00 00 00 00 10 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 39",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1716,
+      "data": "00 02 02 02 3C 00 00 00 01 02 00 00 00 00 5F 01 01 01 8A 02 00 00 00 00 01 0C 00 00 00 00 10 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 43",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1892,
+      "data": "00 02 02 02 3C 00 00 00 00 02 00 00 00 00 64 01 01 01 B6 03 00 00 00 00 01 14 00 00 00 00 10 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 44",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1936,
+      "data": "00 02 02 02 48 00 00 00 01 02 00 00 00 00 64 01 01 01 20 03 00 00 00 00 01 10 00 00 00 00 10 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 45",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 1980,
+      "data": "00 02 02 02 08 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 23 00 00 00 00 08 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 46",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2024,
+      "data": "00 02 02 02 12 00 00 00 01 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 1E 00 00 00 00 08 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 47",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2068,
+      "data": "00 02 02 02 0F 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 3C 00 00 00 00 08 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 48",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2112,
+      "data": "00 02 02 02 22 00 00 00 01 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 32 00 00 00 00 08 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 49",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2156,
+      "data": "00 02 02 02 14 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 5A 00 00 00 00 08 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 50",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2200,
+      "data": "00 02 02 02 2C 00 00 00 01 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 41 00 00 00 00 08 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 51",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2244,
+      "data": "00 02 02 02 08 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 23 00 00 00 00 08 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 52",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2288,
+      "data": "00 02 02 02 12 00 00 00 01 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 1E 00 00 00 00 08 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 53",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2332,
+      "data": "00 02 02 02 0F 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 3C 00 00 00 00 08 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 54",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2376,
+      "data": "00 02 02 02 22 00 00 00 01 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 32 00 00 00 00 08 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 55",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2420,
+      "data": "00 02 02 02 14 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 5A 00 00 00 00 08 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 56",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2464,
+      "data": "00 02 02 02 2C 00 00 00 01 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 41 00 00 00 00 08 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 57",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2508,
+      "data": "00 02 02 02 05 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 46 00 00 01 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 58",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2552,
+      "data": "00 02 02 02 0C 00 00 00 01 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 28 00 00 01 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 59",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2596,
+      "data": "00 02 02 02 05 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 46 00 00 02 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 60",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2640,
+      "data": "00 02 02 02 0C 00 00 00 01 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 28 00 00 02 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 61",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2684,
+      "data": "00 02 02 02 05 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 46 00 00 04 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 62",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2728,
+      "data": "00 02 02 02 0C 00 00 00 01 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 28 00 00 04 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 63",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2772,
+      "data": "00 02 02 02 05 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 46 00 00 08 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 64",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2816,
+      "data": "00 02 02 02 0C 00 00 00 01 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 28 00 00 08 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 65",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2860,
+      "data": "08 02 02 02 1C 00 00 00 01 02 00 00 F7 FF 64 01 01 00 01 00 00 00 00 00 01 64 00 00 00 00 08 00 00 00 00 00 01 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 66",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2904,
+      "data": "00 02 02 02 05 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 46 00 00 10 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 67",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2948,
+      "data": "00 02 02 02 0C 00 00 00 01 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 28 00 00 10 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 68",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 2992,
+      "data": "00 02 02 02 05 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 46 00 00 80 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 69",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 3036,
+      "data": "00 02 02 02 0C 00 00 00 01 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 01 28 00 00 80 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 73",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 3212,
+      "data": "00 02 02 02 08 00 00 00 00 02 00 00 00 00 64 01 01 00 01 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 40 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 74",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 3256,
+      "data": "00 02 02 02 05 00 00 00 02 03 00 00 00 00 64 01 01 00 01 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 40 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 75",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 3300,
+      "data": "00 02 02 02 03 00 00 00 00 02 00 00 00 00 64 01 01 0C 28 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 76",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 3344,
+      "data": "00 02 02 02 03 00 00 00 00 02 00 00 00 00 64 01 01 00 1E 00 0D 00 1E 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 112",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 4928,
+      "data": "00 02 01 01 06 00 01 00 00 02 00 00 00 00 5F 01 01 01 28 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 113",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 4972,
+      "data": "00 02 01 01 08 00 01 00 00 02 00 00 00 00 5F 01 01 01 6E 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 114",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5016,
+      "data": "00 02 01 01 0C 00 01 00 00 02 00 00 00 00 56 02 03 01 78 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 115",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5060,
+      "data": "00 02 01 01 0D 00 01 00 01 02 00 00 00 00 55 01 03 01 64 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 116",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5104,
+      "data": "00 02 01 01 07 00 01 00 00 02 00 00 00 00 62 01 01 01 5A 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0F 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 117",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5148,
+      "data": "00 02 01 01 0F 00 01 00 01 02 00 00 00 00 5C 01 01 01 7C 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0C 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 118",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5192,
+      "data": "00 02 01 01 0E 00 01 00 00 02 00 00 00 00 5C 01 01 01 B3 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 14 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 119",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5236,
+      "data": "00 02 01 01 14 00 01 00 01 02 00 00 00 00 5A 02 02 01 5E 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 120",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5280,
+      "data": "00 02 01 01 15 00 01 00 00 02 00 00 00 00 5F 01 01 01 9D 03 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 121",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5324,
+      "data": "00 02 01 01 06 00 01 00 00 02 00 00 00 00 5F 01 01 01 28 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 122",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5368,
+      "data": "00 02 01 01 0C 00 01 00 00 02 00 00 00 00 5F 01 01 01 2C 01 00 00 00 00 01 05 00 00 04 00 00 00 00 00 00 00 00 0C 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 123",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5412,
+      "data": "00 02 01 01 0A 00 01 00 00 02 00 00 00 00 5A 01 01 01 87 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 02 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 124",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5456,
+      "data": "00 02 01 01 0A 00 01 00 00 02 00 00 00 00 5A 01 01 01 87 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 03 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 125",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5500,
+      "data": "00 02 01 01 0C 00 01 00 00 02 00 00 00 00 5F 01 01 01 13 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0F 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 126",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5544,
+      "data": "00 02 01 01 07 00 01 00 00 02 00 00 00 00 5C 02 02 01 1E 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 127",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5588,
+      "data": "00 02 01 01 10 00 01 00 01 02 00 00 00 00 56 02 03 01 64 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 06 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 128",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5632,
+      "data": "00 02 01 01 13 00 01 00 01 02 00 00 00 00 5F 01 01 01 EA 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 14 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 129",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5676,
+      "data": "00 02 01 01 0F 00 01 00 00 02 00 00 00 00 5C 02 03 01 5E 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 130",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5720,
+      "data": "00 02 01 01 11 00 01 00 00 02 00 00 00 00 62 01 01 01 26 02 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 1E 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 131",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5764,
+      "data": "00 02 01 01 16 00 01 00 01 02 00 00 00 00 5F 01 01 01 58 02 00 00 00 00 01 28 00 00 08 00 00 00 00 00 00 00 00 19 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 132",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5808,
+      "data": "00 02 01 01 08 00 01 00 00 02 00 00 00 00 5F 01 01 01 6E 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 133",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5852,
+      "data": "00 02 01 01 0C 00 01 00 01 02 00 00 00 00 5A 01 01 01 7D 00 00 00 00 00 01 05 00 00 04 00 00 00 00 00 00 00 00 06 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 134",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5896,
+      "data": "00 02 01 01 14 00 01 00 00 02 00 00 00 00 62 01 01 01 11 03 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 19 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 135",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5940,
+      "data": "00 02 01 01 0E 00 01 00 01 02 00 00 00 00 56 01 01 01 09 01 00 00 00 00 01 05 00 00 08 00 00 00 00 00 00 00 00 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 136",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 5984,
+      "data": "00 02 01 01 12 00 01 00 01 02 00 00 00 00 A9 01 01 01 54 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 137",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6028,
+      "data": "00 02 01 01 06 00 01 00 00 02 00 00 00 00 5F 01 01 01 28 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 138",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6072,
+      "data": "00 02 01 01 0A 00 01 00 00 02 00 00 00 00 5C 02 02 01 6E 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 139",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6116,
+      "data": "00 02 01 01 09 00 01 00 00 02 00 00 00 00 5F 01 01 01 50 00 00 00 00 00 01 28 00 00 01 00 00 00 00 00 00 00 00 05 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 140",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6160,
+      "data": "00 02 01 01 0C 00 01 00 00 02 00 00 00 00 55 02 03 01 4B 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 141",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6204,
+      "data": "00 02 01 01 0F 00 01 00 01 02 00 00 00 00 58 02 02 01 96 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 142",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6248,
+      "data": "00 02 01 01 13 00 01 00 01 02 00 00 00 00 58 02 03 01 AF 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 143",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6292,
+      "data": "00 02 01 01 14 00 01 00 00 02 00 00 00 00 62 01 01 01 52 03 00 00 00 00 01 0F 00 00 02 00 00 00 00 00 00 00 00 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 144",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6336,
+      "data": "00 02 01 01 16 00 01 00 01 02 00 00 00 00 62 01 01 01 0D 02 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 04 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 145",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6380,
+      "data": "00 02 01 01 0F 00 01 00 00 02 00 00 00 00 5F 01 01 01 A9 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 05 0A 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 146",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6424,
+      "data": "00 02 01 01 0C 00 01 00 00 02 00 00 00 00 62 01 01 01 FA 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 08 03 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 147",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6468,
+      "data": "00 02 01 01 0E 00 01 00 00 02 00 00 00 00 62 01 01 01 45 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 08 03 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 148",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6512,
+      "data": "00 02 01 01 0E 00 01 00 00 02 00 00 00 00 5F 01 01 01 90 01 00 00 00 00 01 3C 00 00 80 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 149",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6556,
+      "data": "00 02 02 01 0F 00 00 00 00 02 00 00 00 00 5F 01 01 01 A9 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 05 0A 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 150",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6600,
+      "data": "00 02 01 01 16 00 00 00 01 02 00 00 00 00 62 01 01 01 0D 02 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 04 0A 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 151",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6644,
+      "data": "10 02 01 01 19 00 00 00 01 02 00 00 00 00 4B 08 08 01 28 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 152",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 6688,
+      "data": "00 02 01 01 18 00 00 00 00 02 00 00 00 00 62 01 01 01 20 03 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0A 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 190",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8360,
+      "data": "00 03 02 02 26 00 00 00 01 01 00 00 00 00 64 01 01 0B 64 00 00 00 00 00 00 32 00 00 00 00 00 00 00 20 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 191",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8404,
+      "data": "08 03 02 02 06 00 00 00 00 01 00 00 00 00 64 01 01 00 00 00 00 00 00 00 02 32 00 00 FF 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 192",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8448,
+      "data": "08 03 02 02 03 00 00 00 00 01 00 00 00 00 64 01 01 02 32 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 193",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8492,
+      "data": "08 03 02 02 06 00 00 00 00 01 00 00 00 00 64 01 01 02 A0 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 194",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8536,
+      "data": "08 03 02 02 12 00 00 00 00 01 00 00 00 00 64 01 01 0B 64 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 195",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8580,
+      "data": "08 03 02 02 07 00 00 00 01 01 00 00 00 00 64 01 01 02 28 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 196",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8624,
+      "data": "08 03 02 02 0C 00 00 00 01 01 00 00 00 00 64 01 01 02 8C 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 197",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8668,
+      "data": "08 03 02 02 1E 00 00 00 01 01 00 00 00 00 64 01 01 0B 64 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 198",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8712,
+      "data": "08 03 02 02 30 00 00 00 01 01 00 00 00 00 64 01 01 0B 64 00 00 00 00 00 02 64 00 00 FF 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 199",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8756,
+      "data": "08 02 02 02 04 00 00 00 00 01 00 00 91 FF 64 01 01 00 0F 00 00 00 00 00 02 64 00 00 6E 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 200",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8800,
+      "data": "08 02 02 02 08 00 00 00 01 01 00 00 91 FF 64 01 01 00 0F 00 00 00 00 00 02 64 00 00 6E 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 202",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8888,
+      "data": "08 03 02 02 03 00 00 00 00 01 00 00 7F FF 64 01 01 00 0F 00 00 00 00 00 02 64 00 00 80 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 203",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8932,
+      "data": "08 03 02 02 0C 00 00 00 01 01 00 00 00 FF 64 01 01 00 0F 00 00 00 00 00 02 64 00 00 FF 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 204",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 8976,
+      "data": "08 03 02 02 08 00 00 00 00 01 04 00 FF FF 64 01 01 0B 32 00 00 00 00 00 02 64 00 00 00 00 08 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 205",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9020,
+      "data": "08 03 02 02 12 00 00 00 00 01 04 00 FF FF 64 01 01 0B 64 00 00 00 00 00 02 64 00 00 00 00 08 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 206",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9064,
+      "data": "00 02 02 02 08 00 00 00 00 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 0A 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 207",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9108,
+      "data": "00 02 02 02 18 00 00 00 01 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 0A 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 208",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9152,
+      "data": "00 02 02 02 08 00 00 00 00 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 20 02 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 209",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9196,
+      "data": "00 02 02 02 18 00 00 00 01 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 20 02 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 210",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9240,
+      "data": "00 02 02 02 08 00 00 00 00 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 80 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 211",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9284,
+      "data": "00 02 02 02 18 00 00 00 01 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 80 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 212",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9328,
+      "data": "08 02 02 02 0A 00 00 00 01 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 00 20 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 214",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9416,
+      "data": "00 02 02 02 08 00 00 00 00 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 05 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 215",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9460,
+      "data": "00 02 02 02 18 00 00 00 01 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 05 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 216",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9504,
+      "data": "00 02 02 02 08 00 00 00 00 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 10 01 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 217",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9548,
+      "data": "00 02 02 02 18 00 00 00 01 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 10 01 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 218",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9592,
+      "data": "00 02 02 02 08 00 00 00 00 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 40 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 219",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9636,
+      "data": "00 02 02 02 18 00 00 00 01 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 40 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 223",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9812,
+      "data": "08 02 02 02 0A 00 00 00 01 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 00 10 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 224",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9856,
+      "data": "08 02 02 02 24 00 00 00 00 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 01 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 225",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 9900,
+      "data": "08 02 02 02 24 00 00 00 00 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 02 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 229",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10076,
+      "data": "08 02 02 02 0F 00 00 00 00 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 04 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 230",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10120,
+      "data": "08 02 02 02 0F 00 00 00 00 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 08 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 231",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10164,
+      "data": "08 02 02 02 0F 00 00 00 00 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 10 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 232",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10208,
+      "data": "08 02 02 02 0F 00 00 00 00 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 20 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 234",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10296,
+      "data": "28 02 02 02 18 00 00 00 01 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 06 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 237",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10428,
+      "data": "08 02 02 02 03 00 00 00 00 01 00 00 FE FF 64 01 01 00 0F 00 00 00 05 00 02 64 00 00 01 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 238",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10472,
+      "data": "08 02 02 02 03 00 00 00 00 01 00 00 EF FF 64 01 01 00 0F 00 00 00 00 00 02 64 00 00 10 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 239",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10516,
+      "data": "00 02 02 02 1E 00 00 00 00 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 55 01 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 240",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10560,
+      "data": "00 02 02 02 1E 00 00 00 00 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 AA 02 00 00 00 05 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 241",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10604,
+      "data": "08 02 02 02 37 00 00 00 01 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 01 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 242",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10648,
+      "data": "08 02 02 02 37 00 00 00 01 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 02 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 243",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10692,
+      "data": "00 02 02 02 14 00 00 00 01 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 01 3C 00 00 01 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 244",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10736,
+      "data": "00 02 02 02 14 00 00 00 01 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 01 3C 00 00 08 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 245",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10780,
+      "data": "00 02 02 02 14 00 00 00 01 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 01 3C 00 00 10 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 246",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10824,
+      "data": "00 02 02 02 04 00 00 00 00 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 01 64 00 00 10 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 247",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10868,
+      "data": "00 02 02 02 32 00 00 00 01 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 45 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 248",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10912,
+      "data": "00 02 02 02 32 00 00 00 01 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 A0 02 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 249",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 10956,
+      "data": "00 02 02 02 14 00 00 00 01 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 01 3C 00 00 04 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 250",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 11000,
+      "data": "00 02 02 02 50 00 00 00 01 02 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 AA 02 00 00 00 05 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 276",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 12144,
+      "data": "10 02 02 02 0A 00 00 00 00 01 00 00 00 00 64 01 01 00 00 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 01 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 280",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 12320,
+      "data": "10 02 01 02 0A 00 00 00 01 02 00 00 00 00 63 01 01 01 F4 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 14 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 283",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 12452,
+      "data": "10 02 02 02 0A 00 00 00 01 02 00 00 00 00 63 01 01 01 95 00 00 00 00 00 01 14 00 00 20 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 284",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 12496,
+      "data": "10 02 02 02 1E 00 00 00 01 01 00 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 55 01 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 285",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 12540,
+      "data": "10 02 01 02 0A 00 1E 00 01 02 00 00 00 00 64 01 01 01 DB 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 0F 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 286",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 12584,
+      "data": "10 02 02 02 0F 00 00 00 01 02 00 00 00 00 63 01 01 01 C2 01 00 00 00 00 01 23 00 00 40 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 293",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 12892,
+      "data": "00 02 02 00 00 00 00 00 01 02 00 00 00 00 64 01 01 01 DC 05 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 294",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 12936,
+      "data": "20 02 02 00 00 00 00 00 00 01 01 00 00 00 64 01 01 00 0F 00 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 295",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 12980,
+      "data": "00 02 02 00 00 00 00 00 01 02 00 00 00 00 64 01 01 01 C4 09 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 296",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 13024,
+      "data": "00 02 02 00 00 00 00 00 01 02 00 00 00 00 64 01 01 01 88 13 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 304",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 13376,
+      "data": "02 02 01 00 00 00 00 00 00 02 02 00 00 00 62 01 01 01 2C 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    },
+    {
+      "comment": "Segment: Active Skill Data, Index: 305",
+      "tbl": "SKILL",
+      "section": 1,
+      "offset": 13420,
+      "data": "02 02 01 00 00 00 00 00 00 02 02 00 00 00 62 01 01 01 2C 01 00 00 00 00 00 32 00 00 00 00 00 00 00 00 00 00 00 05 05 00 01 00 00 00"
+    }
+  ]
+}

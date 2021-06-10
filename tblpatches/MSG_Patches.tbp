@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "Patches": [
+    {
+      "comment": "Segment: Skill Names, Index: 8",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 152,
+      "data": "42 6C 61 7A 69 6E 67 20 48 65 6C 6C 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 16",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 304,
+      "data": "56 61 63 75 75 6D 20 57 61 76 65 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 25",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 475,
+      "data": "49 63 65 20 41 67 65 00 00 00 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 34",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 646,
+      "data": "57 69 6C 64 20 54 68 75 6E 64 65 72 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 49",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 931,
+      "data": "53 61 6E 63 74 69 66 79 00 00 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 55",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 1045,
+      "data": "44 65 73 65 63 72 61 74 65 00 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 80",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 1520,
+      "data": "42 6C 61 7A 69 6E 67 20 48 65 6C 6C 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 81",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 1539,
+      "data": "56 61 63 75 75 6D 20 57 61 76 65 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 82",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 1558,
+      "data": "49 63 65 20 41 67 65 00 00 00 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 83",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 1577,
+      "data": "57 69 6C 64 20 54 68 75 6E 64 65 72 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 93",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 1767,
+      "data": "4C 69 66 65 20 4C 65 65 63 68 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 94",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 1786,
+      "data": "53 70 69 72 69 74 20 4C 65 65 63 68 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 151",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 2869,
+      "data": "48 61 73 73 6F 75 20 54 6F 62 69 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 152",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 2888,
+      "data": "4D 6F 72 74 61 6C 20 46 6F 6C 6C 79 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 190",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 3610,
+      "data": "4F 72 61 74 6F 72 69 6F 00 00 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 191",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 3629,
+      "data": "41 6D 72 69 74 61 20 44 72 6F 70 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 239",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 4541,
+      "data": "48 65 61 74 20 52 69 73 65 72 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 240",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 4560,
+      "data": "44 65 62 69 6C 69 74 61 74 65 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 241",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 4579,
+      "data": "54 65 74 72 61 6B 61 72 6E 2B 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 242",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 4598,
+      "data": "4D 61 6B 61 72 61 6B 61 72 6E 2B 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 243",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 4617,
+      "data": "41 6C 6C 75 72 65 00 00 00 00 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 244",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 4636,
+      "data": "45 76 69 6C 20 4C 61 75 67 68 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 245",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 4655,
+      "data": "56 61 6C 69 61 6E 74 20 44 61 6E 63 65 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 246",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 4674,
+      "data": "52 65 76 65 72 73 65 20 52 75 62 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 247",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 4693,
+      "data": "47 6F 64 64 65 73 73 20 53 68 69 65 6C 64 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 248",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 4712,
+      "data": "47 65 6D 69 6E 69 00 00 00 00 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 249",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 4731,
+      "data": "49 6E 74 6F 78 69 63 61 74 65 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "comment": "Segment: Skill Names, Index: 250",
+      "tbl": "MSG",
+      "section": 1,
+      "offset": 4750,
+      "data": "45 76 69 73 63 65 72 61 74 65 00 00 00 00 00 00 00 00 00"
+    }
+  ]
+}

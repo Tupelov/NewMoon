@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "Patches": [
+    {
+      "comment": "Segment: Enemy Unit Stats, Index: 29",
+      "tbl": "UNIT_F",
+      "section": 0,
+      "offset": 1798,
+      "data": "00 00 03 21 F5 00 78 00 13 1C 11 12 18 00 05 00 35 00 3F 00 10 02 00 00 00 00 00 00 00 00 00 00 84 02 03 10 1E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 62 00 61 00 5E 01"
+    },
+    {
+      "comment": "Segment: Enemy Unit Stats, Index: 118",
+      "tbl": "UNIT_F",
+      "section": 0,
+      "offset": 7316,
+      "data": "03 00 0C 4C 08 07 64 00 2F 31 39 39 22 00 22 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7A 00 00 00 39 10 C8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 62 00 EF 00 00 00"
+    },
+    {
+      "comment": "Segment: Enemy Unit Stats, Index: 119",
+      "tbl": "UNIT_F",
+      "section": 0,
+      "offset": 7378,
+      "data": "03 00 0C 4C 58 02 64 00 2C 38 34 31 1E 00 34 02 56 02 51 02 00 00 00 00 00 00 00 00 00 00 7A 00 00 00 3B 10 C8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 62 00 EF 00 00 00"
+    },
+    {
+      "comment": "Segment: Enemy Unit Stats, Index: 144",
+      "tbl": "UNIT_F",
+      "section": 0,
+      "offset": 8928,
+      "data": "03 00 0A 46 D0 07 64 00 25 49 27 41 24 00 03 02 09 02 00 00 00 00 00 00 00 00 00 00 00 00 7A 00 00 00 7E 10 C8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 62 00 F5 00 5F 01"
+    },
+    {
+      "comment": "Segment: Enemy Unit Stats, Index: 328",
+      "tbl": "UNIT_F",
+      "section": 0,
+      "offset": 20336,
+      "data": "03 00 07 2C A4 06 B3 00 18 26 17 1A 19 00 31 02 51 02 02 02 00 00 00 00 00 00 00 00 00 00 7A 00 C6 62 75 10 C8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 62 00 F0 00 5E 01"
+    },
+    {
+      "comment": "Segment: Enemy Elemental Affinities, Index: 216",
+      "tbl": "UNIT_F",
+      "section": 1,
+      "offset": 6912,
+      "data": "0F 00 00 01 0F 00 50 04 1E 00 14 00 14 00 0A 00 00 01 00 01 00 01 00 01 00 01 00 01 00 01 00 01"
+    },
+    {
+      "comment": "Segment: Enemy Elemental Affinities, Index: 217",
+      "tbl": "UNIT_F",
+      "section": 1,
+      "offset": 6944,
+      "data": "0F 00 0F 00 00 01 1E 00 50 04 14 00 14 00 0A 00 00 01 00 01 00 01 00 01 00 01 00 01 00 01 00 01"
+    },
+    {
+      "comment": "Segment: Enemy Elemental Affinities, Index: 218",
+      "tbl": "UNIT_F",
+      "section": 1,
+      "offset": 6976,
+      "data": "00 01 0F 00 0F 00 14 00 14 00 50 04 1E 00 0A 00 00 01 00 01 00 01 00 01 00 01 00 01 00 01 00 01"
+    },
+    {
+      "comment": "Segment: Enemy Elemental Affinities, Index: 219",
+      "tbl": "UNIT_F",
+      "section": 1,
+      "offset": 7008,
+      "data": "0F 00 0F 00 00 01 14 00 14 00 1E 00 50 04 0A 00 00 01 00 01 00 01 00 01 00 01 00 01 00 01 00 01"
+    }
+  ]
+}

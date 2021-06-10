@@ -1,0 +1,7225 @@
+
+// 
+// FlowScript decompiled using Atlus Script Tools by TGE (2017-2021)
+// In the unfortunate case of any bugs, please report them back to me.
+// 
+
+
+// 
+// Procedure declarations
+// 
+
+void AI_PC_002_001()
+{
+    int var0 = 0;
+    int var1 = 0;
+    int var2 = 0;
+    int var3 = 0;
+    int var4 = 0;
+    int var5 = 0;
+    
+    if ( FUNCTION_003C( 1 ) == 1 )
+    {
+        var0 = FUNCTION_00FF();
+        var1 = FUNCTION_0113();
+        
+        if ( ( FUNCTION_0148( var0, var1 ) == 1 ) && ( FUNCTION_00FA( var0 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var0 );
+            return;
+        }
+        else if ( ( ( FUNCTION_0148( var0, var1 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var0 );
+            return;
+        }
+
+    }
+
+    int var6 = RNG( 100 );
+    
+    if ( ( ( FUNCTION_0045() == 1 ) && ( FUNCTION_0033( 20 ) == 1 ) ) && ( var6 <= 50 ) )
+    {
+        AI_ASK_TO_LEAVE();
+        AI_TAR_RND();
+        return;
+    }
+
+    int var7 = FUNCTION_00FE( 0, 1 );
+    
+    if ( ( FUNCTION_00F8( var7, 40 ) == 1 ) && ( FUNCTION_00FB( var7, 0x10 ) == 1 ) )
+    {
+        
+        if ( ( FUNCTION_0034( 40 ) == 1 ) && ( FUNCTION_00FC( var7, 0x10 ) == 1 ) )
+        {
+            var0 = FUNCTION_01C8( 40 );
+            
+            if ( var0 >= 2 )
+            {
+                var2 = FUNCTION_010A( var7, 0x10, 0 );
+            }
+            else 
+            {
+                var2 = FUNCTION_010A( var7, 0x10, 1 );
+            }
+
+            FUNCTION_00EB( var2 );
+            FUNCTION_00FD( var7 );
+            return;
+        }
+        else 
+        {
+            var0 = FUNCTION_01C8( 40 );
+            
+            if ( var0 >= 2 )
+            {
+                var3 = FUNCTION_0109( var7, 0x10, 0 );
+            }
+            else 
+            {
+                var3 = FUNCTION_0109( var7, 0x10, 1 );
+            }
+
+            AI_ACT_SKILL( var3 );
+            FUNCTION_00FD( var7 );
+            return;
+        }
+
+    }
+    else if ( ( FUNCTION_00F8( var7, 40 ) == 1 ) && ( FUNCTION_00FC( var7, 0x10 ) == 1 ) )
+    {
+        var0 = FUNCTION_01C8( 40 );
+        
+        if ( var0 >= 2 )
+        {
+            var2 = FUNCTION_010A( var7, 0x10, 0 );
+        }
+        else 
+        {
+            var2 = FUNCTION_010A( var7, 0x10, 1 );
+        }
+
+        FUNCTION_00EB( var2 );
+        FUNCTION_00FD( var7 );
+        return;
+    }
+
+    int var8 = FUNCTION_0140();
+    
+    if ( ( FUNCTION_00F8( var8, 40 ) == 1 ) && ( FUNCTION_00FB( var8, 0x10 ) == 1 ) )
+    {
+        
+        if ( ( FUNCTION_0034( 30 ) == 1 ) && ( FUNCTION_00FC( var8, 0x10 ) == 1 ) )
+        {
+            var0 = FUNCTION_01C8( 40 );
+            
+            if ( var0 >= 2 )
+            {
+                var2 = FUNCTION_010A( var8, 0x10, 0 );
+            }
+            else 
+            {
+                var2 = FUNCTION_010A( var8, 0x10, 1 );
+            }
+
+            FUNCTION_00EB( var2 );
+            FUNCTION_00FD( var8 );
+            return;
+        }
+        else 
+        {
+            var0 = FUNCTION_01C8( 40 );
+            
+            if ( var0 >= 2 )
+            {
+                var3 = FUNCTION_0109( var8, 0x10, 0 );
+            }
+            else 
+            {
+                var3 = FUNCTION_0109( var8, 0x10, 1 );
+            }
+
+            AI_ACT_SKILL( var3 );
+            FUNCTION_00FD( var8 );
+            return;
+        }
+
+    }
+    else if ( ( FUNCTION_00F8( var8, 40 ) == 1 ) && ( FUNCTION_00FC( var8, 0x10 ) == 1 ) )
+    {
+        var0 = FUNCTION_01C8( 40 );
+        
+        if ( var0 >= 2 )
+        {
+            var2 = FUNCTION_010A( var8, 0x10, 0 );
+        }
+        else 
+        {
+            var2 = FUNCTION_010A( var8, 0x10, 1 );
+        }
+
+        FUNCTION_00EB( var2 );
+        FUNCTION_00FD( var8 );
+        return;
+    }
+
+    var1 = FUNCTION_0113();
+    var0 = FUNCTION_0100( var1 );
+    
+    if ( var0 != -1 )
+    {
+        
+        if ( FUNCTION_00FA( var0 ) == 1 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var0 = FUNCTION_0101( var1 );
+            AI_ACT_WEAPON();
+            
+            if ( var0 == -1 )
+            {
+                var0 = FUNCTION_0100( var1 );
+            }
+
+        }
+
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    
+    if ( ENWEAK_PAI( 0 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 0 ) ) )
+    {
+        var0 = FUNCTION_0100( 0 );
+        
+        if ( ( FUNCTION_00FA( var0 ) == 1 ) && ( FUNCTION_0148( var0, var1 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var0 = FUNCTION_0101( 0 );
+            
+            if ( var0 == -1 )
+            {
+                var0 = FUNCTION_0100( 0 );
+            }
+
+            var4 = FUNCTION_0109( var0, 0, 1 );
+            AI_ACT_SKILL( var4 );
+        }
+
+        FUNCTION_00FD( var0 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 1 ) == 1 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 1 ) ) )
+    {
+        var0 = FUNCTION_0100( 1 );
+        
+        if ( ( FUNCTION_00FA( var0 ) == 1 ) && ( FUNCTION_0148( var0, var1 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var0 = FUNCTION_0101( 1 );
+            
+            if ( var0 == -1 )
+            {
+                var0 = FUNCTION_0100( 1 );
+            }
+
+            var4 = FUNCTION_0109( var0, 1, 1 );
+            AI_ACT_SKILL( var4 );
+        }
+
+        FUNCTION_00FD( var0 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 2 ) == 1 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 2 ) ) )
+    {
+        var0 = FUNCTION_0100( 2 );
+        
+        if ( ( FUNCTION_00FA( var0 ) == 1 ) && ( FUNCTION_0148( var0, var1 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var0 = FUNCTION_0101( 2 );
+            
+            if ( var0 == -1 )
+            {
+                var0 = FUNCTION_0100( 2 );
+            }
+
+            var4 = FUNCTION_0109( var0, 2, 1 );
+            AI_ACT_SKILL( var4 );
+        }
+
+        FUNCTION_00FD( var0 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 3 ) == 1 ) && ( MYATTRSKIL( 3 ) == 1 ) )
+    {
+        var0 = FUNCTION_0103( 3 );
+        
+        if ( ( FUNCTION_00FA( var0 ) == 1 ) && ( FUNCTION_0148( var0, var1 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var0 = FUNCTION_0101( 3 );
+            
+            if ( var0 == -1 )
+            {
+                var0 = FUNCTION_0100( 3 );
+            }
+
+            var4 = FUNCTION_0109( var0, 3, 1 );
+            AI_ACT_SKILL( var4 );
+        }
+
+        FUNCTION_00FD( var0 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 4 ) == 1 ) && ( MYATTRSKIL( 4 ) == 1 ) )
+    {
+        var0 = FUNCTION_0103( 4 );
+        
+        if ( ( FUNCTION_00FA( var0 ) == 1 ) && ( FUNCTION_0148( var0, var1 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var0 = FUNCTION_0101( 4 );
+            
+            if ( var0 == -1 )
+            {
+                var0 = FUNCTION_0100( 4 );
+            }
+
+            var4 = FUNCTION_0109( var0, 4, 1 );
+            AI_ACT_SKILL( var4 );
+        }
+
+        FUNCTION_00FD( var0 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 6 ) == 1 ) && ( MYATTRSKIL( 6 ) == 1 ) )
+    {
+        var0 = FUNCTION_0103( 6 );
+        
+        if ( ( FUNCTION_00FA( var0 ) == 1 ) && ( FUNCTION_0148( var0, var1 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var0 = FUNCTION_0101( 6 );
+            
+            if ( var0 == -1 )
+            {
+                var0 = FUNCTION_0100( 6 );
+            }
+
+            var4 = FUNCTION_0109( var0, 6, 1 );
+            AI_ACT_SKILL( var4 );
+        }
+
+        FUNCTION_00FD( var0 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 5 ) == 1 ) && ( MYATTRSKIL( 5 ) == 1 ) )
+    {
+        var0 = FUNCTION_0103( 5 );
+        
+        if ( ( FUNCTION_00FA( var0 ) == 1 ) && ( FUNCTION_0148( var0, var1 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var0 = FUNCTION_0101( 5 );
+            
+            if ( var0 == -1 )
+            {
+                var0 = FUNCTION_0100( 5 );
+            }
+
+            var4 = FUNCTION_0109( var0, 5, 1 );
+            AI_ACT_SKILL( var4 );
+        }
+
+        FUNCTION_00FD( var0 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 8 ) == 1 ) && ( MYATTRSKIL( 8 ) == 1 ) )
+    {
+        var0 = FUNCTION_0103( 8 );
+        
+        if ( ( FUNCTION_00FA( var0 ) == 1 ) && ( FUNCTION_0148( var0, var1 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var0 = FUNCTION_0101( 8 );
+            
+            if ( var0 == -1 )
+            {
+                var0 = FUNCTION_0100( 8 );
+            }
+
+            var4 = FUNCTION_0109( var0, 8, 1 );
+            AI_ACT_SKILL( var4 );
+        }
+
+        FUNCTION_00FD( var0 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 9 ) == 1 ) && ( MYATTRSKIL( 9 ) == 1 ) )
+    {
+        var0 = FUNCTION_0103( 9 );
+        
+        if ( ( FUNCTION_00FA( var0 ) == 1 ) && ( FUNCTION_0148( var0, var1 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var0 = FUNCTION_0101( 9 );
+            
+            if ( var0 == -1 )
+            {
+                var0 = FUNCTION_0100( 9 );
+            }
+
+            var4 = FUNCTION_0109( var0, 9, 1 );
+            AI_ACT_SKILL( var4 );
+        }
+
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    int var9 = FUNCTION_01C9();
+    int var10 = FUNCTION_01CA();
+    int var11 = ( var9 - var10 );
+    int var12 = 0;
+    
+    if ( var11 <= -8 )
+    {
+        var12 = 50;
+    }
+    else if ( var11 <= -3 )
+    {
+        var12 = 30;
+    }
+    else if ( var11 <= 0 )
+    {
+        var12 = 20;
+    }
+    else if ( var11 <= 3 )
+    {
+        var12 = 10;
+    }
+    else 
+    {
+        var12 = 0;
+    }
+
+    int var13 = RNG( 100 );
+    var7 = FUNCTION_00FE( 0, 1 );
+    
+    if ( ( ( var13 <= var12 ) && MYBAD( 1, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var7 );
+        return;
+    }
+
+    var9 = FUNCTION_01C9();
+    var10 = FUNCTION_01CA();
+    var11 = ( var9 - var10 );
+    
+    if ( var11 <= -8 )
+    {
+        var12 = 40;
+    }
+    else if ( var11 <= -3 )
+    {
+        var12 = 30;
+    }
+    else if ( var11 <= 0 )
+    {
+        var12 = 10;
+    }
+    else if ( var11 <= 3 )
+    {
+        var12 = 0;
+    }
+    else 
+    {
+        var12 = 0;
+    }
+
+    var13 = RNG( 100 );
+    
+    if ( ( ( var13 <= var12 ) && MYBAD( 2, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var0 = FUNCTION_00FE( 0, 2 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    
+    if ( ( ( var13 <= var12 ) && MYBAD( 3, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var0 = FUNCTION_00FE( 0, 3 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    
+    if ( ( ( var13 <= var12 ) && MYBAD( 4, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var0 = FUNCTION_00FE( 0, 4 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    
+    if ( ( ( var13 <= var12 ) && MYBAD( 5, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var0 = FUNCTION_00FE( 0, 5 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    
+    if ( ( ( var13 <= var12 ) && MYBAD( 7, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var0 = FUNCTION_00FE( 0, 7 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    
+    if ( ( ( var13 <= var12 ) && MYBAD( 8, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var0 = FUNCTION_00FE( 0, 8 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    
+    if ( ( ( var13 <= var12 ) && MYBAD( 9, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var0 = FUNCTION_00FE( 0, 9 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    
+    if ( ( ( var13 <= var12 ) && MYBAD( 10, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var0 = FUNCTION_00FE( 0, 10 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    
+    if ( ( ( var13 <= var12 ) && MYBAD( 9, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var0 = FUNCTION_00FE( 0, 9 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    int var14 = FUNCTION_0198( 1 );
+    int var15 = FUNCTION_0198( 0x40 );
+    int var16 = FUNCTION_0198( 0x10 );
+    int var17 = ( ( var14 + var15 ) + var16 );
+    
+    if ( ( ( FUNCTION_003C( 1 ) && ( var17 >= 1 ) ) || ( FUNCTION_003C( 3 ) && ( var17 >= 2 ) ) ) || ( FUNCTION_003C( 5 ) && ( var17 >= 3 ) ) )
+    {
+        
+        if ( ( FUNCTION_0194( 1 ) == 0 ) && ( FUNCTION_019D() == 0 ) )
+        {
+            var12 = 50;
+        }
+        else 
+        {
+            var12 = 100;
+        }
+
+        var13 = RNG( 100 );
+        
+        if ( ( var13 <= var12 ) && AI_HAS_SKILL( 223 ) )
+        {
+            AI_ACT_SKILL( 223 );
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+    var14 = FUNCTION_0195( 2 );
+    var15 = FUNCTION_0195( 0x80 );
+    var16 = FUNCTION_0195( 0x20 );
+    int var18 = ( ( var14 + var15 ) + var16 );
+    var14 = FUNCTION_0195( 0x00040000 );
+    var15 = FUNCTION_0195( 0x00080000 );
+    var16 = FUNCTION_0195( 0x00100000 );
+    var18 = ( ( ( var18 + var14 ) + var15 ) + var16 );
+    var14 = FUNCTION_0195( 0x00200000 );
+    var18 = ( var18 + var14 );
+    
+    if ( ( FUNCTION_003B( 2 ) && ( var18 >= 1 ) ) || ( FUNCTION_003B( 4 ) && ( var18 >= 2 ) ) )
+    {
+        
+        if ( ( FUNCTION_0194( 1 ) == 0 ) && ( FUNCTION_019D() == 0 ) )
+        {
+            var12 = 50;
+        }
+        else 
+        {
+            var12 = 100;
+        }
+
+        var13 = RNG( 100 );
+        
+        if ( ( var13 <= var12 ) && AI_HAS_SKILL( 212 ) )
+        {
+            AI_ACT_SKILL( 212 );
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+    var9 = FUNCTION_01C9();
+    var10 = FUNCTION_01CA();
+    var11 = ( var9 - var10 );
+    
+    if ( var11 <= -8 )
+    {
+        var12 = 100;
+    }
+    else if ( var11 <= -3 )
+    {
+        var12 = 70;
+    }
+    else if ( var11 <= 0 )
+    {
+        var12 = 50;
+    }
+    else if ( var11 <= 3 )
+    {
+        var12 = 20;
+    }
+    else if ( FUNCTION_019D() )
+    {
+        var12 = 25;
+    }
+    else 
+    {
+        var12 = 0;
+    }
+
+    var13 = RNG( 100 );
+    
+    if ( var13 <= var12 )
+    {
+        var0 = FUNCTION_01CE( 3 );
+        
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 1, 3 ) ) && AI_HAS_SKILL( 229 ) )
+        {
+            AI_ACT_SKILL( 229 );
+            FUNCTION_00FD( var0 );
+            return;
+        }
+
+        var0 = FUNCTION_01CE( 4 );
+        
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 1, 4 ) ) && AI_HAS_SKILL( 230 ) )
+        {
+            AI_ACT_SKILL( 230 );
+            FUNCTION_00FD( var0 );
+            return;
+        }
+
+        var0 = FUNCTION_01CE( 6 );
+        
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 1, 6 ) ) && AI_HAS_SKILL( 231 ) )
+        {
+            AI_ACT_SKILL( 231 );
+            FUNCTION_00FD( var0 );
+            return;
+        }
+
+        var0 = FUNCTION_01CE( 5 );
+        
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 1, 5 ) ) && AI_HAS_SKILL( 232 ) )
+        {
+            AI_ACT_SKILL( 232 );
+            FUNCTION_00FD( var0 );
+            return;
+        }
+
+        var0 = FUNCTION_01CE( 3 );
+        
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 5, 3 ) ) && AI_HAS_SKILL( 229 ) )
+        {
+            AI_ACT_SKILL( 229 );
+            FUNCTION_00FD( var0 );
+            return;
+        }
+
+        var0 = FUNCTION_01CE( 3 );
+        
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 10, 3 ) ) && AI_HAS_SKILL( 229 ) )
+        {
+            AI_ACT_SKILL( 229 );
+            FUNCTION_00FD( var0 );
+            return;
+        }
+
+        var0 = FUNCTION_01CE( 6 );
+        
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 2, 6 ) ) && AI_HAS_SKILL( 231 ) )
+        {
+            AI_ACT_SKILL( 231 );
+            FUNCTION_00FD( var0 );
+            return;
+        }
+
+        var0 = FUNCTION_01CE( 5 );
+        
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 7, 5 ) ) && AI_HAS_SKILL( 232 ) )
+        {
+            AI_ACT_SKILL( 232 );
+            FUNCTION_00FD( var0 );
+            return;
+        }
+
+        var0 = FUNCTION_01CE( 4 );
+        
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 4, 4 ) ) && AI_HAS_SKILL( 230 ) )
+        {
+            AI_ACT_SKILL( 230 );
+            FUNCTION_00FD( var0 );
+            return;
+        }
+
+    }
+
+    
+    if ( FUNCTION_019D() )
+    {
+        var6 = 50;
+    }
+    else if ( FUNCTION_0194( 8 ) )
+    {
+        var6 = 50;
+    }
+    else if ( FUNCTION_0194( 1 ) )
+    {
+        var6 = 30;
+    }
+    else 
+    {
+        var6 = -1;
+    }
+
+    var13 = RNG( 100 );
+    
+    if ( ( ( var13 <= var6 ) && ( FUNCTION_01C7( 0x0800 ) == 0 ) ) && AI_HAS_SKILL( 221 ) )
+    {
+        AI_ACT_SKILL( 221 );
+        AI_TAR_RND();
+        return;
+    }
+
+    
+    if ( FUNCTION_019D() )
+    {
+        var6 = 50;
+    }
+    else if ( FUNCTION_0194( 8 ) )
+    {
+        var6 = 50;
+    }
+    else if ( FUNCTION_0194( 1 ) )
+    {
+        var6 = 30;
+    }
+    else 
+    {
+        var6 = -1;
+    }
+
+    var13 = RNG( 100 );
+    
+    if ( ( ( var13 <= var6 ) && ( FUNCTION_01C7( 0x0400 ) == 0 ) ) && AI_HAS_SKILL( 220 ) )
+    {
+        AI_ACT_SKILL( 220 );
+        AI_TAR_RND();
+        return;
+    }
+
+    var0 = FUNCTION_0108( 2 );
+    
+    if ( ( ( var0 != -1 ) && AI_HAS_SKILL( 146 ) ) && ( FUNCTION_0033( 40 ) == 0 ) )
+    {
+        AI_ACT_SKILL( 146 );
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    var0 = FUNCTION_00FF();
+    
+    if ( ( FUNCTION_00FA( var0 ) == 1 ) && ( FUNCTION_0148( var0, var1 ) == 1 ) )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var0 );
+        return;
+    }
+
+    
+    if ( FUNCTION_0034( 10 ) && AI_HAS_SKILL( 76 ) )
+    {
+        AI_ACT_SKILL( 76 );
+        FUNCTION_0062();
+        return;
+    }
+
+    
+    if ( ( FUNCTION_003F( 8 ) && AI_HAS_SKILL( 65 ) ) && ( FUNCTION_019D() == 0 ) )
+    {
+        AI_ACT_SKILL( 65 );
+        AI_TAR_RND();
+        return;
+    }
+
+    
+    if ( FUNCTION_003C( 2 ) )
+    {
+        var6 = 10;
+    }
+    else if ( FUNCTION_003C( 3 ) )
+    {
+        var6 = 20;
+    }
+    else if ( FUNCTION_003C( 4 ) )
+    {
+        var6 = 30;
+    }
+    else 
+    {
+        var6 = 40;
+    }
+
+    int var19 = 0;
+    
+    if ( FUNCTION_0194( 1 ) )
+    {
+        var19 = 10;
+    }
+    else if ( FUNCTION_0194( 3 ) )
+    {
+        var19 = 20;
+    }
+    else 
+    {
+        var19 = 30;
+    }
+
+    int var20 = ( var6 + var19 );
+    var0 = FUNCTION_0110( 8 );
+    var13 = RNG( 100 );
+    
+    if ( ( ( FUNCTION_019D() == 0 ) && ( var13 <= var20 ) ) && ( var0 != -1 ) )
+    {
+        
+        if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+        {
+            
+            if ( AI_HAS_SKILL( 48 ) )
+            {
+                AI_ACT_SKILL( 48 );
+                AI_TAR_RND();
+                return;
+            }
+            else if ( AI_HAS_SKILL( 46 ) )
+            {
+                AI_ACT_SKILL( 46 );
+                AI_TAR_RND();
+                return;
+            }
+
+        }
+        else 
+        {
+            var0 = FUNCTION_01CC( 8 );
+            
+            if ( AI_HAS_SKILL( 47 ) )
+            {
+                AI_ACT_SKILL( 47 );
+                FUNCTION_00FD( var0 );
+                return;
+            }
+            else if ( AI_HAS_SKILL( 45 ) )
+            {
+                AI_ACT_SKILL( 45 );
+                FUNCTION_00FD( var0 );
+                return;
+            }
+            else if ( AI_HAS_SKILL( 49 ) )
+            {
+                AI_ACT_SKILL( 49 );
+                FUNCTION_00FD( var0 );
+                return;
+            }
+
+        }
+
+    }
+
+    var0 = FUNCTION_0110( 9 );
+    var13 = RNG( 100 );
+    
+    if ( ( ( FUNCTION_019D() == 0 ) && ( var13 <= var20 ) ) && ( var0 != -1 ) )
+    {
+        
+        if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+        {
+            
+            if ( AI_HAS_SKILL( 54 ) )
+            {
+                AI_ACT_SKILL( 54 );
+                AI_TAR_RND();
+                return;
+            }
+            else if ( AI_HAS_SKILL( 52 ) )
+            {
+                AI_ACT_SKILL( 52 );
+                AI_TAR_RND();
+                return;
+            }
+
+        }
+        else 
+        {
+            var0 = FUNCTION_01CC( 9 );
+            
+            if ( AI_HAS_SKILL( 53 ) )
+            {
+                AI_ACT_SKILL( 53 );
+                FUNCTION_00FD( var0 );
+                return;
+            }
+            else if ( AI_HAS_SKILL( 51 ) )
+            {
+                AI_ACT_SKILL( 51 );
+                FUNCTION_00FD( var0 );
+                return;
+            }
+            else if ( AI_HAS_SKILL( 55 ) )
+            {
+                AI_ACT_SKILL( 55 );
+                FUNCTION_00FD( var0 );
+                return;
+            }
+
+        }
+
+    }
+
+    var9 = FUNCTION_01C9();
+    var10 = FUNCTION_01CA();
+    var11 = ( var9 - var10 );
+    BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    
+    if ( ( ( AI_HAS_SKILL( 57 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( AI_HAS_SKILL( 57 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( AI_HAS_SKILL( 57 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( AI_HAS_SKILL( 57 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( AI_HAS_SKILL( 57 ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+
+    
+    if ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 )
+    {
+        var0 = FUNCTION_01E5( 10 );
+        
+        if ( var0 <= 0 )
+        {
+            var6 = 0;
+        }
+        else if ( var0 <= 2 )
+        {
+            var6 = 20;
+        }
+        else if ( var0 <= 3 )
+        {
+            var6 = 40;
+        }
+        else if ( var0 <= 4 )
+        {
+            var6 = 50;
+        }
+        else 
+        {
+            var6 = 70;
+        }
+
+        var13 = RNG( 100 );
+        
+        if ( var13 <= var6 )
+        {
+            AI_ACT_SKILL( 57 );
+            FUNCTION_0064( 1 );
+            return;
+        }
+
+    }
+
+    BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    
+    if ( ( ( ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+
+    
+    if ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 )
+    {
+        var0 = FUNCTION_01E5( 10 );
+        
+        if ( var0 <= 0 )
+        {
+            var6 = 0;
+        }
+        else if ( var0 <= 2 )
+        {
+            var6 = 20;
+        }
+        else if ( var0 <= 3 )
+        {
+            var6 = 40;
+        }
+        else if ( var0 <= 4 )
+        {
+            var6 = 50;
+        }
+        else 
+        {
+            var6 = 70;
+        }
+
+        var13 = RNG( 100 );
+        
+        if ( ( var13 <= var6 ) && AI_HAS_SKILL( 58 ) )
+        {
+            AI_ACT_SKILL( 58 );
+            AI_TAR_RND();
+            return;
+        }
+        else if ( ( var13 <= var6 ) && AI_HAS_SKILL( 243 ) )
+        {
+            AI_ACT_SKILL( 243 );
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+    BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    
+    if ( ( ( ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+
+    
+    if ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 )
+    {
+        var0 = FUNCTION_01E5( 13 );
+        
+        if ( var0 <= 0 )
+        {
+            var6 = 0;
+        }
+        else if ( var0 <= 2 )
+        {
+            var6 = 20;
+        }
+        else if ( var0 <= 3 )
+        {
+            var6 = 40;
+        }
+        else if ( var0 <= 4 )
+        {
+            var6 = 50;
+        }
+        else 
+        {
+            var6 = 70;
+        }
+
+        var13 = RNG( 100 );
+        
+        if ( ( var13 <= var6 ) && AI_HAS_SKILL( 62 ) )
+        {
+            AI_ACT_SKILL( 62 );
+            AI_TAR_RND();
+            return;
+        }
+        else if ( ( var13 <= var6 ) && AI_HAS_SKILL( 249 ) )
+        {
+            AI_ACT_SKILL( 249 );
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+    BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    
+    if ( ( ( ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+
+    
+    if ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 )
+    {
+        var0 = FUNCTION_01E5( 14 );
+        
+        if ( var0 <= 0 )
+        {
+            var6 = 0;
+        }
+        else if ( var0 <= 2 )
+        {
+            var6 = 20;
+        }
+        else if ( var0 <= 3 )
+        {
+            var6 = 40;
+        }
+        else if ( var0 <= 4 )
+        {
+            var6 = 50;
+        }
+        else 
+        {
+            var6 = 70;
+        }
+
+        var13 = RNG( 100 );
+        
+        if ( ( var13 <= var6 ) && AI_HAS_SKILL( 0x40 ) )
+        {
+            AI_ACT_SKILL( 0x40 );
+            AI_TAR_RND();
+            return;
+        }
+        else if ( ( var13 <= var6 ) && AI_HAS_SKILL( 244 ) )
+        {
+            AI_ACT_SKILL( 244 );
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+    BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    
+    if ( ( ( AI_HAS_SKILL( 60 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( AI_HAS_SKILL( 60 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( AI_HAS_SKILL( 60 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( ( AI_HAS_SKILL( 60 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+    else if ( ( AI_HAS_SKILL( 60 ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+
+    
+    if ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 )
+    {
+        var0 = FUNCTION_01E5( 12 );
+        
+        if ( var0 <= 0 )
+        {
+            var6 = 0;
+        }
+        else if ( var0 <= 2 )
+        {
+            var6 = 20;
+        }
+        else if ( var0 <= 3 )
+        {
+            var6 = 40;
+        }
+        else if ( var0 <= 4 )
+        {
+            var6 = 50;
+        }
+        else 
+        {
+            var6 = 70;
+        }
+
+        var13 = RNG( 100 );
+        
+        if ( var13 <= var6 )
+        {
+            AI_ACT_SKILL( 60 );
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+    var0 = FUNCTION_00FF();
+    
+    if ( FUNCTION_003C( 1 ) == 1 )
+    {
+        var4 = FUNCTION_010B( var0, 1, 0 );
+    }
+    else 
+    {
+        var4 = FUNCTION_010B( var0, 0, 0 );
+    }
+
+    int var21 = 0;
+    
+    if ( var4 != -1 )
+    {
+        var21 = FUNCTION_01CB( var4 );
+        
+        if ( var21 == -1 )
+        {
+            OPEN_MSG_WIN();
+            MSG( 1 );
+            CLOSE_MSG_WIN();
+        }
+
+        
+        if ( ( ( ( var21 == 0 ) || ( var21 == 1 ) ) || ( var21 == 2 ) ) && FUNCTION_0033( 40 ) )
+        {
+            
+            if ( FUNCTION_003C( 1 ) == 1 )
+            {
+                var4 = FUNCTION_010B( var0, 1, 1 );
+            }
+            else 
+            {
+                var4 = FUNCTION_010B( var0, 0, 1 );
+            }
+
+            
+            if ( var4 == -1 )
+            {
+                var1 = FUNCTION_0113();
+                
+                if ( FUNCTION_0148( var0, var1 ) )
+                {
+                    AI_ACT_WEAPON();
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+                else 
+                {
+                    var0 = FUNCTION_0106( var1 );
+                    
+                    if ( var0 != -1 )
+                    {
+                        AI_ACT_WEAPON();
+                        FUNCTION_00FD( var0 );
+                        return;
+                    }
+                    else if ( ( ENNOMAL( 8 ) && MYATTRSKIL( 8 ) ) && ( FUNCTION_019D() == 0 ) )
+                    {
+                        
+                        if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                        {
+                            
+                            if ( AI_HAS_SKILL( 48 ) )
+                            {
+                                AI_ACT_SKILL( 48 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 46 ) )
+                            {
+                                AI_ACT_SKILL( 46 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 47 ) )
+                            {
+                                var0 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 47 );
+                                FUNCTION_00FD( var0 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 45 ) )
+                            {
+                                var0 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 45 );
+                                FUNCTION_00FD( var0 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 49 ) )
+                            {
+                                var0 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 49 );
+                                FUNCTION_00FD( var0 );
+                                return;
+                            }
+
+                        }
+                        else 
+                        {
+                            var0 = FUNCTION_01CC( 8 );
+                            
+                            if ( AI_HAS_SKILL( 47 ) )
+                            {
+                                AI_ACT_SKILL( 47 );
+                                FUNCTION_00FD( var0 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 45 ) )
+                            {
+                                AI_ACT_SKILL( 45 );
+                                FUNCTION_00FD( var0 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 49 ) )
+                            {
+                                AI_ACT_SKILL( 49 );
+                                FUNCTION_00FD( var0 );
+                                return;
+                            }
+
+                        }
+
+                    }
+                    else if ( ( ENNOMAL( 9 ) && MYATTRSKIL( 9 ) ) && ( FUNCTION_019D() == 0 ) )
+                    {
+                        
+                        if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                        {
+                            
+                            if ( AI_HAS_SKILL( 54 ) )
+                            {
+                                AI_ACT_SKILL( 54 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 52 ) )
+                            {
+                                AI_ACT_SKILL( 52 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 53 ) )
+                            {
+                                var0 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 53 );
+                                FUNCTION_00FD( var0 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 51 ) )
+                            {
+                                var0 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 51 );
+                                FUNCTION_00FD( var0 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 55 ) )
+                            {
+                                var0 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 55 );
+                                FUNCTION_00FD( var0 );
+                                return;
+                            }
+
+                        }
+                        else 
+                        {
+                            var0 = FUNCTION_01CC( 9 );
+                            
+                            if ( AI_HAS_SKILL( 53 ) )
+                            {
+                                AI_ACT_SKILL( 53 );
+                                FUNCTION_00FD( var0 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 51 ) )
+                            {
+                                AI_ACT_SKILL( 51 );
+                                FUNCTION_00FD( var0 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 55 ) )
+                            {
+                                AI_ACT_SKILL( 55 );
+                                FUNCTION_00FD( var0 );
+                                return;
+                            }
+
+                        }
+
+                    }
+
+                    AI_ACT_WAIT();
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+            else 
+            {
+                var21 = FUNCTION_01CB( var4 );
+                
+                if ( var21 == -1 )
+                {
+                    OPEN_MSG_WIN();
+                    MSG( 2 );
+                    CLOSE_MSG_WIN();
+                }
+
+                var5 = FUNCTION_01CE( var21 );
+                
+                if ( var5 != -1 )
+                {
+                    var4 = FUNCTION_010B( var0, 1, 1 );
+                    AI_ACT_SKILL( var4 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( var4 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+
+            }
+
+        }
+        else 
+        {
+            var5 = FUNCTION_01CE( var21 );
+            
+            if ( ( var5 != -1 ) || ( FUNCTION_003C( 1 ) == 1 ) )
+            {
+                var4 = FUNCTION_010B( var0, 1, 0 );
+                AI_ACT_SKILL( var4 );
+                FUNCTION_00FD( var0 );
+                return;
+            }
+            else 
+            {
+                AI_ACT_SKILL( var4 );
+                FUNCTION_00FD( var0 );
+                return;
+            }
+
+        }
+
+    }
+    else 
+    {
+        var1 = FUNCTION_0113();
+        var0 = FUNCTION_0106( var1 );
+        
+        if ( var0 != -1 )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var0 );
+            return;
+        }
+        else if ( ( ENNOMAL( 8 ) && MYATTRSKIL( 8 ) ) && ( FUNCTION_019D() == 0 ) )
+        {
+            
+            if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 48 ) )
+                {
+                    AI_ACT_SKILL( 48 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 46 ) )
+                {
+                    AI_ACT_SKILL( 46 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 47 ) )
+                {
+                    var0 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 47 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 45 ) )
+                {
+                    var0 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 45 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 49 ) )
+                {
+                    var0 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 49 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+
+            }
+            else 
+            {
+                var0 = FUNCTION_01CC( 8 );
+                
+                if ( AI_HAS_SKILL( 47 ) )
+                {
+                    AI_ACT_SKILL( 47 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 45 ) )
+                {
+                    AI_ACT_SKILL( 45 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 49 ) )
+                {
+                    AI_ACT_SKILL( 49 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+
+            }
+
+        }
+        else if ( ( ENNOMAL( 9 ) && MYATTRSKIL( 9 ) ) && ( FUNCTION_019D() == 0 ) )
+        {
+            
+            if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 54 ) )
+                {
+                    AI_ACT_SKILL( 54 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 52 ) )
+                {
+                    AI_ACT_SKILL( 52 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 53 ) )
+                {
+                    var0 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 53 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 51 ) )
+                {
+                    var0 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 51 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 55 ) )
+                {
+                    var0 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 55 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+
+            }
+            else 
+            {
+                var0 = FUNCTION_01CC( 9 );
+                
+                if ( AI_HAS_SKILL( 53 ) )
+                {
+                    AI_ACT_SKILL( 53 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 51 ) )
+                {
+                    AI_ACT_SKILL( 51 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 55 ) )
+                {
+                    AI_ACT_SKILL( 55 );
+                    FUNCTION_00FD( var0 );
+                    return;
+                }
+
+            }
+
+        }
+
+        AI_ACT_WAIT();
+        AI_TAR_RND();
+        return;
+    }
+
+}
+
+
+void AI_PC_002_002()
+{
+    int var22 = RNG( 100 );
+    
+    if ( ( ( FUNCTION_0045() == 1 ) && ( FUNCTION_0033( 20 ) == 1 ) ) && ( var22 <= 50 ) )
+    {
+        AI_ASK_TO_LEAVE();
+        AI_TAR_RND();
+        return;
+    }
+
+    int var23 = FUNCTION_0113();
+    int var24 = FUNCTION_0101( var23 );
+    
+    if ( var24 != -1 )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var24 );
+        return;
+    }
+
+    GOTODOWN();
+}
+
+
+void AI_PC_002_003()
+{
+    int var25 = RNG( 100 );
+    int var26 = 0;
+    int var27 = 0;
+    int var28 = 0;
+    
+    if ( ( ( FUNCTION_0045() == 1 ) && ( FUNCTION_0033( 20 ) == 1 ) ) && ( var25 <= 50 ) )
+    {
+        AI_ASK_TO_LEAVE();
+        AI_TAR_RND();
+        return;
+    }
+
+    int var29 = FUNCTION_0113();
+    int var30 = FUNCTION_0102( var29 );
+    
+    if ( var30 != -1 )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var30 );
+        return;
+    }
+
+    
+    if ( ( ( ENWEAK_DW_PAI( 0 ) == 1 ) && ( MYATTRSKIL( 0 ) == 1 ) ) && ( ( FUNCTION_0033( 40 ) == 0 ) || ( var29 == 0 ) ) )
+    {
+        var30 = FUNCTION_0105( 0 );
+        
+        if ( var29 == 0 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var26 = FUNCTION_0109( var30, 0, 1 );
+            AI_ACT_SKILL( var26 );
+        }
+
+        FUNCTION_00FD( var30 );
+        return;
+    }
+    else if ( ( ( ENWEAK_DW_PAI( 1 ) == 1 ) && ( MYATTRSKIL( 1 ) == 1 ) ) && ( ( FUNCTION_0033( 40 ) == 0 ) || ( var29 == 1 ) ) )
+    {
+        var30 = FUNCTION_0105( 1 );
+        
+        if ( var29 == 1 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var26 = FUNCTION_0109( var30, 1, 1 );
+            AI_ACT_SKILL( var26 );
+        }
+
+        FUNCTION_00FD( var30 );
+        return;
+    }
+    else if ( ( ( ENWEAK_DW_PAI( 2 ) == 1 ) && ( MYATTRSKIL( 2 ) == 1 ) ) && ( ( FUNCTION_0033( 40 ) == 0 ) || ( var29 == 2 ) ) )
+    {
+        var30 = FUNCTION_0105( 2 );
+        
+        if ( var29 == 2 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var26 = FUNCTION_0109( var30, 2, 1 );
+            AI_ACT_SKILL( var26 );
+        }
+
+        FUNCTION_00FD( var30 );
+        return;
+    }
+    else if ( ( ENWEAK_DW_PAI( 3 ) == 1 ) && ( MYATTRSKIL( 3 ) == 1 ) )
+    {
+        var30 = FUNCTION_0105( 3 );
+        
+        if ( var29 == 3 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var26 = FUNCTION_0109( var30, 3, 1 );
+            AI_ACT_SKILL( var26 );
+        }
+
+        FUNCTION_00FD( var30 );
+        return;
+    }
+    else if ( ( ENWEAK_DW_PAI( 4 ) == 1 ) && ( MYATTRSKIL( 4 ) == 1 ) )
+    {
+        var30 = FUNCTION_0105( 4 );
+        
+        if ( var29 == 4 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var26 = FUNCTION_0109( var30, 4, 1 );
+            AI_ACT_SKILL( var26 );
+        }
+
+        FUNCTION_00FD( var30 );
+        return;
+    }
+    else if ( ( ENWEAK_DW_PAI( 5 ) == 1 ) && ( MYATTRSKIL( 5 ) == 1 ) )
+    {
+        var30 = FUNCTION_0105( 5 );
+        
+        if ( var29 == 5 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var26 = FUNCTION_0109( var30, 5, 1 );
+            AI_ACT_SKILL( var26 );
+        }
+
+        FUNCTION_00FD( var30 );
+        return;
+    }
+    else if ( ( ENWEAK_DW_PAI( 6 ) == 1 ) && ( MYATTRSKIL( 6 ) == 1 ) )
+    {
+        var30 = FUNCTION_0105( 6 );
+        
+        if ( var29 == 6 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var26 = FUNCTION_0109( var30, 6, 1 );
+            AI_ACT_SKILL( var26 );
+        }
+
+        FUNCTION_00FD( var30 );
+        return;
+    }
+    else if ( ( ENWEAK_DW_PAI( 8 ) == 1 ) && ( MYATTRSKIL( 8 ) == 1 ) )
+    {
+        var30 = FUNCTION_0105( 8 );
+        var26 = FUNCTION_0109( var30, 8, 1 );
+        AI_ACT_SKILL( var26 );
+        FUNCTION_00FD( var30 );
+        return;
+    }
+    else if ( ( ENWEAK_DW_PAI( 9 ) == 1 ) && ( MYATTRSKIL( 9 ) == 1 ) )
+    {
+        var30 = FUNCTION_0105( 9 );
+        var26 = FUNCTION_0109( var30, 9, 1 );
+        AI_ACT_SKILL( var26 );
+        FUNCTION_00FD( var30 );
+        return;
+    }
+    else if ( FUNCTION_003F( 0x00100000 ) == 1 )
+    {
+        var30 = FUNCTION_010F();
+        
+        if ( var30 != -1 )
+        {
+            
+            if ( FUNCTION_003C( 1 ) == 1 )
+            {
+                var26 = FUNCTION_010B( var30, 1, 0 );
+            }
+            else 
+            {
+                var26 = FUNCTION_010B( var30, 0, 0 );
+            }
+
+            
+            if ( var26 != -1 )
+            {
+                var27 = FUNCTION_01CB( var26 );
+                
+                if ( var27 == -1 )
+                {
+                    OPEN_MSG_WIN();
+                    MSG( 1 );
+                    CLOSE_MSG_WIN();
+                }
+
+                
+                if ( ( ( ( var27 == 0 ) || ( var27 == 1 ) ) || ( var27 == 2 ) ) && FUNCTION_0033( 40 ) )
+                {
+                    
+                    if ( FUNCTION_003C( 1 ) == 1 )
+                    {
+                        var26 = FUNCTION_010B( var30, 1, 1 );
+                    }
+                    else 
+                    {
+                        var26 = FUNCTION_010B( var30, 0, 1 );
+                    }
+
+                    
+                    if ( var26 == -1 )
+                    {
+                        var29 = FUNCTION_0113();
+                        
+                        if ( FUNCTION_0148( var30, var29 ) )
+                        {
+                            AI_ACT_WEAPON();
+                            FUNCTION_00FD( var30 );
+                            return;
+                        }
+                        else 
+                        {
+                            var30 = FUNCTION_0106( var29 );
+                            
+                            if ( var30 != -1 )
+                            {
+                                AI_ACT_WEAPON();
+                                FUNCTION_00FD( var30 );
+                                return;
+                            }
+                            else if ( ( ENNOMAL( 8 ) && MYATTRSKIL( 8 ) ) && ( FUNCTION_019D() == 0 ) )
+                            {
+                                
+                                if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                                {
+                                    
+                                    if ( AI_HAS_SKILL( 48 ) )
+                                    {
+                                        AI_ACT_SKILL( 48 );
+                                        AI_TAR_RND();
+                                        return;
+                                    }
+                                    else if ( AI_HAS_SKILL( 46 ) )
+                                    {
+                                        AI_ACT_SKILL( 46 );
+                                        AI_TAR_RND();
+                                        return;
+                                    }
+                                    else if ( AI_HAS_SKILL( 47 ) )
+                                    {
+                                        var30 = FUNCTION_01CC( 8 );
+                                        AI_ACT_SKILL( 47 );
+                                        FUNCTION_00FD( var30 );
+                                        return;
+                                    }
+                                    else if ( AI_HAS_SKILL( 45 ) )
+                                    {
+                                        var30 = FUNCTION_01CC( 8 );
+                                        AI_ACT_SKILL( 45 );
+                                        FUNCTION_00FD( var30 );
+                                        return;
+                                    }
+                                    else if ( AI_HAS_SKILL( 49 ) )
+                                    {
+                                        var27 = FUNCTION_01CC( 8 );
+                                        AI_ACT_SKILL( 49 );
+                                        FUNCTION_00FD( var27 );
+                                        return;
+                                    }
+
+                                }
+                                else 
+                                {
+                                    var30 = FUNCTION_01CC( 8 );
+                                    
+                                    if ( AI_HAS_SKILL( 47 ) )
+                                    {
+                                        AI_ACT_SKILL( 47 );
+                                        FUNCTION_00FD( var30 );
+                                        return;
+                                    }
+                                    else if ( AI_HAS_SKILL( 45 ) )
+                                    {
+                                        AI_ACT_SKILL( 45 );
+                                        FUNCTION_00FD( var30 );
+                                        return;
+                                    }
+                                    else if ( AI_HAS_SKILL( 49 ) )
+                                    {
+                                        AI_ACT_SKILL( 49 );
+                                        FUNCTION_00FD( var27 );
+                                        return;
+                                    }
+
+                                }
+
+                            }
+                            else if ( ( ENNOMAL( 9 ) && MYATTRSKIL( 9 ) ) && ( FUNCTION_019D() == 0 ) )
+                            {
+                                
+                                if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                                {
+                                    
+                                    if ( AI_HAS_SKILL( 54 ) )
+                                    {
+                                        AI_ACT_SKILL( 54 );
+                                        AI_TAR_RND();
+                                        return;
+                                    }
+                                    else if ( AI_HAS_SKILL( 52 ) )
+                                    {
+                                        AI_ACT_SKILL( 52 );
+                                        AI_TAR_RND();
+                                        return;
+                                    }
+                                    else if ( AI_HAS_SKILL( 53 ) )
+                                    {
+                                        var30 = FUNCTION_01CC( 9 );
+                                        AI_ACT_SKILL( 53 );
+                                        FUNCTION_00FD( var30 );
+                                        return;
+                                    }
+                                    else if ( AI_HAS_SKILL( 51 ) )
+                                    {
+                                        var30 = FUNCTION_01CC( 9 );
+                                        AI_ACT_SKILL( 51 );
+                                        FUNCTION_00FD( var30 );
+                                        return;
+                                    }
+                                    else if ( AI_HAS_SKILL( 55 ) )
+                                    {
+                                        var30 = FUNCTION_01CC( 9 );
+                                        AI_ACT_SKILL( 55 );
+                                        FUNCTION_00FD( var27 );
+                                        return;
+                                    }
+
+                                }
+                                else 
+                                {
+                                    var30 = FUNCTION_01CC( 9 );
+                                    
+                                    if ( AI_HAS_SKILL( 53 ) )
+                                    {
+                                        AI_ACT_SKILL( 53 );
+                                        FUNCTION_00FD( var30 );
+                                        return;
+                                    }
+                                    else if ( AI_HAS_SKILL( 51 ) )
+                                    {
+                                        AI_ACT_SKILL( 51 );
+                                        FUNCTION_00FD( var30 );
+                                        return;
+                                    }
+                                    else if ( AI_HAS_SKILL( 55 ) )
+                                    {
+                                        AI_ACT_SKILL( 55 );
+                                        FUNCTION_00FD( var27 );
+                                        return;
+                                    }
+
+                                }
+
+                            }
+
+                            AI_ACT_WAIT();
+                            AI_TAR_RND();
+                            return;
+                        }
+
+                    }
+                    else 
+                    {
+                        var27 = FUNCTION_01CB( var26 );
+                        
+                        if ( var27 == -1 )
+                        {
+                            OPEN_MSG_WIN();
+                            MSG( 2 );
+                            CLOSE_MSG_WIN();
+                        }
+
+                        var28 = FUNCTION_01CE( var27 );
+                        
+                        if ( var28 != -1 )
+                        {
+                            var26 = FUNCTION_010B( var30, 1, 1 );
+                            AI_ACT_SKILL( var26 );
+                            FUNCTION_00FD( var30 );
+                            return;
+                        }
+                        else 
+                        {
+                            AI_ACT_SKILL( var26 );
+                            FUNCTION_00FD( var30 );
+                            return;
+                        }
+
+                    }
+
+                }
+                else 
+                {
+                    var28 = FUNCTION_01CE( var27 );
+                    
+                    if ( ( var28 != -1 ) || ( FUNCTION_003C( 1 ) == 1 ) )
+                    {
+                        var26 = FUNCTION_010B( var30, 1, 0 );
+                        AI_ACT_SKILL( var26 );
+                        FUNCTION_00FD( var30 );
+                        return;
+                    }
+                    else 
+                    {
+                        AI_ACT_SKILL( var26 );
+                        FUNCTION_00FD( var30 );
+                        return;
+                    }
+
+                }
+
+            }
+            else 
+            {
+                var29 = FUNCTION_0113();
+                var30 = FUNCTION_0106( var29 );
+                
+                if ( var30 != -1 )
+                {
+                    AI_ACT_WEAPON();
+                    FUNCTION_00FD( var30 );
+                    return;
+                }
+                else if ( ( ENNOMAL( 8 ) && MYATTRSKIL( 8 ) ) && ( FUNCTION_019D() == 0 ) )
+                {
+                    
+                    if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                    {
+                        
+                        if ( AI_HAS_SKILL( 48 ) )
+                        {
+                            AI_ACT_SKILL( 48 );
+                            AI_TAR_RND();
+                            return;
+                        }
+                        else if ( AI_HAS_SKILL( 46 ) )
+                        {
+                            AI_ACT_SKILL( 46 );
+                            AI_TAR_RND();
+                            return;
+                        }
+                        else if ( AI_HAS_SKILL( 47 ) )
+                        {
+                            var30 = FUNCTION_01CC( 8 );
+                            AI_ACT_SKILL( 47 );
+                            FUNCTION_00FD( var30 );
+                            return;
+                        }
+                        else if ( AI_HAS_SKILL( 45 ) )
+                        {
+                            var30 = FUNCTION_01CC( 8 );
+                            AI_ACT_SKILL( 45 );
+                            FUNCTION_00FD( var30 );
+                            return;
+                        }
+                        else if ( AI_HAS_SKILL( 49 ) )
+                        {
+                            var27 = FUNCTION_01CC( 8 );
+                            AI_ACT_SKILL( 49 );
+                            FUNCTION_00FD( var27 );
+                            return;
+                        }
+
+                    }
+                    else 
+                    {
+                        var30 = FUNCTION_01CC( 8 );
+                        
+                        if ( AI_HAS_SKILL( 47 ) )
+                        {
+                            AI_ACT_SKILL( 47 );
+                            FUNCTION_00FD( var30 );
+                            return;
+                        }
+                        else if ( AI_HAS_SKILL( 45 ) )
+                        {
+                            AI_ACT_SKILL( 45 );
+                            FUNCTION_00FD( var30 );
+                            return;
+                        }
+                        else if ( AI_HAS_SKILL( 49 ) )
+                        {
+                            AI_ACT_SKILL( 49 );
+                            FUNCTION_00FD( var27 );
+                            return;
+                        }
+
+                    }
+
+                }
+                else if ( ( ENNOMAL( 9 ) && MYATTRSKIL( 9 ) ) && ( FUNCTION_019D() == 0 ) )
+                {
+                    
+                    if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                    {
+                        
+                        if ( AI_HAS_SKILL( 54 ) )
+                        {
+                            AI_ACT_SKILL( 54 );
+                            AI_TAR_RND();
+                            return;
+                        }
+                        else if ( AI_HAS_SKILL( 52 ) )
+                        {
+                            AI_ACT_SKILL( 52 );
+                            AI_TAR_RND();
+                            return;
+                        }
+                        else if ( AI_HAS_SKILL( 53 ) )
+                        {
+                            var30 = FUNCTION_01CC( 9 );
+                            AI_ACT_SKILL( 53 );
+                            FUNCTION_00FD( var30 );
+                            return;
+                        }
+                        else if ( AI_HAS_SKILL( 51 ) )
+                        {
+                            var30 = FUNCTION_01CC( 9 );
+                            AI_ACT_SKILL( 51 );
+                            FUNCTION_00FD( var30 );
+                            return;
+                        }
+                        else if ( AI_HAS_SKILL( 55 ) )
+                        {
+                            var30 = FUNCTION_01CC( 9 );
+                            AI_ACT_SKILL( 55 );
+                            FUNCTION_00FD( var27 );
+                            return;
+                        }
+
+                    }
+                    else 
+                    {
+                        var30 = FUNCTION_01CC( 9 );
+                        
+                        if ( AI_HAS_SKILL( 53 ) )
+                        {
+                            AI_ACT_SKILL( 53 );
+                            FUNCTION_00FD( var30 );
+                            return;
+                        }
+                        else if ( AI_HAS_SKILL( 51 ) )
+                        {
+                            AI_ACT_SKILL( 51 );
+                            FUNCTION_00FD( var30 );
+                            return;
+                        }
+                        else if ( AI_HAS_SKILL( 55 ) )
+                        {
+                            AI_ACT_SKILL( 55 );
+                            FUNCTION_00FD( var27 );
+                            return;
+                        }
+
+                    }
+
+                }
+
+                AI_ACT_WAIT();
+                AI_TAR_RND();
+                return;
+            }
+
+        }
+        else 
+        {
+            GOTODOWN();
+        }
+
+    }
+    else 
+    {
+        GOTODOWN();
+    }
+
+}
+
+
+void AI_PC_002_004()
+{
+    int var31 = 0;
+    int var32 = 0;
+    int var33 = 0;
+    int var34 = 0;
+    
+    if ( FUNCTION_003C( 1 ) == 1 )
+    {
+        var31 = FUNCTION_00FF();
+        var32 = FUNCTION_0113();
+        
+        if ( ( FUNCTION_0148( var31, var32 ) == 1 ) && ( FUNCTION_00FA( var31 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var31 );
+            return;
+        }
+        else if ( ( ( FUNCTION_0148( var31, var32 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var31 );
+            return;
+        }
+
+    }
+
+    int var35 = RNG( 100 );
+    
+    if ( ( ( FUNCTION_0045() == 1 ) && ( FUNCTION_0033( 20 ) == 1 ) ) && ( var35 <= 50 ) )
+    {
+        AI_ASK_TO_LEAVE();
+        AI_TAR_RND();
+        return;
+    }
+
+    var32 = FUNCTION_0113();
+    var31 = FUNCTION_0100( var32 );
+    
+    if ( var31 != -1 )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var31 );
+        return;
+    }
+
+    var32 = FUNCTION_0113();
+    
+    if ( ENWEAK_PAI( 0 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 0 ) ) )
+    {
+        var31 = FUNCTION_0100( 0 );
+        
+        if ( ( FUNCTION_00FA( var31 ) == 1 ) && ( FUNCTION_0148( var31, var32 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var33 = FUNCTION_0109( var31, 0, 1 );
+            AI_ACT_SKILL( var33 );
+        }
+
+        FUNCTION_00FD( var31 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 1 ) == 1 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 1 ) ) )
+    {
+        var31 = FUNCTION_0100( 1 );
+        
+        if ( ( FUNCTION_00FA( var31 ) == 1 ) && ( FUNCTION_0148( var31, var32 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var33 = FUNCTION_0109( var31, 1, 1 );
+            AI_ACT_SKILL( var33 );
+        }
+
+        FUNCTION_00FD( var31 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 2 ) == 1 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 2 ) ) )
+    {
+        var31 = FUNCTION_0100( 2 );
+        
+        if ( ( FUNCTION_00FA( var31 ) == 1 ) && ( FUNCTION_0148( var31, var32 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var33 = FUNCTION_0109( var31, 2, 1 );
+            AI_ACT_SKILL( var33 );
+        }
+
+        FUNCTION_00FD( var31 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 3 ) == 1 ) && ( MYATTRSKIL( 3 ) == 1 ) )
+    {
+        var31 = FUNCTION_0103( 3 );
+        
+        if ( ( FUNCTION_00FA( var31 ) == 1 ) && ( FUNCTION_0148( var31, var32 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var33 = FUNCTION_0109( var31, 3, 1 );
+            AI_ACT_SKILL( var33 );
+        }
+
+        FUNCTION_00FD( var31 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 4 ) == 1 ) && ( MYATTRSKIL( 4 ) == 1 ) )
+    {
+        var31 = FUNCTION_0103( 4 );
+        
+        if ( ( FUNCTION_00FA( var31 ) == 1 ) && ( FUNCTION_0148( var31, var32 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var33 = FUNCTION_0109( var31, 4, 1 );
+            AI_ACT_SKILL( var33 );
+        }
+
+        FUNCTION_00FD( var31 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 6 ) == 1 ) && ( MYATTRSKIL( 6 ) == 1 ) )
+    {
+        var31 = FUNCTION_0103( 6 );
+        
+        if ( ( FUNCTION_00FA( var31 ) == 1 ) && ( FUNCTION_0148( var31, var32 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var33 = FUNCTION_0109( var31, 6, 1 );
+            AI_ACT_SKILL( var33 );
+        }
+
+        FUNCTION_00FD( var31 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 5 ) == 1 ) && ( MYATTRSKIL( 5 ) == 1 ) )
+    {
+        var31 = FUNCTION_0103( 5 );
+        
+        if ( ( FUNCTION_00FA( var31 ) == 1 ) && ( FUNCTION_0148( var31, var32 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var33 = FUNCTION_0109( var31, 5, 1 );
+            AI_ACT_SKILL( var33 );
+        }
+
+        FUNCTION_00FD( var31 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 8 ) == 1 ) && ( MYATTRSKIL( 8 ) == 1 ) )
+    {
+        var31 = FUNCTION_0103( 8 );
+        
+        if ( ( FUNCTION_00FA( var31 ) == 1 ) && ( FUNCTION_0148( var31, var32 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var33 = FUNCTION_0109( var31, 8, 1 );
+            AI_ACT_SKILL( var33 );
+        }
+
+        FUNCTION_00FD( var31 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 9 ) == 1 ) && ( MYATTRSKIL( 9 ) == 1 ) )
+    {
+        var31 = FUNCTION_0103( 9 );
+        
+        if ( ( FUNCTION_00FA( var31 ) == 1 ) && ( FUNCTION_0148( var31, var32 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var33 = FUNCTION_0109( var31, 9, 1 );
+            AI_ACT_SKILL( var33 );
+        }
+
+        FUNCTION_00FD( var31 );
+        return;
+    }
+
+    var31 = FUNCTION_0108( 2 );
+    
+    if ( ( ( var31 != -1 ) && AI_HAS_SKILL( 146 ) ) && ( FUNCTION_0033( 40 ) == 0 ) )
+    {
+        AI_ACT_SKILL( 146 );
+        FUNCTION_00FD( var31 );
+        return;
+    }
+
+    var31 = FUNCTION_00FF();
+    
+    if ( ( FUNCTION_00FA( var31 ) == 1 ) && ( FUNCTION_0148( var31, var32 ) == 1 ) )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var31 );
+        return;
+    }
+
+    
+    if ( ( FUNCTION_003F( 8 ) && AI_HAS_SKILL( 65 ) ) && ( FUNCTION_019D() == 0 ) )
+    {
+        AI_ACT_SKILL( 65 );
+        AI_TAR_RND();
+        return;
+    }
+
+    
+    if ( FUNCTION_019D() )
+    {
+        var35 = 50;
+    }
+    else if ( FUNCTION_0194( 8 ) )
+    {
+        var35 = 50;
+    }
+    else if ( FUNCTION_0194( 1 ) )
+    {
+        var35 = 30;
+    }
+    else 
+    {
+        var35 = -1;
+    }
+
+    int var36 = RNG( 100 );
+    
+    if ( ( ( var36 <= var35 ) && ( FUNCTION_01C7( 0x0800 ) == 0 ) ) && AI_HAS_SKILL( 221 ) )
+    {
+        AI_ACT_SKILL( 221 );
+        AI_TAR_RND();
+        return;
+    }
+
+    
+    if ( FUNCTION_019D() )
+    {
+        var35 = 50;
+    }
+    else if ( FUNCTION_0194( 8 ) )
+    {
+        var35 = 50;
+    }
+    else if ( FUNCTION_0194( 1 ) )
+    {
+        var35 = 30;
+    }
+    else 
+    {
+        var35 = -1;
+    }
+
+    
+    if ( ( ( var36 <= var35 ) && ( FUNCTION_01C7( 0x0400 ) == 0 ) ) && AI_HAS_SKILL( 220 ) )
+    {
+        AI_ACT_SKILL( 220 );
+        AI_TAR_RND();
+        return;
+    }
+
+    var31 = FUNCTION_00FF();
+    
+    if ( FUNCTION_003C( 1 ) == 1 )
+    {
+        var33 = FUNCTION_010B( var31, 1, 0 );
+    }
+    else 
+    {
+        var33 = FUNCTION_010B( var31, 0, 0 );
+    }
+
+    int var37 = 0;
+    
+    if ( var33 != -1 )
+    {
+        var37 = FUNCTION_01CB( var33 );
+        
+        if ( var37 == -1 )
+        {
+            OPEN_MSG_WIN();
+            MSG( 1 );
+            CLOSE_MSG_WIN();
+        }
+
+        
+        if ( ( ( ( var37 == 0 ) || ( var37 == 1 ) ) || ( var37 == 2 ) ) && FUNCTION_0033( 40 ) )
+        {
+            
+            if ( FUNCTION_003C( 1 ) == 1 )
+            {
+                var33 = FUNCTION_010B( var31, 1, 1 );
+            }
+            else 
+            {
+                var33 = FUNCTION_010B( var31, 0, 1 );
+            }
+
+            
+            if ( var33 == -1 )
+            {
+                var32 = FUNCTION_0113();
+                
+                if ( FUNCTION_0148( var31, var32 ) )
+                {
+                    AI_ACT_WEAPON();
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+                else 
+                {
+                    var31 = FUNCTION_0106( var32 );
+                    
+                    if ( var31 != -1 )
+                    {
+                        AI_ACT_WEAPON();
+                        FUNCTION_00FD( var31 );
+                        return;
+                    }
+                    else if ( ( ENNOMAL( 8 ) && MYATTRSKIL( 8 ) ) && ( FUNCTION_019D() == 0 ) )
+                    {
+                        
+                        if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                        {
+                            
+                            if ( AI_HAS_SKILL( 48 ) )
+                            {
+                                AI_ACT_SKILL( 48 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 46 ) )
+                            {
+                                AI_ACT_SKILL( 46 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 47 ) )
+                            {
+                                var31 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 47 );
+                                FUNCTION_00FD( var31 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 45 ) )
+                            {
+                                var31 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 45 );
+                                FUNCTION_00FD( var31 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 49 ) )
+                            {
+                                var35 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 49 );
+                                FUNCTION_00FD( var31 );
+                                return;
+                            }
+
+                        }
+                        else 
+                        {
+                            var31 = FUNCTION_01CC( 8 );
+                            
+                            if ( AI_HAS_SKILL( 47 ) )
+                            {
+                                AI_ACT_SKILL( 47 );
+                                FUNCTION_00FD( var31 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 45 ) )
+                            {
+                                AI_ACT_SKILL( 45 );
+                                FUNCTION_00FD( var31 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 49 ) )
+                            {
+                                AI_ACT_SKILL( 49 );
+                                FUNCTION_00FD( var31 );
+                                return;
+                            }
+
+                        }
+
+                    }
+                    else if ( ( ENNOMAL( 9 ) && MYATTRSKIL( 9 ) ) && ( FUNCTION_019D() == 0 ) )
+                    {
+                        
+                        if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                        {
+                            
+                            if ( AI_HAS_SKILL( 54 ) )
+                            {
+                                AI_ACT_SKILL( 54 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 52 ) )
+                            {
+                                AI_ACT_SKILL( 52 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 53 ) )
+                            {
+                                var31 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 53 );
+                                FUNCTION_00FD( var31 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 51 ) )
+                            {
+                                var31 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 51 );
+                                FUNCTION_00FD( var31 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 55 ) )
+                            {
+                                var31 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 55 );
+                                FUNCTION_00FD( var31 );
+                                return;
+                            }
+
+                        }
+                        else 
+                        {
+                            var31 = FUNCTION_01CC( 9 );
+                            
+                            if ( AI_HAS_SKILL( 53 ) )
+                            {
+                                AI_ACT_SKILL( 53 );
+                                FUNCTION_00FD( var31 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 51 ) )
+                            {
+                                AI_ACT_SKILL( 51 );
+                                FUNCTION_00FD( var31 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 55 ) )
+                            {
+                                AI_ACT_SKILL( 55 );
+                                FUNCTION_00FD( var31 );
+                                return;
+                            }
+
+                        }
+
+                    }
+
+                    AI_ACT_WAIT();
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+            else 
+            {
+                var37 = FUNCTION_01CB( var33 );
+                
+                if ( var37 == -1 )
+                {
+                    OPEN_MSG_WIN();
+                    MSG( 2 );
+                    CLOSE_MSG_WIN();
+                }
+
+                var34 = FUNCTION_01CE( var37 );
+                
+                if ( var34 != -1 )
+                {
+                    var33 = FUNCTION_010B( var31, 1, 1 );
+                    AI_ACT_SKILL( var33 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( var33 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+
+            }
+
+        }
+        else 
+        {
+            var34 = FUNCTION_01CE( var37 );
+            
+            if ( ( var34 != -1 ) || ( FUNCTION_003C( 1 ) == 1 ) )
+            {
+                var33 = FUNCTION_010B( var31, 1, 0 );
+                AI_ACT_SKILL( var33 );
+                FUNCTION_00FD( var31 );
+                return;
+            }
+            else 
+            {
+                AI_ACT_SKILL( var33 );
+                FUNCTION_00FD( var31 );
+                return;
+            }
+
+        }
+
+    }
+    else 
+    {
+        var32 = FUNCTION_0113();
+        var31 = FUNCTION_0106( var32 );
+        
+        if ( var31 != -1 )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var31 );
+            return;
+        }
+        else if ( ( ENNOMAL( 8 ) && MYATTRSKIL( 8 ) ) && ( FUNCTION_019D() == 0 ) )
+        {
+            
+            if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 48 ) )
+                {
+                    AI_ACT_SKILL( 48 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 46 ) )
+                {
+                    AI_ACT_SKILL( 46 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 47 ) )
+                {
+                    var31 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 47 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 45 ) )
+                {
+                    var31 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 45 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 49 ) )
+                {
+                    var31 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 49 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+
+            }
+            else 
+            {
+                var31 = FUNCTION_01CC( 8 );
+                
+                if ( AI_HAS_SKILL( 47 ) )
+                {
+                    AI_ACT_SKILL( 47 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 45 ) )
+                {
+                    AI_ACT_SKILL( 45 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 49 ) )
+                {
+                    AI_ACT_SKILL( 49 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+
+            }
+
+        }
+        else if ( ( ENNOMAL( 9 ) && MYATTRSKIL( 9 ) ) && ( FUNCTION_019D() == 0 ) )
+        {
+            
+            if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 54 ) )
+                {
+                    AI_ACT_SKILL( 54 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 52 ) )
+                {
+                    AI_ACT_SKILL( 52 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 53 ) )
+                {
+                    var31 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 53 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 51 ) )
+                {
+                    var31 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 51 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 55 ) )
+                {
+                    var31 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 55 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+
+            }
+            else 
+            {
+                var31 = FUNCTION_01CC( 9 );
+                
+                if ( AI_HAS_SKILL( 53 ) )
+                {
+                    AI_ACT_SKILL( 53 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 51 ) )
+                {
+                    AI_ACT_SKILL( 51 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 55 ) )
+                {
+                    AI_ACT_SKILL( 55 );
+                    FUNCTION_00FD( var31 );
+                    return;
+                }
+
+            }
+
+        }
+
+        AI_ACT_WAIT();
+        AI_TAR_RND();
+        return;
+    }
+
+}
+
+
+void AI_PC_002_005()
+{
+    int var38 = 0;
+    int var39 = 0;
+    int var40 = 0;
+    int var41 = 0;
+    
+    if ( FUNCTION_003C( 1 ) == 1 )
+    {
+        var38 = FUNCTION_00FF();
+        var39 = FUNCTION_0113();
+        
+        if ( ( FUNCTION_0148( var38, var39 ) == 1 ) && ( FUNCTION_00FA( var38 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var38 );
+            return;
+        }
+        else if ( ( ( FUNCTION_0148( var38, var39 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var38 );
+            return;
+        }
+
+    }
+
+    int var42 = FUNCTION_0157( 1, 40, 0 );
+    
+    if ( var42 != -1 )
+    {
+        
+        if ( FUNCTION_00FB( var42, 0x10 ) == 1 )
+        {
+            
+            if ( ( FUNCTION_0034( 30 ) == 1 ) && ( FUNCTION_00FC( var42, 0x10 ) == 1 ) )
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 1 );
+                }
+
+                FUNCTION_00EB( var40 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+            else 
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 1 );
+                }
+
+                AI_ACT_SKILL( var41 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+
+        }
+        else if ( FUNCTION_00FC( var42, 0x10 ) == 1 )
+        {
+            var38 = FUNCTION_01C8( 50 );
+            
+            if ( var38 >= 2 )
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 0 );
+            }
+            else 
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 1 );
+            }
+
+            FUNCTION_00EB( var40 );
+            FUNCTION_00FD( var42 );
+            return;
+        }
+
+    }
+
+    var42 = FUNCTION_0157( 1, 100, 8 );
+    
+    if ( var42 != -1 )
+    {
+        
+        if ( FUNCTION_00FB( var42, 0x10 ) == 1 )
+        {
+            
+            if ( ( FUNCTION_0034( 30 ) == 1 ) && ( FUNCTION_00FC( var42, 0x10 ) == 1 ) )
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 1 );
+                }
+
+                FUNCTION_00EB( var40 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+            else 
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 1 );
+                }
+
+                AI_ACT_SKILL( var41 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+
+        }
+        else if ( FUNCTION_00FC( var42, 0x10 ) == 1 )
+        {
+            var38 = FUNCTION_01C8( 50 );
+            
+            if ( var38 >= 2 )
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 0 );
+            }
+            else 
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 1 );
+            }
+
+            FUNCTION_00EB( var40 );
+            FUNCTION_00FD( var42 );
+            return;
+        }
+
+    }
+
+    var42 = FUNCTION_0157( 1, 100, 1 );
+    
+    if ( var42 != -1 )
+    {
+        
+        if ( FUNCTION_00FB( var42, 0x10 ) == 1 )
+        {
+            
+            if ( ( FUNCTION_0034( 30 ) == 1 ) && ( FUNCTION_00FC( var42, 0x10 ) == 1 ) )
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 1 );
+                }
+
+                FUNCTION_00EB( var40 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+            else 
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 1 );
+                }
+
+                AI_ACT_SKILL( var41 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+
+        }
+        else if ( FUNCTION_00FC( var42, 0x10 ) == 1 )
+        {
+            var38 = FUNCTION_01C8( 50 );
+            
+            if ( var38 >= 2 )
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 0 );
+            }
+            else 
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 1 );
+            }
+
+            FUNCTION_00EB( var40 );
+            FUNCTION_00FD( var42 );
+            return;
+        }
+
+    }
+
+    var42 = FUNCTION_0157( 0, 0, 0x00080000 );
+    
+    if ( var42 != -1 )
+    {
+        
+        if ( FUNCTION_00FB( var42, 0x10 ) == 1 )
+        {
+            
+            if ( ( FUNCTION_0034( 30 ) == 1 ) && ( FUNCTION_00FC( var42, 0x10 ) == 1 ) )
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 1 );
+                }
+
+                FUNCTION_00EB( var40 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+            else 
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 1 );
+                }
+
+                AI_ACT_SKILL( var41 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+
+        }
+        else if ( FUNCTION_00FC( var42, 0x10 ) == 1 )
+        {
+            var38 = FUNCTION_01C8( 50 );
+            
+            if ( var38 >= 2 )
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 0 );
+            }
+            else 
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 1 );
+            }
+
+            FUNCTION_00EB( var40 );
+            FUNCTION_00FD( var42 );
+            return;
+        }
+
+    }
+
+    var42 = FUNCTION_0157( 1, 100, 0x10 );
+    
+    if ( var42 != -1 )
+    {
+        
+        if ( FUNCTION_00FB( var42, 0x10 ) == 1 )
+        {
+            
+            if ( ( FUNCTION_0034( 30 ) == 1 ) && ( FUNCTION_00FC( var42, 0x10 ) == 1 ) )
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 1 );
+                }
+
+                FUNCTION_00EB( var40 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+            else 
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 1 );
+                }
+
+                AI_ACT_SKILL( var41 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+
+        }
+        else if ( FUNCTION_00FC( var42, 0x10 ) == 1 )
+        {
+            var38 = FUNCTION_01C8( 50 );
+            
+            if ( var38 >= 2 )
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 0 );
+            }
+            else 
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 1 );
+            }
+
+            FUNCTION_00EB( var40 );
+            FUNCTION_00FD( var42 );
+            return;
+        }
+
+    }
+
+    var42 = FUNCTION_0157( 1, 100, 2 );
+    
+    if ( var42 != -1 )
+    {
+        
+        if ( FUNCTION_00FB( var42, 0x10 ) == 1 )
+        {
+            
+            if ( ( FUNCTION_0034( 30 ) == 1 ) && ( FUNCTION_00FC( var42, 0x10 ) == 1 ) )
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 1 );
+                }
+
+                FUNCTION_00EB( var40 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+            else 
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 1 );
+                }
+
+                AI_ACT_SKILL( var41 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+
+        }
+        else if ( FUNCTION_00FC( var42, 0x10 ) == 1 )
+        {
+            var38 = FUNCTION_01C8( 50 );
+            
+            if ( var38 >= 2 )
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 0 );
+            }
+            else 
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 1 );
+            }
+
+            FUNCTION_00EB( var40 );
+            FUNCTION_00FD( var42 );
+            return;
+        }
+
+    }
+
+    int var43 = FUNCTION_01C9();
+    int var44 = FUNCTION_01CA();
+    int var45 = ( var43 - var44 );
+    int var46 = 0;
+    
+    if ( var45 <= -8 )
+    {
+        var46 = 100;
+    }
+    else if ( var45 <= -3 )
+    {
+        var46 = 100;
+    }
+    else if ( var45 <= 0 )
+    {
+        var46 = 80;
+    }
+    else if ( var45 <= 3 )
+    {
+        var46 = 50;
+    }
+    else 
+    {
+        var46 = 20;
+    }
+
+    int var47 = RNG( 100 );
+    int var48 = FUNCTION_00FE( 0, 1 );
+    
+    if ( ( ( var47 <= var46 ) && MYBAD( 1, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var48 );
+        return;
+    }
+
+    var42 = FUNCTION_0157( 1, 100, 4 );
+    
+    if ( var42 != -1 )
+    {
+        
+        if ( FUNCTION_00FB( var42, 0x10 ) == 1 )
+        {
+            
+            if ( ( FUNCTION_0034( 30 ) == 1 ) && ( FUNCTION_00FC( var42, 0x10 ) == 1 ) )
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 1 );
+                }
+
+                FUNCTION_00EB( var40 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+            else 
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 1 );
+                }
+
+                AI_ACT_SKILL( var41 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+
+        }
+        else if ( FUNCTION_00FC( var42, 0x10 ) == 1 )
+        {
+            var38 = FUNCTION_01C8( 50 );
+            
+            if ( var38 >= 2 )
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 0 );
+            }
+            else 
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 1 );
+            }
+
+            FUNCTION_00EB( var40 );
+            FUNCTION_00FD( var42 );
+            return;
+        }
+
+    }
+
+    var42 = FUNCTION_0157( 1, 100, 0x80 );
+    
+    if ( var42 != -1 )
+    {
+        
+        if ( FUNCTION_00FB( var42, 0x10 ) == 1 )
+        {
+            
+            if ( ( FUNCTION_0034( 30 ) == 1 ) && ( FUNCTION_00FC( var42, 0x10 ) == 1 ) )
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 1 );
+                }
+
+                FUNCTION_00EB( var40 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+            else 
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 1 );
+                }
+
+                AI_ACT_SKILL( var41 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+
+        }
+        else if ( FUNCTION_00FC( var42, 0x10 ) == 1 )
+        {
+            var38 = FUNCTION_01C8( 50 );
+            
+            if ( var38 >= 2 )
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 0 );
+            }
+            else 
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 1 );
+            }
+
+            FUNCTION_00EB( var40 );
+            FUNCTION_00FD( var42 );
+            return;
+        }
+
+    }
+
+    var43 = FUNCTION_01C9();
+    var44 = FUNCTION_01CA();
+    var45 = ( var43 - var44 );
+    
+    if ( var45 <= -8 )
+    {
+        var46 = 100;
+    }
+    else if ( var45 <= -3 )
+    {
+        var46 = 100;
+    }
+    else if ( var45 <= 0 )
+    {
+        var46 = 100;
+    }
+    else if ( var45 <= 3 )
+    {
+        var46 = 40;
+    }
+    else 
+    {
+        var46 = 20;
+    }
+
+    var47 = RNG( 100 );
+    int var49 = 0;
+    int var50 = 0;
+    int var51 = 0;
+    
+    if ( ( var47 <= var46 ) || FUNCTION_019D() )
+    {
+        
+        if ( ( FUNCTION_0044( 0x4000 ) == 0 ) && AI_HAS_SKILL( 226 ) )
+        {
+            AI_ACT_SKILL( 226 );
+            AI_TAR_RND();
+            return;
+        }
+        else if ( ( FUNCTION_0044( 0x00008000 ) == 0 ) && AI_HAS_SKILL( 227 ) )
+        {
+            AI_ACT_SKILL( 227 );
+            AI_TAR_RND();
+            return;
+        }
+
+        var51 = FUNCTION_019A( 1 );
+        var49 = FUNCTION_019A( 0x10 );
+        var50 = FUNCTION_019A( 0x40 );
+        
+        if ( ( ( var50 != -1 ) || ( var51 != -1 ) ) && AI_HAS_SKILL( 247 ) )
+        {
+            
+            if ( AI_HAS_SKILL( 247 ) )
+            {
+                AI_ACT_SKILL( 247 );
+                AI_TAR_RND();
+                return;
+            }
+
+        }
+
+        var47 = RNG( 100 );
+        
+        if ( var47 <= 33 )
+        {
+            var38 = FUNCTION_019A( 1 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 214 ) || AI_HAS_SKILL( 215 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 214 ) )
+                {
+                    AI_ACT_SKILL( 214 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 215 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var38 = FUNCTION_019A( 0x10 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 216 ) || AI_HAS_SKILL( 217 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 216 ) )
+                {
+                    AI_ACT_SKILL( 216 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 217 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var51 = FUNCTION_019A( 1 );
+            var49 = FUNCTION_019A( 0x10 );
+            var50 = FUNCTION_019A( 0x40 );
+            
+            if ( ( ( ( var49 != -1 ) && ( var51 != -1 ) ) && ( var50 != -1 ) ) && AI_HAS_SKILL( 239 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 239 ) )
+                {
+                    AI_ACT_SKILL( 239 );
+                    
+                    if ( var49 != -1 )
+                    {
+                        FUNCTION_00FD( var49 );
+                    }
+                    else if ( var51 != -1 )
+                    {
+                        FUNCTION_00FD( var51 );
+                    }
+                    else if ( var50 != -1 )
+                    {
+                        FUNCTION_00FD( var50 );
+                    }
+
+                    return;
+                }
+
+            }
+
+            var38 = FUNCTION_019A( 0x40 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 218 ) || AI_HAS_SKILL( 219 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 218 ) )
+                {
+                    AI_ACT_SKILL( 218 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 219 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+        }
+        else if ( var47 <= 66 )
+        {
+            var38 = FUNCTION_019A( 0x40 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 218 ) || AI_HAS_SKILL( 219 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 218 ) )
+                {
+                    AI_ACT_SKILL( 218 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 219 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var38 = FUNCTION_019A( 1 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 214 ) || AI_HAS_SKILL( 215 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 214 ) )
+                {
+                    AI_ACT_SKILL( 214 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 215 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var38 = FUNCTION_019A( 0x10 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 216 ) || AI_HAS_SKILL( 217 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 216 ) )
+                {
+                    AI_ACT_SKILL( 216 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 217 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var51 = FUNCTION_019A( 1 );
+            var49 = FUNCTION_019A( 0x10 );
+            var50 = FUNCTION_019A( 0x40 );
+            
+            if ( ( ( ( var49 != -1 ) || ( var51 != -1 ) ) || ( var50 != -1 ) ) && AI_HAS_SKILL( 239 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 239 ) )
+                {
+                    AI_ACT_SKILL( 239 );
+                    
+                    if ( var49 != -1 )
+                    {
+                        FUNCTION_00FD( var49 );
+                    }
+                    else if ( var51 != -1 )
+                    {
+                        FUNCTION_00FD( var51 );
+                    }
+                    else if ( var50 != -1 )
+                    {
+                        FUNCTION_00FD( var50 );
+                    }
+
+                    return;
+                }
+
+            }
+
+        }
+        else 
+        {
+            var38 = FUNCTION_019A( 0x10 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 216 ) || AI_HAS_SKILL( 217 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 216 ) )
+                {
+                    AI_ACT_SKILL( 216 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 217 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var51 = FUNCTION_019A( 1 );
+            var49 = FUNCTION_019A( 0x10 );
+            var50 = FUNCTION_019A( 0x40 );
+            
+            if ( ( ( ( var49 != -1 ) || ( var51 != -1 ) ) || ( var50 != -1 ) ) && AI_HAS_SKILL( 239 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 239 ) )
+                {
+                    AI_ACT_SKILL( 239 );
+                    
+                    if ( var49 != -1 )
+                    {
+                        FUNCTION_00FD( var49 );
+                    }
+                    else if ( var51 != -1 )
+                    {
+                        FUNCTION_00FD( var51 );
+                    }
+                    else if ( var50 != -1 )
+                    {
+                        FUNCTION_00FD( var50 );
+                    }
+
+                    return;
+                }
+
+            }
+
+            var38 = FUNCTION_019A( 0x40 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 218 ) || AI_HAS_SKILL( 219 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 218 ) )
+                {
+                    AI_ACT_SKILL( 218 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 219 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var38 = FUNCTION_019A( 1 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 214 ) || AI_HAS_SKILL( 215 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 214 ) )
+                {
+                    AI_ACT_SKILL( 214 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 215 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+        }
+
+    }
+
+    var43 = FUNCTION_01C9();
+    var44 = FUNCTION_01CA();
+    var45 = ( var43 - var44 );
+    
+    if ( var45 <= -8 )
+    {
+        var46 = 100;
+    }
+    else if ( var45 <= -3 )
+    {
+        var46 = 100;
+    }
+    else if ( var45 <= 0 )
+    {
+        var46 = 80;
+    }
+    else if ( var45 <= 3 )
+    {
+        var46 = 50;
+    }
+    else 
+    {
+        var46 = 20;
+    }
+
+    var47 = RNG( 100 );
+    int var52 = 0;
+    int var53 = 0;
+    int var54 = 0;
+    
+    if ( ( var47 <= var46 ) || FUNCTION_019D() )
+    {
+        var53 = FUNCTION_019B( 2 );
+        var52 = FUNCTION_019B( 0x20 );
+        var54 = FUNCTION_019B( 0x80 );
+        
+        if ( ( ( ( ( var52 != -1 ) || ( var53 != -1 ) ) || ( var54 != -1 ) ) && ( FUNCTION_003C( 1 ) == 1 ) ) && AI_HAS_SKILL( 240 ) )
+        {
+            AI_ACT_SKILL( 240 );
+            
+            if ( var52 != -1 )
+            {
+                FUNCTION_00FD( var52 );
+            }
+            else if ( var53 != -1 )
+            {
+                FUNCTION_00FD( var53 );
+            }
+            else if ( var54 != -1 )
+            {
+                FUNCTION_00FD( var54 );
+            }
+
+            return;
+        }
+
+        
+        if ( ( AI_HAS_SKILL( 248 ) && ( ( var52 != -1 ) || ( var54 != -1 ) ) ) && ( FUNCTION_003C( 1 ) == 0 ) )
+        {
+            AI_ACT_SKILL( 248 );
+            AI_TAR_RND();
+            return;
+        }
+
+        var47 = RNG( 100 );
+        
+        if ( var47 <= 33 )
+        {
+            var38 = FUNCTION_019B( 2 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 206 ) || AI_HAS_SKILL( 207 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 206 ) )
+                {
+                    AI_ACT_SKILL( 206 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 207 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var38 = FUNCTION_019B( 0x80 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 210 ) || AI_HAS_SKILL( 211 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 210 ) )
+                {
+                    AI_ACT_SKILL( 210 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 211 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var38 = FUNCTION_019B( 0x20 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 208 ) || AI_HAS_SKILL( 209 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 208 ) )
+                {
+                    AI_ACT_SKILL( 208 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 209 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+        }
+        else if ( var47 <= 66 )
+        {
+            var38 = FUNCTION_019B( 0x20 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 208 ) || AI_HAS_SKILL( 209 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 208 ) )
+                {
+                    AI_ACT_SKILL( 208 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 209 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var38 = FUNCTION_019B( 2 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 206 ) || AI_HAS_SKILL( 207 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 206 ) )
+                {
+                    AI_ACT_SKILL( 206 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 207 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var38 = FUNCTION_019B( 0x80 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 210 ) || AI_HAS_SKILL( 211 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 210 ) )
+                {
+                    AI_ACT_SKILL( 210 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 211 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+        }
+        else 
+        {
+            var38 = FUNCTION_019B( 0x80 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 210 ) || AI_HAS_SKILL( 211 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 210 ) )
+                {
+                    AI_ACT_SKILL( 210 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 211 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var38 = FUNCTION_019B( 0x20 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 208 ) || AI_HAS_SKILL( 209 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 208 ) )
+                {
+                    AI_ACT_SKILL( 208 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 209 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+            var38 = FUNCTION_019B( 2 );
+            
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 206 ) || AI_HAS_SKILL( 207 ) ) )
+            {
+                
+                if ( AI_HAS_SKILL( 206 ) )
+                {
+                    AI_ACT_SKILL( 206 );
+                    FUNCTION_00FD( var38 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( 207 );
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+
+        }
+
+    }
+
+    var43 = FUNCTION_01C9();
+    var44 = FUNCTION_01CA();
+    var45 = ( var43 - var44 );
+    
+    if ( var45 <= -8 )
+    {
+        var46 = 100;
+    }
+    else if ( var45 <= -3 )
+    {
+        var46 = 100;
+    }
+    else if ( var45 <= 0 )
+    {
+        var46 = 100;
+    }
+    else if ( var45 <= 3 )
+    {
+        var46 = 80;
+    }
+    else 
+    {
+        var46 = 20;
+    }
+
+    var47 = RNG( 100 );
+    
+    if ( ( ( var47 <= var46 ) && MYBAD( 2, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var38 = FUNCTION_00FE( 0, 2 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var38 );
+        return;
+    }
+
+    
+    if ( ( ( var47 <= var46 ) && MYBAD( 3, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var38 = FUNCTION_00FE( 0, 3 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var38 );
+        return;
+    }
+
+    
+    if ( ( ( var47 <= var46 ) && MYBAD( 4, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var38 = FUNCTION_00FE( 0, 4 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var38 );
+        return;
+    }
+
+    
+    if ( ( ( var47 <= var46 ) && MYBAD( 5, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var38 = FUNCTION_00FE( 0, 5 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var38 );
+        return;
+    }
+
+    
+    if ( ( ( var47 <= var46 ) && MYBAD( 7, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var38 = FUNCTION_00FE( 0, 7 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var38 );
+        return;
+    }
+
+    
+    if ( ( ( var47 <= var46 ) && MYBAD( 8, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var38 = FUNCTION_00FE( 0, 8 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var38 );
+        return;
+    }
+
+    
+    if ( ( ( var47 <= var46 ) && MYBAD( 9, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var38 = FUNCTION_00FE( 0, 9 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var38 );
+        return;
+    }
+
+    
+    if ( ( ( var47 <= var46 ) && MYBAD( 10, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var38 = FUNCTION_00FE( 0, 10 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var38 );
+        return;
+    }
+
+    
+    if ( ( ( var47 <= var46 ) && MYBAD( 9, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    {
+        var38 = FUNCTION_00FE( 0, 9 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var38 );
+        return;
+    }
+
+    int var55 = FUNCTION_0198( 1 );
+    int var56 = FUNCTION_0198( 0x40 );
+    int var57 = FUNCTION_0198( 0x10 );
+    int var58 = ( ( var55 + var56 ) + var57 );
+    
+    if ( ( ( FUNCTION_003C( 1 ) && ( var58 >= 1 ) ) || ( FUNCTION_003C( 3 ) && ( var58 >= 1 ) ) ) || ( FUNCTION_003C( 5 ) && ( var58 >= 2 ) ) )
+    {
+        
+        if ( ( FUNCTION_0194( 1 ) == 0 ) && ( FUNCTION_019D() == 0 ) )
+        {
+            var46 = 100;
+        }
+        else 
+        {
+            var46 = 100;
+        }
+
+        var47 = RNG( 100 );
+        
+        if ( ( var47 <= var46 ) && AI_HAS_SKILL( 223 ) )
+        {
+            AI_ACT_SKILL( 223 );
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+    var55 = FUNCTION_0195( 2 );
+    var56 = FUNCTION_0195( 0x80 );
+    var57 = FUNCTION_0195( 0x20 );
+    int var59 = ( ( var55 + var56 ) + var57 );
+    var55 = FUNCTION_0195( 0x00040000 );
+    var56 = FUNCTION_0195( 0x00080000 );
+    var57 = FUNCTION_0195( 0x00100000 );
+    var59 = ( ( ( var59 + var55 ) + var56 ) + var57 );
+    var55 = FUNCTION_0195( 0x00200000 );
+    var59 = ( var59 + var55 );
+    
+    if ( ( FUNCTION_003B( 2 ) && ( var59 >= 1 ) ) || ( FUNCTION_003B( 4 ) && ( var59 >= 1 ) ) )
+    {
+        
+        if ( ( FUNCTION_0194( 1 ) == 0 ) && ( FUNCTION_019D() == 0 ) )
+        {
+            var46 = 100;
+        }
+        else 
+        {
+            var46 = 100;
+        }
+
+        var47 = RNG( 100 );
+        
+        if ( ( var47 <= var46 ) && AI_HAS_SKILL( 212 ) )
+        {
+            AI_ACT_SKILL( 212 );
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+    var43 = FUNCTION_01C9();
+    var44 = FUNCTION_01CA();
+    var45 = ( var43 - var44 );
+    
+    if ( var45 <= -8 )
+    {
+        var46 = 100;
+    }
+    else if ( var45 <= -3 )
+    {
+        var46 = 100;
+    }
+    else if ( var45 <= 0 )
+    {
+        var46 = 80;
+    }
+    else if ( var45 <= 3 )
+    {
+        var46 = 40;
+    }
+    else 
+    {
+        var46 = 20;
+    }
+
+    var47 = RNG( 100 );
+    
+    if ( ( var47 <= var46 ) || FUNCTION_019D() )
+    {
+        var38 = FUNCTION_01CE( 3 );
+        
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 1, 3 ) ) && AI_HAS_SKILL( 229 ) )
+        {
+            AI_ACT_SKILL( 229 );
+            FUNCTION_00FD( var38 );
+            return;
+        }
+
+        var38 = FUNCTION_01CE( 4 );
+        
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 1, 4 ) ) && AI_HAS_SKILL( 230 ) )
+        {
+            AI_ACT_SKILL( 230 );
+            FUNCTION_00FD( var38 );
+            return;
+        }
+
+        var38 = FUNCTION_01CE( 6 );
+        
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 1, 6 ) ) && AI_HAS_SKILL( 231 ) )
+        {
+            AI_ACT_SKILL( 231 );
+            FUNCTION_00FD( var38 );
+            return;
+        }
+
+        var38 = FUNCTION_01CE( 5 );
+        
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 1, 5 ) ) && AI_HAS_SKILL( 232 ) )
+        {
+            AI_ACT_SKILL( 232 );
+            FUNCTION_00FD( var38 );
+            return;
+        }
+
+        var38 = FUNCTION_01CE( 3 );
+        
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 5, 3 ) ) && AI_HAS_SKILL( 229 ) )
+        {
+            AI_ACT_SKILL( 229 );
+            FUNCTION_00FD( var38 );
+            return;
+        }
+
+        var38 = FUNCTION_01CE( 3 );
+        
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 10, 3 ) ) && AI_HAS_SKILL( 229 ) )
+        {
+            AI_ACT_SKILL( 229 );
+            FUNCTION_00FD( var38 );
+            return;
+        }
+
+        var38 = FUNCTION_01CE( 6 );
+        
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 2, 6 ) ) && AI_HAS_SKILL( 231 ) )
+        {
+            AI_ACT_SKILL( 231 );
+            FUNCTION_00FD( var38 );
+            return;
+        }
+
+        var38 = FUNCTION_01CE( 5 );
+        
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 7, 5 ) ) && AI_HAS_SKILL( 232 ) )
+        {
+            AI_ACT_SKILL( 232 );
+            FUNCTION_00FD( var38 );
+            return;
+        }
+
+        var38 = FUNCTION_01CE( 4 );
+        
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 4, 4 ) ) && AI_HAS_SKILL( 230 ) )
+        {
+            AI_ACT_SKILL( 230 );
+            FUNCTION_00FD( var38 );
+            return;
+        }
+
+    }
+
+    var42 = FUNCTION_0157( 1, 80, 0 );
+    
+    if ( var42 != -1 )
+    {
+        
+        if ( FUNCTION_00FB( var42, 0x10 ) == 1 )
+        {
+            
+            if ( ( FUNCTION_0034( 30 ) == 1 ) && ( FUNCTION_00FC( var42, 0x10 ) == 1 ) )
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var40 = FUNCTION_010A( var42, 0x10, 1 );
+                }
+
+                FUNCTION_00EB( var40 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+            else 
+            {
+                var38 = FUNCTION_01C8( 50 );
+                
+                if ( var38 >= 2 )
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 0 );
+                }
+                else 
+                {
+                    var41 = FUNCTION_0109( var42, 0x10, 1 );
+                }
+
+                AI_ACT_SKILL( var41 );
+                FUNCTION_00FD( var42 );
+                return;
+            }
+
+        }
+        else if ( FUNCTION_00FC( var42, 0x10 ) == 1 )
+        {
+            var38 = FUNCTION_01C8( 50 );
+            
+            if ( var38 >= 2 )
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 0 );
+            }
+            else 
+            {
+                var40 = FUNCTION_010A( var42, 0x10, 1 );
+            }
+
+            FUNCTION_00EB( var40 );
+            FUNCTION_00FD( var42 );
+            return;
+        }
+
+    }
+
+    
+    if ( FUNCTION_0034( 10 ) && AI_HAS_SKILL( 76 ) )
+    {
+        AI_ACT_SKILL( 76 );
+        FUNCTION_0062();
+        return;
+    }
+
+    
+    if ( ( FUNCTION_003F( 8 ) && AI_HAS_SKILL( 65 ) ) && ( FUNCTION_019D() == 0 ) )
+    {
+        AI_ACT_SKILL( 65 );
+        AI_TAR_RND();
+        return;
+    }
+
+    var43 = FUNCTION_01C9();
+    var44 = FUNCTION_01CA();
+    var45 = ( var43 - var44 );
+    BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    
+    if ( ( ( ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var45 <= 10 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+
+    int var60 = 0;
+    
+    if ( ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 ) && ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) )
+    {
+        var38 = FUNCTION_01E5( 10 );
+        
+        if ( var38 <= 0 )
+        {
+            var60 = 0;
+        }
+        else if ( var38 <= 2 )
+        {
+            var60 = 20;
+        }
+        else if ( var38 <= 3 )
+        {
+            var60 = 50;
+        }
+        else if ( var38 <= 4 )
+        {
+            var60 = 50;
+        }
+        else 
+        {
+            var60 = 70;
+        }
+
+        var47 = RNG( 100 );
+        
+        if ( ( var47 <= var60 ) && AI_HAS_SKILL( 58 ) )
+        {
+            AI_ACT_SKILL( 58 );
+            AI_TAR_RND();
+            return;
+        }
+        else if ( ( var47 <= var60 ) && AI_HAS_SKILL( 243 ) )
+        {
+            AI_ACT_SKILL( 243 );
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+    BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    
+    if ( ( ( ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var45 <= 10 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+
+    
+    if ( ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 ) && ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) )
+    {
+        var38 = FUNCTION_01E5( 13 );
+        
+        if ( var38 <= 0 )
+        {
+            var60 = 0;
+        }
+        else if ( var38 <= 2 )
+        {
+            var60 = 20;
+        }
+        else if ( var38 <= 3 )
+        {
+            var60 = 50;
+        }
+        else if ( var38 <= 4 )
+        {
+            var60 = 50;
+        }
+        else 
+        {
+            var60 = 70;
+        }
+
+        var47 = RNG( 100 );
+        
+        if ( ( var47 <= var60 ) && AI_HAS_SKILL( 62 ) )
+        {
+            AI_ACT_SKILL( 62 );
+            AI_TAR_RND();
+            return;
+        }
+        else if ( ( var47 <= var60 ) && AI_HAS_SKILL( 249 ) )
+        {
+            AI_ACT_SKILL( 249 );
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+    BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    
+    if ( ( ( ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var45 <= 10 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+
+    
+    if ( ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 ) && ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) )
+    {
+        var38 = FUNCTION_01E5( 14 );
+        
+        if ( var38 <= 0 )
+        {
+            var60 = 0;
+        }
+        else if ( var38 <= 2 )
+        {
+            var60 = 20;
+        }
+        else if ( var38 <= 3 )
+        {
+            var60 = 50;
+        }
+        else if ( var38 <= 4 )
+        {
+            var60 = 50;
+        }
+        else 
+        {
+            var60 = 70;
+        }
+
+        var47 = RNG( 100 );
+        
+        if ( ( var47 <= var60 ) && AI_HAS_SKILL( 0x40 ) )
+        {
+            AI_ACT_SKILL( 0x40 );
+            AI_TAR_RND();
+            return;
+        }
+        else if ( ( var47 <= var60 ) && AI_HAS_SKILL( 244 ) )
+        {
+            AI_ACT_SKILL( 244 );
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+    BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    
+    if ( AI_HAS_SKILL( 60 ) && ( FUNCTION_019D() == 0 ) )
+    {
+        BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
+    }
+
+    
+    if ( ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 ) && AI_HAS_SKILL( 60 ) )
+    {
+        var38 = FUNCTION_01E5( 12 );
+        
+        if ( var38 <= 0 )
+        {
+            var60 = 0;
+        }
+        else if ( var38 <= 2 )
+        {
+            var60 = 20;
+        }
+        else if ( var38 <= 3 )
+        {
+            var60 = 50;
+        }
+        else if ( var38 <= 4 )
+        {
+            var60 = 50;
+        }
+        else 
+        {
+            var60 = 70;
+        }
+
+        var47 = RNG( 100 );
+        
+        if ( var47 <= var60 )
+        {
+            AI_ACT_SKILL( 60 );
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+    AI_PC_002_004();
+}
+
+
+void AI_PC_002_006()
+{
+    int var61 = 0;
+    int var62 = 0;
+    
+    if ( FUNCTION_003C( 1 ) == 1 )
+    {
+        var61 = FUNCTION_00FF();
+        var62 = FUNCTION_0113();
+        
+        if ( ( FUNCTION_0148( var61, var62 ) == 1 ) && ( FUNCTION_00FA( var61 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var61 );
+            return;
+        }
+        else if ( ( ( FUNCTION_0148( var61, var62 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var61 );
+            return;
+        }
+
+    }
+
+    int var63 = RNG( 100 );
+    
+    if ( ( ( FUNCTION_0045() == 1 ) && ( FUNCTION_0033( 20 ) == 1 ) ) && ( var63 <= 50 ) )
+    {
+        AI_ASK_TO_LEAVE();
+        AI_TAR_RND();
+        return;
+    }
+
+    int var64 = FUNCTION_00FE( 0, 1 );
+    int var65 = 0;
+    
+    if ( ( FUNCTION_00F8( var64, 40 ) == 1 ) && ( FUNCTION_00FC( var64, 0x10 ) == 1 ) )
+    {
+        var61 = FUNCTION_01C8( 40 );
+        
+        if ( var61 >= 2 )
+        {
+            var65 = FUNCTION_010A( var64, 0x10, 0 );
+        }
+        else 
+        {
+            var65 = FUNCTION_010A( var64, 0x10, 1 );
+        }
+
+        FUNCTION_00EB( var65 );
+        FUNCTION_00FD( var64 );
+        return;
+    }
+
+    int var66 = FUNCTION_0140();
+    
+    if ( ( FUNCTION_00F8( var66, 40 ) == 1 ) && ( FUNCTION_00FC( var66, 0x10 ) == 1 ) )
+    {
+        var61 = FUNCTION_01C8( 40 );
+        
+        if ( var61 >= 2 )
+        {
+            var65 = FUNCTION_010A( var66, 0x10, 0 );
+        }
+        else 
+        {
+            var65 = FUNCTION_010A( var66, 0x10, 1 );
+        }
+
+        FUNCTION_00EB( var65 );
+        FUNCTION_00FD( var66 );
+        return;
+    }
+
+    var62 = FUNCTION_0113();
+    var61 = FUNCTION_0100( var62 );
+    
+    if ( var61 != -1 )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var61 );
+        return;
+    }
+
+    var62 = FUNCTION_0113();
+    
+    if ( ENWEAK_PAI( 0 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 0 ) ) )
+    {
+        var61 = FUNCTION_0100( 0 );
+        
+        if ( ( FUNCTION_00FA( var61 ) == 1 ) && ( FUNCTION_0148( var61, var62 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            int var67 = FUNCTION_0109( var61, 2, 1 );
+            AI_ACT_SKILL( var67 );
+        }
+
+        FUNCTION_00FD( var61 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 1 ) == 1 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 1 ) ) )
+    {
+        var61 = FUNCTION_0100( 1 );
+        
+        if ( ( FUNCTION_00FA( var61 ) == 1 ) && ( FUNCTION_0148( var61, var62 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            int var68 = FUNCTION_0109( var61, 2, 1 );
+            AI_ACT_SKILL( var68 );
+        }
+
+        FUNCTION_00FD( var61 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 2 ) == 1 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 2 ) ) )
+    {
+        var61 = FUNCTION_0100( 2 );
+        
+        if ( ( FUNCTION_00FA( var61 ) == 1 ) && ( FUNCTION_0148( var61, var62 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            int var69 = FUNCTION_0109( var61, 2, 1 );
+            AI_ACT_SKILL( var69 );
+        }
+
+        FUNCTION_00FD( var61 );
+        return;
+    }
+
+    var61 = FUNCTION_0108( 2 );
+    
+    if ( ( ( var61 != -1 ) && AI_HAS_SKILL( 146 ) ) && ( FUNCTION_0033( 40 ) == 0 ) )
+    {
+        AI_ACT_SKILL( 146 );
+        FUNCTION_00FD( var61 );
+        return;
+    }
+
+    var61 = FUNCTION_00FF();
+    var62 = FUNCTION_0113();
+    
+    if ( ( FUNCTION_00FA( var61 ) == 1 ) && ( FUNCTION_0148( var61, var62 ) == 1 ) )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var61 );
+        return;
+    }
+
+    
+    if ( FUNCTION_0034( 10 ) && AI_HAS_SKILL( 76 ) )
+    {
+        AI_ACT_SKILL( 76 );
+        FUNCTION_0062();
+        return;
+    }
+
+    var62 = FUNCTION_0113();
+    
+    if ( ENNOMAL( 0 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 0 ) ) )
+    {
+        var61 = FUNCTION_0106( 0 );
+        
+        if ( ( FUNCTION_00FA( var61 ) == 1 ) && ( FUNCTION_0148( var61, var62 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            int var70 = FUNCTION_0109( var61, 2, 1 );
+            AI_ACT_SKILL( var70 );
+        }
+
+        FUNCTION_00FD( var61 );
+        return;
+    }
+    else if ( ENNOMAL( 1 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 1 ) ) )
+    {
+        var61 = FUNCTION_0106( 1 );
+        
+        if ( ( FUNCTION_00FA( var61 ) == 1 ) && ( FUNCTION_0148( var61, var62 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            int var71 = FUNCTION_0109( var61, 2, 1 );
+            AI_ACT_SKILL( var71 );
+        }
+
+        FUNCTION_00FD( var61 );
+        return;
+    }
+    else if ( ENNOMAL( 2 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 2 ) ) )
+    {
+        var61 = FUNCTION_0106( 2 );
+        
+        if ( ( FUNCTION_00FA( var61 ) == 1 ) && ( FUNCTION_0148( var61, var62 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            int var72 = FUNCTION_0109( var61, 2, 1 );
+            AI_ACT_SKILL( var72 );
+        }
+
+        FUNCTION_00FD( var61 );
+        return;
+    }
+    else 
+    {
+        var62 = FUNCTION_0113();
+        var61 = FUNCTION_0106( var62 );
+        
+        if ( var61 != -1 )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var61 );
+            return;
+        }
+        else 
+        {
+            AI_ACT_WAIT();
+            AI_TAR_RND();
+            return;
+        }
+
+    }
+
+}
+
+
+void AI_PC_002_007()
+{
+    int var73 = FUNCTION_010C();
+    int var74 = FUNCTION_0113();
+    int var75 = 0;
+    int var76 = 0;
+    
+    if ( ( FUNCTION_0148( var73, var74 ) == 1 ) && ( FUNCTION_00FA( var73 ) == 1 ) )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var73 );
+        return;
+    }
+    else if ( ( ( FUNCTION_0148( var73, var74 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var73 );
+        return;
+    }
+
+    int var77 = RNG( 100 );
+    
+    if ( ( ( FUNCTION_0045() == 1 ) && ( FUNCTION_0033( 20 ) == 1 ) ) && ( var77 <= 50 ) )
+    {
+        AI_ASK_TO_LEAVE();
+        AI_TAR_RND();
+        return;
+    }
+
+    int var78 = FUNCTION_010D( var73 );
+    
+    if ( var78 != -1 )
+    {
+        
+        if ( MYATTRSKIL( var78 ) == 1 )
+        {
+            var75 = FUNCTION_0109( var73, var78, 0 );
+            AI_ACT_SKILL( var75 );
+            FUNCTION_00FD( var73 );
+            return;
+        }
+
+    }
+
+    var75 = FUNCTION_010B( var73, 1, 0 );
+    int var79 = 0;
+    
+    if ( var75 != -1 )
+    {
+        var79 = FUNCTION_01CB( var75 );
+        
+        if ( ( ( ( var79 == 0 ) || ( var79 == 1 ) ) || ( var79 == 2 ) ) && FUNCTION_0033( 40 ) )
+        {
+            var75 = FUNCTION_010B( var73, 1, 1 );
+            
+            if ( var75 == -1 )
+            {
+                var74 = FUNCTION_0113();
+                
+                if ( FUNCTION_0148( var73, var74 ) )
+                {
+                    AI_ACT_WEAPON();
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+                else 
+                {
+                    var73 = FUNCTION_0106( var74 );
+                    
+                    if ( var73 != -1 )
+                    {
+                        AI_ACT_WEAPON();
+                        FUNCTION_00FD( var73 );
+                        return;
+                    }
+                    else if ( ( ENNOMAL( 8 ) && MYATTRSKIL( 8 ) ) && ( FUNCTION_019D() == 0 ) )
+                    {
+                        
+                        if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                        {
+                            
+                            if ( AI_HAS_SKILL( 48 ) )
+                            {
+                                AI_ACT_SKILL( 48 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 46 ) )
+                            {
+                                AI_ACT_SKILL( 46 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 47 ) )
+                            {
+                                var73 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 47 );
+                                FUNCTION_00FD( var73 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 45 ) )
+                            {
+                                var73 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 45 );
+                                FUNCTION_00FD( var73 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 49 ) )
+                            {
+                                var73 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 49 );
+                                FUNCTION_00FD( var73 );
+                                return;
+                            }
+
+                        }
+                        else 
+                        {
+                            var73 = FUNCTION_01CC( 8 );
+                            
+                            if ( AI_HAS_SKILL( 47 ) )
+                            {
+                                AI_ACT_SKILL( 47 );
+                                FUNCTION_00FD( var73 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 45 ) )
+                            {
+                                AI_ACT_SKILL( 45 );
+                                FUNCTION_00FD( var73 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 49 ) )
+                            {
+                                AI_ACT_SKILL( 49 );
+                                FUNCTION_00FD( var73 );
+                                return;
+                            }
+
+                        }
+
+                    }
+                    else if ( ( ENNOMAL( 9 ) && MYATTRSKIL( 9 ) ) && ( FUNCTION_019D() == 0 ) )
+                    {
+                        
+                        if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                        {
+                            
+                            if ( AI_HAS_SKILL( 54 ) )
+                            {
+                                AI_ACT_SKILL( 54 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 52 ) )
+                            {
+                                AI_ACT_SKILL( 52 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 53 ) )
+                            {
+                                var73 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 53 );
+                                FUNCTION_00FD( var73 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 51 ) )
+                            {
+                                var73 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 51 );
+                                FUNCTION_00FD( var73 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 55 ) )
+                            {
+                                var73 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 55 );
+                                FUNCTION_00FD( var73 );
+                                return;
+                            }
+
+                        }
+                        else 
+                        {
+                            var73 = FUNCTION_01CC( 9 );
+                            
+                            if ( AI_HAS_SKILL( 53 ) )
+                            {
+                                AI_ACT_SKILL( 53 );
+                                FUNCTION_00FD( var73 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 51 ) )
+                            {
+                                AI_ACT_SKILL( 51 );
+                                FUNCTION_00FD( var73 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 55 ) )
+                            {
+                                AI_ACT_SKILL( 55 );
+                                FUNCTION_00FD( var73 );
+                                return;
+                            }
+
+                        }
+
+                    }
+
+                    AI_ACT_WAIT();
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+            else 
+            {
+                var79 = FUNCTION_01CB( var75 );
+                
+                if ( var79 == -1 )
+                {
+                    OPEN_MSG_WIN();
+                    MSG( 2 );
+                    CLOSE_MSG_WIN();
+                }
+
+                var76 = FUNCTION_01CE( var79 );
+                
+                if ( var76 != -1 )
+                {
+                    var75 = FUNCTION_010B( var73, 1, 1 );
+                    AI_ACT_SKILL( var75 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( var75 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+
+            }
+
+        }
+        else 
+        {
+            var76 = FUNCTION_01CE( var79 );
+            
+            if ( ( var76 != -1 ) || ( FUNCTION_003C( 1 ) == 1 ) )
+            {
+                var75 = FUNCTION_010B( var73, 1, 0 );
+                AI_ACT_SKILL( var75 );
+                FUNCTION_00FD( var73 );
+                return;
+            }
+            else 
+            {
+                AI_ACT_SKILL( var75 );
+                FUNCTION_00FD( var73 );
+                return;
+            }
+
+        }
+
+    }
+    else 
+    {
+        var74 = FUNCTION_0113();
+        var73 = FUNCTION_0106( var74 );
+        
+        if ( var73 != -1 )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var73 );
+            return;
+        }
+        else if ( ( ENNOMAL( 8 ) && MYATTRSKIL( 8 ) ) && ( FUNCTION_019D() == 0 ) )
+        {
+            
+            if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 48 ) )
+                {
+                    AI_ACT_SKILL( 48 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 46 ) )
+                {
+                    AI_ACT_SKILL( 46 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 47 ) )
+                {
+                    var73 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 47 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 45 ) )
+                {
+                    var73 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 45 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 49 ) )
+                {
+                    var73 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 49 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+
+            }
+            else 
+            {
+                var73 = FUNCTION_01CC( 8 );
+                
+                if ( AI_HAS_SKILL( 47 ) )
+                {
+                    AI_ACT_SKILL( 47 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 45 ) )
+                {
+                    AI_ACT_SKILL( 45 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 49 ) )
+                {
+                    AI_ACT_SKILL( 49 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+
+            }
+
+        }
+        else if ( ( ENNOMAL( 9 ) && MYATTRSKIL( 9 ) ) && ( FUNCTION_019D() == 0 ) )
+        {
+            
+            if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 54 ) )
+                {
+                    AI_ACT_SKILL( 54 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 52 ) )
+                {
+                    AI_ACT_SKILL( 52 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 53 ) )
+                {
+                    var73 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 53 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 51 ) )
+                {
+                    var73 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 51 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 55 ) )
+                {
+                    var73 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 55 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+
+            }
+            else 
+            {
+                var73 = FUNCTION_01CC( 9 );
+                
+                if ( AI_HAS_SKILL( 53 ) )
+                {
+                    AI_ACT_SKILL( 53 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 51 ) )
+                {
+                    AI_ACT_SKILL( 51 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 55 ) )
+                {
+                    AI_ACT_SKILL( 55 );
+                    FUNCTION_00FD( var73 );
+                    return;
+                }
+
+            }
+
+        }
+
+        AI_ACT_WAIT();
+        AI_TAR_RND();
+        return;
+    }
+
+}
+
+
+void AI_PC_002_008()
+{
+    int var80 = FUNCTION_010E();
+    int var81 = FUNCTION_0113();
+    int var82 = 0;
+    int var83 = 0;
+    
+    if ( ( FUNCTION_0148( var80, var81 ) == 1 ) && ( FUNCTION_00FA( var80 ) == 1 ) )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var80 );
+        return;
+    }
+    else if ( ( ( FUNCTION_0148( var80, var81 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var80 );
+        return;
+    }
+
+    int var84 = RNG( 100 );
+    
+    if ( ( ( FUNCTION_0045() == 1 ) && ( FUNCTION_0033( 20 ) == 1 ) ) && ( var84 <= 50 ) )
+    {
+        AI_ASK_TO_LEAVE();
+        AI_TAR_RND();
+        return;
+    }
+
+    int var85 = FUNCTION_010D( var80 );
+    
+    if ( var85 != -1 )
+    {
+        
+        if ( MYATTRSKIL( var85 ) == 1 )
+        {
+            var82 = FUNCTION_0109( var80, var85, 0 );
+            AI_ACT_SKILL( var82 );
+            FUNCTION_00FD( var80 );
+            return;
+        }
+
+    }
+
+    var82 = FUNCTION_010B( var80, 1, 0 );
+    int var86 = 0;
+    
+    if ( var82 != -1 )
+    {
+        var86 = FUNCTION_01CB( var82 );
+        
+        if ( var86 == -1 )
+        {
+            OPEN_MSG_WIN();
+            MSG( 1 );
+            CLOSE_MSG_WIN();
+        }
+
+        
+        if ( ( ( ( var86 == 0 ) || ( var86 == 1 ) ) || ( var86 == 2 ) ) && FUNCTION_0033( 40 ) )
+        {
+            var82 = FUNCTION_010B( var80, 1, 1 );
+            
+            if ( var82 == -1 )
+            {
+                var81 = FUNCTION_0113();
+                
+                if ( FUNCTION_0148( var80, var81 ) )
+                {
+                    AI_ACT_WEAPON();
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+                else 
+                {
+                    var80 = FUNCTION_0106( var81 );
+                    
+                    if ( var80 != -1 )
+                    {
+                        AI_ACT_WEAPON();
+                        FUNCTION_00FD( var80 );
+                        return;
+                    }
+                    else if ( ( ENNOMAL( 8 ) && MYATTRSKIL( 8 ) ) && ( FUNCTION_019D() == 0 ) )
+                    {
+                        
+                        if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                        {
+                            
+                            if ( AI_HAS_SKILL( 48 ) )
+                            {
+                                AI_ACT_SKILL( 48 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 46 ) )
+                            {
+                                AI_ACT_SKILL( 46 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 47 ) )
+                            {
+                                var80 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 47 );
+                                FUNCTION_00FD( var80 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 45 ) )
+                            {
+                                var80 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 45 );
+                                FUNCTION_00FD( var80 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 49 ) )
+                            {
+                                var80 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 49 );
+                                FUNCTION_00FD( var80 );
+                                return;
+                            }
+
+                        }
+                        else 
+                        {
+                            var80 = FUNCTION_01CC( 8 );
+                            
+                            if ( AI_HAS_SKILL( 47 ) )
+                            {
+                                AI_ACT_SKILL( 47 );
+                                FUNCTION_00FD( var80 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 45 ) )
+                            {
+                                AI_ACT_SKILL( 45 );
+                                FUNCTION_00FD( var80 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 49 ) )
+                            {
+                                AI_ACT_SKILL( 49 );
+                                FUNCTION_00FD( var80 );
+                                return;
+                            }
+
+                        }
+
+                    }
+                    else if ( ( ENNOMAL( 9 ) && MYATTRSKIL( 9 ) ) && ( FUNCTION_019D() == 0 ) )
+                    {
+                        
+                        if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                        {
+                            
+                            if ( AI_HAS_SKILL( 54 ) )
+                            {
+                                AI_ACT_SKILL( 54 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 52 ) )
+                            {
+                                AI_ACT_SKILL( 52 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 53 ) )
+                            {
+                                var80 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 53 );
+                                FUNCTION_00FD( var80 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 51 ) )
+                            {
+                                var80 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 51 );
+                                FUNCTION_00FD( var80 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 55 ) )
+                            {
+                                var80 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 55 );
+                                FUNCTION_00FD( var80 );
+                                return;
+                            }
+
+                        }
+                        else 
+                        {
+                            var80 = FUNCTION_01CC( 9 );
+                            
+                            if ( AI_HAS_SKILL( 53 ) )
+                            {
+                                AI_ACT_SKILL( 53 );
+                                FUNCTION_00FD( var80 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 51 ) )
+                            {
+                                AI_ACT_SKILL( 51 );
+                                FUNCTION_00FD( var80 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 55 ) )
+                            {
+                                AI_ACT_SKILL( 55 );
+                                FUNCTION_00FD( var80 );
+                                return;
+                            }
+
+                        }
+
+                    }
+
+                    AI_ACT_WAIT();
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+            else 
+            {
+                var86 = FUNCTION_01CB( var82 );
+                
+                if ( var86 == -1 )
+                {
+                    OPEN_MSG_WIN();
+                    MSG( 2 );
+                    CLOSE_MSG_WIN();
+                }
+
+                var83 = FUNCTION_01CE( var86 );
+                
+                if ( var83 != -1 )
+                {
+                    var82 = FUNCTION_010B( var80, 1, 1 );
+                    AI_ACT_SKILL( var82 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( var82 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+
+            }
+
+        }
+        else 
+        {
+            var83 = FUNCTION_01CE( var86 );
+            
+            if ( ( var83 != -1 ) || ( FUNCTION_003C( 1 ) == 1 ) )
+            {
+                var82 = FUNCTION_010B( var80, 1, 0 );
+                AI_ACT_SKILL( var82 );
+                FUNCTION_00FD( var80 );
+                return;
+            }
+            else 
+            {
+                AI_ACT_SKILL( var82 );
+                FUNCTION_00FD( var80 );
+                return;
+            }
+
+        }
+
+    }
+    else 
+    {
+        var81 = FUNCTION_0113();
+        var80 = FUNCTION_0106( var81 );
+        
+        if ( var80 != -1 )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var80 );
+            return;
+        }
+        else if ( ( ENNOMAL( 8 ) && MYATTRSKIL( 8 ) ) && ( FUNCTION_019D() == 0 ) )
+        {
+            
+            if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 48 ) )
+                {
+                    AI_ACT_SKILL( 48 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 46 ) )
+                {
+                    AI_ACT_SKILL( 46 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 47 ) )
+                {
+                    var80 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 47 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 45 ) )
+                {
+                    var80 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 45 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 49 ) )
+                {
+                    var80 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 49 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+
+            }
+            else 
+            {
+                var80 = FUNCTION_01CC( 8 );
+                
+                if ( AI_HAS_SKILL( 47 ) )
+                {
+                    AI_ACT_SKILL( 47 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 45 ) )
+                {
+                    AI_ACT_SKILL( 45 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 49 ) )
+                {
+                    AI_ACT_SKILL( 49 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+
+            }
+
+        }
+        else if ( ( ENNOMAL( 9 ) && MYATTRSKIL( 9 ) ) && ( FUNCTION_019D() == 0 ) )
+        {
+            
+            if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 54 ) )
+                {
+                    AI_ACT_SKILL( 54 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 52 ) )
+                {
+                    AI_ACT_SKILL( 52 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 53 ) )
+                {
+                    var80 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 53 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 51 ) )
+                {
+                    var80 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 51 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 55 ) )
+                {
+                    var80 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 55 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+
+            }
+            else 
+            {
+                var80 = FUNCTION_01CC( 9 );
+                
+                if ( AI_HAS_SKILL( 53 ) )
+                {
+                    AI_ACT_SKILL( 53 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 51 ) )
+                {
+                    AI_ACT_SKILL( 51 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 55 ) )
+                {
+                    AI_ACT_SKILL( 55 );
+                    FUNCTION_00FD( var80 );
+                    return;
+                }
+
+            }
+
+        }
+
+        AI_ACT_WAIT();
+        AI_TAR_RND();
+        return;
+    }
+
+}
+
+
+void AI_PC_002_009()
+{
+    AI_ACT_WAIT();
+    AI_TAR_RND();
+}
+
+
+void AI_PC_003_001()
+{
+    AI_PC_002_001();
+}
+
+
+void AI_PC_003_002()
+{
+    AI_PC_002_002();
+}
+
+
+void AI_PC_003_003()
+{
+    AI_PC_002_003();
+}
+
+
+void AI_PC_003_004()
+{
+    AI_PC_002_004();
+}
+
+
+void AI_PC_003_005()
+{
+    AI_PC_002_005();
+}
+
+
+void AI_PC_003_006()
+{
+    AI_PC_002_006();
+}
+
+
+void AI_PC_003_007()
+{
+    AI_PC_002_007();
+}
+
+
+void AI_PC_003_008()
+{
+    AI_PC_002_008();
+}
+
+
+void AI_PC_003_009()
+{
+    AI_PC_002_009();
+}
+
+
+void AI_PC_003_00A()
+{
+    int var87 = 0;
+    int var88 = 0;
+    int var89 = 0;
+    int var90 = 0;
+    
+    if ( FUNCTION_003C( 1 ) == 1 )
+    {
+        var87 = FUNCTION_00FF();
+        var88 = FUNCTION_0113();
+        
+        if ( ( FUNCTION_0148( var87, var88 ) == 1 ) && ( FUNCTION_00FA( var87 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var87 );
+            return;
+        }
+        else if ( ( ( FUNCTION_0148( var87, var88 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var87 );
+            return;
+        }
+
+    }
+
+    var88 = FUNCTION_0113();
+    var87 = FUNCTION_0100( var88 );
+    
+    if ( var87 != -1 )
+    {
+        
+        if ( FUNCTION_00FA( var87 ) == 1 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var87 = FUNCTION_0101( var88 );
+            AI_ACT_WEAPON();
+            
+            if ( var87 == -1 )
+            {
+                var87 = FUNCTION_0100( var88 );
+            }
+
+        }
+
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var87 );
+        return;
+    }
+
+    
+    if ( ENWEAK_PAI( 0 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 0 ) ) )
+    {
+        var87 = FUNCTION_0100( 0 );
+        
+        if ( ( FUNCTION_00FA( var87 ) == 1 ) && ( FUNCTION_0148( var87, var88 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var87 = FUNCTION_0101( 0 );
+            
+            if ( var87 == -1 )
+            {
+                var87 = FUNCTION_0100( 0 );
+            }
+
+            var89 = FUNCTION_0109( var87, 0, 1 );
+            AI_ACT_SKILL( var89 );
+        }
+
+        FUNCTION_00FD( var87 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 1 ) == 1 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 1 ) ) )
+    {
+        var87 = FUNCTION_0100( 1 );
+        
+        if ( ( FUNCTION_00FA( var87 ) == 1 ) && ( FUNCTION_0148( var87, var88 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var87 = FUNCTION_0101( 1 );
+            
+            if ( var87 == -1 )
+            {
+                var87 = FUNCTION_0100( 1 );
+            }
+
+            var89 = FUNCTION_0109( var87, 1, 1 );
+            AI_ACT_SKILL( var89 );
+        }
+
+        FUNCTION_00FD( var87 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 2 ) == 1 ) && ( ( FUNCTION_0033( 40 ) == 0 ) && MYATTRSKIL( 2 ) ) )
+    {
+        var87 = FUNCTION_0100( 2 );
+        
+        if ( ( FUNCTION_00FA( var87 ) == 1 ) && ( FUNCTION_0148( var87, var88 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var87 = FUNCTION_0101( 2 );
+            
+            if ( var87 == -1 )
+            {
+                var87 = FUNCTION_0100( 2 );
+            }
+
+            var89 = FUNCTION_0109( var87, 2, 1 );
+            AI_ACT_SKILL( var89 );
+        }
+
+        FUNCTION_00FD( var87 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 3 ) == 1 ) && ( MYATTRSKIL( 3 ) == 1 ) )
+    {
+        var87 = FUNCTION_0103( 3 );
+        
+        if ( ( FUNCTION_00FA( var87 ) == 1 ) && ( FUNCTION_0148( var87, var88 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var87 = FUNCTION_0101( 3 );
+            
+            if ( var87 == -1 )
+            {
+                var87 = FUNCTION_0100( 3 );
+            }
+
+            var89 = FUNCTION_0109( var87, 3, 1 );
+            AI_ACT_SKILL( var89 );
+        }
+
+        FUNCTION_00FD( var87 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 4 ) == 1 ) && ( MYATTRSKIL( 4 ) == 1 ) )
+    {
+        var87 = FUNCTION_0103( 4 );
+        
+        if ( ( FUNCTION_00FA( var87 ) == 1 ) && ( FUNCTION_0148( var87, var88 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var87 = FUNCTION_0101( 4 );
+            
+            if ( var87 == -1 )
+            {
+                var87 = FUNCTION_0100( 4 );
+            }
+
+            var89 = FUNCTION_0109( var87, 4, 1 );
+            AI_ACT_SKILL( var89 );
+        }
+
+        FUNCTION_00FD( var87 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 6 ) == 1 ) && ( MYATTRSKIL( 6 ) == 1 ) )
+    {
+        var87 = FUNCTION_0103( 6 );
+        
+        if ( ( FUNCTION_00FA( var87 ) == 1 ) && ( FUNCTION_0148( var87, var88 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var87 = FUNCTION_0101( 6 );
+            
+            if ( var87 == -1 )
+            {
+                var87 = FUNCTION_0100( 6 );
+            }
+
+            var89 = FUNCTION_0109( var87, 6, 1 );
+            AI_ACT_SKILL( var89 );
+        }
+
+        FUNCTION_00FD( var87 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 5 ) == 1 ) && ( MYATTRSKIL( 5 ) == 1 ) )
+    {
+        var87 = FUNCTION_0103( 5 );
+        
+        if ( ( FUNCTION_00FA( var87 ) == 1 ) && ( FUNCTION_0148( var87, var88 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var87 = FUNCTION_0101( 5 );
+            
+            if ( var87 == -1 )
+            {
+                var87 = FUNCTION_0100( 5 );
+            }
+
+            var89 = FUNCTION_0109( var87, 5, 1 );
+            AI_ACT_SKILL( var89 );
+        }
+
+        FUNCTION_00FD( var87 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 8 ) == 1 ) && ( MYATTRSKIL( 8 ) == 1 ) )
+    {
+        var87 = FUNCTION_0103( 8 );
+        
+        if ( ( FUNCTION_00FA( var87 ) == 1 ) && ( FUNCTION_0148( var87, var88 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var87 = FUNCTION_0101( 8 );
+            
+            if ( var87 == -1 )
+            {
+                var87 = FUNCTION_0100( 8 );
+            }
+
+            var89 = FUNCTION_0109( var87, 8, 1 );
+            AI_ACT_SKILL( var89 );
+        }
+
+        FUNCTION_00FD( var87 );
+        return;
+    }
+    else if ( ( ENWEAK_PAI( 9 ) == 1 ) && ( MYATTRSKIL( 9 ) == 1 ) )
+    {
+        var87 = FUNCTION_0103( 9 );
+        
+        if ( ( FUNCTION_00FA( var87 ) == 1 ) && ( FUNCTION_0148( var87, var88 ) == 1 ) )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var87 = FUNCTION_0101( 9 );
+            
+            if ( var87 == -1 )
+            {
+                var87 = FUNCTION_0100( 9 );
+            }
+
+            var89 = FUNCTION_0109( var87, 9, 1 );
+            AI_ACT_SKILL( var89 );
+        }
+
+        FUNCTION_00FD( var87 );
+        return;
+    }
+
+    var87 = FUNCTION_0108( 2 );
+    
+    if ( ( ( var87 != -1 ) && AI_HAS_SKILL( 146 ) ) && ( FUNCTION_0033( 40 ) == 0 ) )
+    {
+        AI_ACT_SKILL( 146 );
+        FUNCTION_00FD( var87 );
+        return;
+    }
+
+    var87 = FUNCTION_00FF();
+    
+    if ( ( FUNCTION_00FA( var87 ) == 1 ) && ( FUNCTION_0148( var87, var88 ) == 1 ) )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var87 );
+        return;
+    }
+
+    var87 = FUNCTION_00FF();
+    
+    if ( FUNCTION_003C( 1 ) == 1 )
+    {
+        var89 = FUNCTION_010B( var87, 1, 0 );
+    }
+    else 
+    {
+        var89 = FUNCTION_010B( var87, 0, 0 );
+    }
+
+    int var91 = 0;
+    
+    if ( var89 != -1 )
+    {
+        var91 = FUNCTION_01CB( var89 );
+        
+        if ( var91 == -1 )
+        {
+            OPEN_MSG_WIN();
+            MSG( 1 );
+            CLOSE_MSG_WIN();
+        }
+
+        
+        if ( ( ( ( var91 == 0 ) || ( var91 == 1 ) ) || ( var91 == 2 ) ) && FUNCTION_0033( 40 ) )
+        {
+            
+            if ( FUNCTION_003C( 1 ) == 1 )
+            {
+                var89 = FUNCTION_010B( var87, 1, 1 );
+            }
+            else 
+            {
+                var89 = FUNCTION_010B( var87, 0, 1 );
+            }
+
+            
+            if ( var89 == -1 )
+            {
+                var88 = FUNCTION_0113();
+                
+                if ( FUNCTION_0148( var87, var88 ) )
+                {
+                    AI_ACT_WEAPON();
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+                else 
+                {
+                    var87 = FUNCTION_0106( var88 );
+                    
+                    if ( var87 != -1 )
+                    {
+                        AI_ACT_WEAPON();
+                        FUNCTION_00FD( var87 );
+                        return;
+                    }
+                    else if ( ( ENNOMAL( 8 ) && MYATTRSKIL( 8 ) ) && ( FUNCTION_019D() == 0 ) )
+                    {
+                        
+                        if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                        {
+                            
+                            if ( AI_HAS_SKILL( 48 ) )
+                            {
+                                AI_ACT_SKILL( 48 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 46 ) )
+                            {
+                                AI_ACT_SKILL( 46 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 47 ) )
+                            {
+                                var87 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 47 );
+                                FUNCTION_00FD( var87 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 45 ) )
+                            {
+                                var87 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 45 );
+                                FUNCTION_00FD( var87 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 49 ) )
+                            {
+                                var87 = FUNCTION_01CC( 8 );
+                                AI_ACT_SKILL( 49 );
+                                FUNCTION_00FD( var87 );
+                                return;
+                            }
+
+                        }
+                        else 
+                        {
+                            var87 = FUNCTION_01CC( 8 );
+                            
+                            if ( AI_HAS_SKILL( 47 ) )
+                            {
+                                AI_ACT_SKILL( 47 );
+                                FUNCTION_00FD( var87 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 45 ) )
+                            {
+                                AI_ACT_SKILL( 45 );
+                                FUNCTION_00FD( var87 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 49 ) )
+                            {
+                                AI_ACT_SKILL( 49 );
+                                FUNCTION_00FD( var87 );
+                                return;
+                            }
+
+                        }
+
+                    }
+                    else if ( ( ENNOMAL( 9 ) && MYATTRSKIL( 9 ) ) && ( FUNCTION_019D() == 0 ) )
+                    {
+                        
+                        if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+                        {
+                            
+                            if ( AI_HAS_SKILL( 54 ) )
+                            {
+                                AI_ACT_SKILL( 54 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 52 ) )
+                            {
+                                AI_ACT_SKILL( 52 );
+                                AI_TAR_RND();
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 53 ) )
+                            {
+                                var87 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 53 );
+                                FUNCTION_00FD( var87 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 51 ) )
+                            {
+                                var87 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 51 );
+                                FUNCTION_00FD( var87 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 55 ) )
+                            {
+                                var87 = FUNCTION_01CC( 9 );
+                                AI_ACT_SKILL( 55 );
+                                FUNCTION_00FD( var87 );
+                                return;
+                            }
+
+                        }
+                        else 
+                        {
+                            var87 = FUNCTION_01CC( 9 );
+                            
+                            if ( AI_HAS_SKILL( 53 ) )
+                            {
+                                AI_ACT_SKILL( 53 );
+                                FUNCTION_00FD( var87 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 51 ) )
+                            {
+                                AI_ACT_SKILL( 51 );
+                                FUNCTION_00FD( var87 );
+                                return;
+                            }
+                            else if ( AI_HAS_SKILL( 55 ) )
+                            {
+                                AI_ACT_SKILL( 55 );
+                                FUNCTION_00FD( var87 );
+                                return;
+                            }
+
+                        }
+
+                    }
+
+                    AI_ACT_WAIT();
+                    AI_TAR_RND();
+                    return;
+                }
+
+            }
+            else 
+            {
+                var91 = FUNCTION_01CB( var89 );
+                
+                if ( var91 == -1 )
+                {
+                    OPEN_MSG_WIN();
+                    MSG( 2 );
+                    CLOSE_MSG_WIN();
+                }
+
+                var90 = FUNCTION_01CE( var91 );
+                
+                if ( var90 != -1 )
+                {
+                    var89 = FUNCTION_010B( var87, 1, 1 );
+                    AI_ACT_SKILL( var89 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+                else 
+                {
+                    AI_ACT_SKILL( var89 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+
+            }
+
+        }
+        else 
+        {
+            var90 = FUNCTION_01CE( var91 );
+            
+            if ( ( var90 != -1 ) || ( FUNCTION_003C( 1 ) == 1 ) )
+            {
+                var89 = FUNCTION_010B( var87, 1, 0 );
+                AI_ACT_SKILL( var89 );
+                FUNCTION_00FD( var87 );
+                return;
+            }
+            else 
+            {
+                AI_ACT_SKILL( var89 );
+                FUNCTION_00FD( var87 );
+                return;
+            }
+
+        }
+
+    }
+    else 
+    {
+        var88 = FUNCTION_0113();
+        var87 = FUNCTION_0106( var88 );
+        
+        if ( var87 != -1 )
+        {
+            AI_ACT_WEAPON();
+            FUNCTION_00FD( var87 );
+            return;
+        }
+        else if ( ( ENNOMAL( 8 ) && MYATTRSKIL( 8 ) ) && ( FUNCTION_019D() == 0 ) )
+        {
+            
+            if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 48 ) )
+                {
+                    AI_ACT_SKILL( 48 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 46 ) )
+                {
+                    AI_ACT_SKILL( 46 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 47 ) )
+                {
+                    var87 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 47 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 45 ) )
+                {
+                    var87 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 45 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 49 ) )
+                {
+                    var87 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 49 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+
+            }
+            else 
+            {
+                var87 = FUNCTION_01CC( 8 );
+                
+                if ( AI_HAS_SKILL( 47 ) )
+                {
+                    AI_ACT_SKILL( 47 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 45 ) )
+                {
+                    AI_ACT_SKILL( 45 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 49 ) )
+                {
+                    var87 = FUNCTION_01CC( 8 );
+                    AI_ACT_SKILL( 49 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+
+            }
+
+        }
+        else if ( ( ENNOMAL( 9 ) && MYATTRSKIL( 9 ) ) && ( FUNCTION_019D() == 0 ) )
+        {
+            
+            if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
+            {
+                
+                if ( AI_HAS_SKILL( 54 ) )
+                {
+                    AI_ACT_SKILL( 54 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 52 ) )
+                {
+                    AI_ACT_SKILL( 52 );
+                    AI_TAR_RND();
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 53 ) )
+                {
+                    var87 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 53 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 51 ) )
+                {
+                    var87 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 51 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 55 ) )
+                {
+                    var87 = FUNCTION_01CC( 9 );
+                    AI_ACT_SKILL( 55 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+
+            }
+            else 
+            {
+                var87 = FUNCTION_01CC( 9 );
+                
+                if ( AI_HAS_SKILL( 53 ) )
+                {
+                    AI_ACT_SKILL( 53 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 51 ) )
+                {
+                    AI_ACT_SKILL( 51 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+                else if ( AI_HAS_SKILL( 55 ) )
+                {
+                    AI_ACT_SKILL( 55 );
+                    FUNCTION_00FD( var87 );
+                    return;
+                }
+
+            }
+
+        }
+
+        AI_ACT_WAIT();
+        AI_TAR_RND();
+        return;
+    }
+
+}
+
+
+void AI_PC_004_001()
+{
+    AI_PC_002_001();
+}
+
+
+void AI_PC_004_002()
+{
+    AI_PC_002_002();
+}
+
+
+void AI_PC_004_003()
+{
+    AI_PC_002_003();
+}
+
+
+void AI_PC_004_004()
+{
+    AI_PC_002_004();
+}
+
+
+void AI_PC_004_005()
+{
+    AI_PC_002_005();
+}
+
+
+void AI_PC_004_006()
+{
+    AI_PC_002_006();
+}
+
+
+void AI_PC_004_007()
+{
+    AI_PC_002_007();
+}
+
+
+void AI_PC_004_008()
+{
+    AI_PC_002_008();
+}
+
+
+void AI_PC_004_009()
+{
+    AI_PC_002_009();
+}
+
+
+void AI_PC_005_001()
+{
+    AI_PC_002_001();
+}
+
+
+void AI_PC_005_002()
+{
+    AI_PC_002_002();
+}
+
+
+void AI_PC_005_003()
+{
+    AI_PC_002_003();
+}
+
+
+void AI_PC_005_004()
+{
+    AI_PC_002_004();
+}
+
+
+void AI_PC_005_005()
+{
+    AI_PC_002_005();
+}
+
+
+void AI_PC_005_006()
+{
+    AI_PC_002_006();
+}
+
+
+void AI_PC_005_007()
+{
+    AI_PC_002_007();
+}
+
+
+void AI_PC_005_008()
+{
+    AI_PC_002_008();
+}
+
+
+void AI_PC_005_009()
+{
+    AI_PC_002_009();
+}
+
+
+void AI_PC_007_001()
+{
+    AI_PC_002_001();
+}
+
+
+void AI_PC_007_002()
+{
+    AI_PC_002_002();
+}
+
+
+void AI_PC_007_003()
+{
+    AI_PC_002_003();
+}
+
+
+void AI_PC_007_004()
+{
+    AI_PC_002_004();
+}
+
+
+void AI_PC_007_005()
+{
+    AI_PC_002_005();
+}
+
+
+void AI_PC_007_006()
+{
+    AI_PC_002_006();
+}
+
+
+void AI_PC_007_007()
+{
+    AI_PC_002_007();
+}
+
+
+void AI_PC_007_008()
+{
+    AI_PC_002_008();
+}
+
+
+void AI_PC_007_009()
+{
+    AI_PC_002_009();
+}
+
+
+void AI_PC_008_001()
+{
+    AI_PC_002_001();
+}
+
+
+void AI_PC_008_002()
+{
+    AI_PC_002_002();
+}
+
+
+void AI_PC_008_003()
+{
+    AI_PC_002_003();
+}
+
+
+void AI_PC_008_004()
+{
+    AI_PC_002_004();
+}
+
+
+void AI_PC_008_005()
+{
+    AI_PC_002_005();
+}
+
+
+void AI_PC_008_006()
+{
+    AI_PC_002_006();
+}
+
+
+void AI_PC_008_007()
+{
+    AI_PC_002_007();
+}
+
+
+void AI_PC_008_008()
+{
+    AI_PC_002_008();
+}
+
+
+void AI_PC_008_009()
+{
+    AI_PC_002_009();
+}
+
+
+void AI_PC_009_001()
+{
+    AI_PC_002_001();
+}
+
+
+void AI_PC_009_002()
+{
+    AI_PC_002_002();
+}
+
+
+void AI_PC_009_003()
+{
+    AI_PC_002_003();
+}
+
+
+void AI_PC_009_004()
+{
+    AI_PC_002_004();
+}
+
+
+void AI_PC_009_005()
+{
+    AI_PC_002_005();
+}
+
+
+void AI_PC_009_006()
+{
+    AI_PC_002_006();
+}
+
+
+void AI_PC_009_007()
+{
+    AI_PC_002_007();
+}
+
+
+void AI_PC_009_008()
+{
+    AI_PC_002_008();
+}
+
+
+void AI_PC_009_009()
+{
+    AI_PC_002_009();
+}
+
+
+void AI_PC_009_00A()
+{
+    AI_PC_003_00A();
+}
+
+
+void AI_PC_00A_001()
+{
+    AI_PC_002_001();
+}
+
+
+void AI_PC_00A_002()
+{
+    AI_PC_002_002();
+}
+
+
+void AI_PC_00A_003()
+{
+    AI_PC_002_003();
+}
+
+
+void AI_PC_00A_004()
+{
+    AI_PC_002_004();
+}
+
+
+void AI_PC_00A_005()
+{
+    AI_PC_002_005();
+}
+
+
+void AI_PC_00A_006()
+{
+    AI_PC_002_006();
+}
+
+
+void AI_PC_00A_007()
+{
+    AI_PC_002_007();
+}
+
+
+void AI_PC_00A_008()
+{
+    AI_PC_002_008();
+}
+
+
+void AI_PC_00A_009()
+{
+    AI_PC_002_009();
+}
+
+
+void GOTODOWN()
+{
+    int var92 = FUNCTION_0113();
+    int var93 = FUNCTION_0101( 0 );
+    int var94 = 0;
+    int var95 = 0;
+    int var96 = 0;
+    
+    if ( ( ( var93 != -1 ) && ( MYATTRSKIL( 0 ) == 1 ) ) && ( ( FUNCTION_0033( 40 ) == 0 ) || ( var92 == 0 ) ) )
+    {
+        
+        if ( var92 == 0 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var94 = FUNCTION_0109( var93, 0, 1 );
+            AI_ACT_SKILL( var94 );
+        }
+
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    var92 = FUNCTION_0113();
+    var93 = FUNCTION_0101( 1 );
+    
+    if ( ( ( var93 != -1 ) && ( MYATTRSKIL( 1 ) == 1 ) ) && ( ( FUNCTION_0033( 40 ) == 0 ) || ( var92 == 1 ) ) )
+    {
+        
+        if ( var92 == 1 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var94 = FUNCTION_0109( var93, 1, 1 );
+            AI_ACT_SKILL( var94 );
+        }
+
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    var92 = FUNCTION_0113();
+    var93 = FUNCTION_0101( 2 );
+    
+    if ( ( ( var93 != -1 ) && ( MYATTRSKIL( 2 ) == 1 ) ) && ( ( FUNCTION_0033( 40 ) == 0 ) || ( var92 == 2 ) ) )
+    {
+        
+        if ( var92 == 2 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var94 = FUNCTION_0109( var93, 2, 1 );
+            AI_ACT_SKILL( var94 );
+        }
+
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    var92 = FUNCTION_0113();
+    var93 = FUNCTION_0104( 3 );
+    
+    if ( ( var93 != -1 ) && ( MYATTRSKIL( 3 ) == 1 ) )
+    {
+        
+        if ( var92 == 3 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var94 = FUNCTION_0109( var93, 3, 1 );
+            AI_ACT_SKILL( var94 );
+        }
+
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    var92 = FUNCTION_0113();
+    var93 = FUNCTION_0104( 4 );
+    
+    if ( ( var93 != -1 ) && ( MYATTRSKIL( 4 ) == 1 ) )
+    {
+        
+        if ( var92 == 4 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var94 = FUNCTION_0109( var93, 4, 1 );
+            AI_ACT_SKILL( var94 );
+        }
+
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    var92 = FUNCTION_0113();
+    var93 = FUNCTION_0104( 5 );
+    
+    if ( ( var93 != -1 ) && ( MYATTRSKIL( 5 ) == 1 ) )
+    {
+        
+        if ( var92 == 5 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var94 = FUNCTION_0109( var93, 5, 1 );
+            AI_ACT_SKILL( var94 );
+        }
+
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    var92 = FUNCTION_0113();
+    var93 = FUNCTION_0104( 6 );
+    
+    if ( ( var93 != -1 ) && ( MYATTRSKIL( 6 ) == 1 ) )
+    {
+        
+        if ( var92 == 6 )
+        {
+            AI_ACT_WEAPON();
+        }
+        else 
+        {
+            var94 = FUNCTION_0109( var93, 6, 1 );
+            AI_ACT_SKILL( var94 );
+        }
+
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    var92 = FUNCTION_0113();
+    var93 = FUNCTION_0111( var92 );
+    
+    if ( ( ( FUNCTION_0040( 0x00100000 ) == 0 ) && FUNCTION_0033( 40 ) ) && ( var93 != -1 ) )
+    {
+        AI_ACT_WEAPON();
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    var93 = FUNCTION_0111( 0 );
+    
+    if ( ( ( ( FUNCTION_0040( 0x00100000 ) == 0 ) && ( FUNCTION_0033( 40 ) == 0 ) ) && ( var93 != -1 ) ) && ( MYATTRSKIL( 0 ) == 1 ) )
+    {
+        var94 = FUNCTION_0109( var93, 0, 1 );
+        AI_ACT_SKILL( var94 );
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    var93 = FUNCTION_0111( 1 );
+    
+    if ( ( ( ( FUNCTION_0040( 0x00100000 ) == 0 ) && ( FUNCTION_0033( 40 ) == 0 ) ) && ( var93 != -1 ) ) && ( MYATTRSKIL( 1 ) == 1 ) )
+    {
+        var94 = FUNCTION_0109( var93, 1, 1 );
+        AI_ACT_SKILL( var94 );
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    var93 = FUNCTION_0111( 2 );
+    
+    if ( ( ( ( FUNCTION_0040( 0x00100000 ) == 0 ) && ( FUNCTION_0033( 40 ) == 0 ) ) && ( var93 != -1 ) ) && ( MYATTRSKIL( 2 ) == 1 ) )
+    {
+        var94 = FUNCTION_0109( var93, 2, 1 );
+        AI_ACT_SKILL( var94 );
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    int var97 = FUNCTION_0140();
+    
+    if ( ( FUNCTION_00F8( var97, 60 ) == 1 ) && ( FUNCTION_00FB( var97, 0x10 ) == 1 ) )
+    {
+        
+        if ( ( FUNCTION_0034( 30 ) == 1 ) && ( FUNCTION_00FC( var97, 0x10 ) == 1 ) )
+        {
+            var93 = FUNCTION_01C8( 50 );
+            
+            if ( var93 >= 2 )
+            {
+                var95 = FUNCTION_010A( var97, 0x10, 0 );
+            }
+            else 
+            {
+                var95 = FUNCTION_010A( var97, 0x10, 1 );
+            }
+
+            FUNCTION_00EB( var95 );
+            FUNCTION_00FD( var97 );
+            return;
+        }
+        else 
+        {
+            var93 = FUNCTION_01C8( 50 );
+            
+            if ( var93 >= 2 )
+            {
+                var96 = FUNCTION_0109( var97, 0x10, 0 );
+            }
+            else 
+            {
+                var96 = FUNCTION_0109( var97, 0x10, 1 );
+            }
+
+            AI_ACT_SKILL( var96 );
+            FUNCTION_00FD( var97 );
+            return;
+        }
+
+    }
+    else if ( ( FUNCTION_00F8( var97, 60 ) == 1 ) && ( FUNCTION_00FC( var97, 0x10 ) == 1 ) )
+    {
+        var93 = FUNCTION_01C8( 50 );
+        
+        if ( var93 >= 2 )
+        {
+            var95 = FUNCTION_010A( var97, 0x10, 0 );
+        }
+        else 
+        {
+            var95 = FUNCTION_010A( var97, 0x10, 1 );
+        }
+
+        FUNCTION_00EB( var95 );
+        FUNCTION_00FD( var97 );
+        return;
+    }
+
+    int var98 = FUNCTION_00FE( 0, 1 );
+    
+    if ( MYBAD( 1, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    {
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var98 );
+        return;
+    }
+
+    
+    if ( MYBAD( 2, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    {
+        var93 = FUNCTION_00FE( 0, 2 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    
+    if ( MYBAD( 3, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    {
+        var93 = FUNCTION_00FE( 0, 3 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    
+    if ( MYBAD( 4, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    {
+        var93 = FUNCTION_00FE( 0, 4 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    
+    if ( MYBAD( 5, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    {
+        var93 = FUNCTION_00FE( 0, 5 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    
+    if ( MYBAD( 7, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    {
+        var93 = FUNCTION_00FE( 0, 7 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    
+    if ( MYBAD( 8, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    {
+        var93 = FUNCTION_00FE( 0, 8 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    
+    if ( MYBAD( 9, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    {
+        var93 = FUNCTION_00FE( 0, 9 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    
+    if ( MYBAD( 10, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    {
+        var93 = FUNCTION_00FE( 0, 10 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    
+    if ( MYBAD( 10, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    {
+        var93 = FUNCTION_00FE( 0, 9 );
+        AI_ACT_SKILL( 201 );
+        FUNCTION_00FD( var93 );
+        return;
+    }
+
+    AI_ACT_WAIT();
+    AI_TAR_RND();
+}
+
