@@ -939,7 +939,7 @@
     {
         "Index": "0x003f",
         "ReturnType": "int",
-        "Name": "FUNCTION_003F",
+        "Name": "AI_ENBAD",
         "Description": "002C7E40",
         "Parameters":
         [

@@ -29,7 +29,7 @@ void AI_PC_002_001()
             FUNCTION_00FD( var0 );
             return;
         }
-        else if ( ( ( FUNCTION_0148( var0, var1 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+        else if ( ( ( FUNCTION_0148( var0, var1 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( AI_ENBAD( 1 ) || AI_ENBAD( 4 ) ) || AI_ENBAD( 8 ) ) || AI_ENBAD( 0x20 ) ) || AI_ENBAD( 0x40 ) ) || AI_ENBAD( 0x00100000 ) ) )
         {
             AI_ACT_WEAPON();
             FUNCTION_00FD( var0 );
@@ -812,7 +812,7 @@ void AI_PC_002_001()
     }
 
     
-    if ( ( FUNCTION_003F( 8 ) && AI_HAS_SKILL( 65 ) ) && ( FUNCTION_019D() == 0 ) )
+    if ( ( AI_ENBAD( 8 ) && AI_HAS_SKILL( 65 ) ) && ( FUNCTION_019D() == 0 ) )
     {
         AI_ACT_SKILL( 65 );
         AI_TAR_RND();
@@ -1863,7 +1863,7 @@ void AI_PC_002_003()
         FUNCTION_00FD( var30 );
         return;
     }
-    else if ( FUNCTION_003F( 0x00100000 ) == 1 )
+    else if ( AI_ENBAD( 0x00100000 ) == 1 )
     {
         var30 = FUNCTION_010F();
         
@@ -2301,7 +2301,7 @@ void AI_PC_002_004()
             FUNCTION_00FD( var31 );
             return;
         }
-        else if ( ( ( FUNCTION_0148( var31, var32 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+        else if ( ( ( FUNCTION_0148( var31, var32 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( AI_ENBAD( 1 ) || AI_ENBAD( 4 ) ) || AI_ENBAD( 8 ) ) || AI_ENBAD( 0x20 ) ) || AI_ENBAD( 0x40 ) ) || AI_ENBAD( 0x00100000 ) ) )
         {
             AI_ACT_WEAPON();
             FUNCTION_00FD( var31 );
@@ -2504,7 +2504,7 @@ void AI_PC_002_004()
     }
 
     
-    if ( ( FUNCTION_003F( 8 ) && AI_HAS_SKILL( 65 ) ) && ( FUNCTION_019D() == 0 ) )
+    if ( ( AI_ENBAD( 8 ) && AI_HAS_SKILL( 65 ) ) && ( FUNCTION_019D() == 0 ) )
     {
         AI_ACT_SKILL( 65 );
         AI_TAR_RND();
@@ -2986,7 +2986,7 @@ void AI_PC_002_005()
             FUNCTION_00FD( var38 );
             return;
         }
-        else if ( ( ( FUNCTION_0148( var38, var39 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+        else if ( ( ( FUNCTION_0148( var38, var39 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( AI_ENBAD( 1 ) || AI_ENBAD( 4 ) ) || AI_ENBAD( 8 ) ) || AI_ENBAD( 0x20 ) ) || AI_ENBAD( 0x40 ) ) || AI_ENBAD( 0x00100000 ) ) )
         {
             AI_ACT_WEAPON();
             FUNCTION_00FD( var38 );
@@ -4498,7 +4498,7 @@ void AI_PC_002_005()
     }
 
     
-    if ( ( FUNCTION_003F( 8 ) && AI_HAS_SKILL( 65 ) ) && ( FUNCTION_019D() == 0 ) )
+    if ( ( AI_ENBAD( 8 ) && AI_HAS_SKILL( 65 ) ) && ( FUNCTION_019D() == 0 ) )
     {
         AI_ACT_SKILL( 65 );
         AI_TAR_RND();
@@ -4723,7 +4723,7 @@ void AI_PC_002_006()
             FUNCTION_00FD( var61 );
             return;
         }
-        else if ( ( ( FUNCTION_0148( var61, var62 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+        else if ( ( ( FUNCTION_0148( var61, var62 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( AI_ENBAD( 1 ) || AI_ENBAD( 4 ) ) || AI_ENBAD( 8 ) ) || AI_ENBAD( 0x20 ) ) || AI_ENBAD( 0x40 ) ) || AI_ENBAD( 0x00100000 ) ) )
         {
             AI_ACT_WEAPON();
             FUNCTION_00FD( var61 );
@@ -4962,7 +4962,7 @@ void AI_PC_002_007()
         FUNCTION_00FD( var73 );
         return;
     }
-    else if ( ( ( FUNCTION_0148( var73, var74 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+    else if ( ( ( FUNCTION_0148( var73, var74 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( AI_ENBAD( 1 ) || AI_ENBAD( 4 ) ) || AI_ENBAD( 8 ) ) || AI_ENBAD( 0x20 ) ) || AI_ENBAD( 0x40 ) ) || AI_ENBAD( 0x00100000 ) ) )
     {
         AI_ACT_WEAPON();
         FUNCTION_00FD( var73 );
@@ -5383,7 +5383,7 @@ void AI_PC_002_008()
         FUNCTION_00FD( var80 );
         return;
     }
-    else if ( ( ( FUNCTION_0148( var80, var81 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+    else if ( ( ( FUNCTION_0148( var80, var81 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( AI_ENBAD( 1 ) || AI_ENBAD( 4 ) ) || AI_ENBAD( 8 ) ) || AI_ENBAD( 0x20 ) ) || AI_ENBAD( 0x40 ) ) || AI_ENBAD( 0x00100000 ) ) )
     {
         AI_ACT_WEAPON();
         FUNCTION_00FD( var80 );
@@ -5878,7 +5878,7 @@ void AI_PC_003_00A()
             FUNCTION_00FD( var87 );
             return;
         }
-        else if ( ( ( FUNCTION_0148( var87, var88 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( FUNCTION_003F( 1 ) || FUNCTION_003F( 4 ) ) || FUNCTION_003F( 8 ) ) || FUNCTION_003F( 0x20 ) ) || FUNCTION_003F( 0x40 ) ) || FUNCTION_003F( 0x00100000 ) ) )
+        else if ( ( ( FUNCTION_0148( var87, var88 ) == 1 ) && ( FUNCTION_0045() == 1 ) ) && ( ( ( ( ( AI_ENBAD( 1 ) || AI_ENBAD( 4 ) ) || AI_ENBAD( 8 ) ) || AI_ENBAD( 0x20 ) ) || AI_ENBAD( 0x40 ) ) || AI_ENBAD( 0x00100000 ) ) )
         {
             AI_ACT_WEAPON();
             FUNCTION_00FD( var87 );

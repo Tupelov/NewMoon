@@ -1755,7 +1755,7 @@ void AI_P_TUKIBITOA()
     }
 
     
-    if ( FUNCTION_003F( 4 ) == 1 )
+    if ( AI_ENBAD( 4 ) == 1 )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 458 ) );
     }
@@ -4702,7 +4702,7 @@ void AI_NEMURU_KAI()
 {
     int var135 = RNG( 100 );
     
-    if ( FUNCTION_003F( 8 ) == 1 )
+    if ( AI_ENBAD( 8 ) == 1 )
     {
         AI_ACT_SKILL( 65 );
         AI_TAR_RND();
@@ -5351,7 +5351,7 @@ void AI_TENBATU()
 {
     int var144 = RNG( 100 );
     
-    if ( ( FUNCTION_003F( 0x10 ) == 1 ) && ( FUNCTION_01C7( 0x00010000 ) == 0 ) )
+    if ( ( AI_ENBAD( 0x10 ) == 1 ) && ( FUNCTION_01C7( 0x00010000 ) == 0 ) )
     {
         AI_ACT_SKILL( 241 );
         AI_TAR_RND();
@@ -5487,13 +5487,13 @@ void AI_ROYAL_KAI()
             FUNCTION_0065( 2 );
             return;
         }
-        else if ( ( ( FUNCTION_003F( 1 ) == 1 ) || ( FUNCTION_003F( 4 ) == 1 ) ) || ( FUNCTION_003F( 0x80 ) == 1 ) )
+        else if ( ( ( AI_ENBAD( 1 ) == 1 ) || ( AI_ENBAD( 4 ) == 1 ) ) || ( AI_ENBAD( 0x80 ) == 1 ) )
         {
             AI_ACT_WEAPON();
             AI_TAR_RND();
             return;
         }
-        else if ( ( ( FUNCTION_003F( 1 ) == 0 ) && ( FUNCTION_003F( 4 ) == 0 ) ) && ( FUNCTION_003F( 0x80 ) == 0 ) )
+        else if ( ( ( AI_ENBAD( 1 ) == 0 ) && ( AI_ENBAD( 4 ) == 0 ) ) && ( AI_ENBAD( 0x80 ) == 0 ) )
         {
             AI_ACT_SKILL( 57 );
             FUNCTION_0064( 1 );
@@ -5510,7 +5510,7 @@ void AI_ROYAL_KAI()
     else if ( var145 < ( 20 + 10 ) )
     {
         
-        if ( ( ( FUNCTION_003F( 1 ) == 0 ) || ( FUNCTION_003F( 4 ) == 0 ) ) || ( FUNCTION_003F( 0x80 ) == 0 ) )
+        if ( ( ( AI_ENBAD( 1 ) == 0 ) || ( AI_ENBAD( 4 ) == 0 ) ) || ( AI_ENBAD( 0x80 ) == 0 ) )
         {
             AI_ACT_SKILL( 58 );
             AI_TAR_RND();
@@ -5527,13 +5527,13 @@ void AI_ROYAL_KAI()
     else if ( var145 < ( ( 20 + 10 ) + 20 ) )
     {
         
-        if ( ( ( FUNCTION_003F( 4 ) == 1 ) || ( FUNCTION_003F( 1 ) == 1 ) ) || ( FUNCTION_003F( 0x80 ) == 1 ) )
+        if ( ( ( AI_ENBAD( 4 ) == 1 ) || ( AI_ENBAD( 1 ) == 1 ) ) || ( AI_ENBAD( 0x80 ) == 1 ) )
         {
             AI_ACT_SKILL( 117 );
             AI_TAR_RND();
             return;
         }
-        else if ( ( ( FUNCTION_003F( 13 ) == 0 ) && ( FUNCTION_003F( 1 ) == 0 ) ) && ( FUNCTION_003F( 0x80 ) == 0 ) )
+        else if ( ( ( AI_ENBAD( 13 ) == 0 ) && ( AI_ENBAD( 1 ) == 0 ) ) && ( AI_ENBAD( 0x80 ) == 0 ) )
         {
             AI_ACT_SKILL( 61 );
             FUNCTION_0064( 13 );
@@ -5549,7 +5549,7 @@ void AI_ROYAL_KAI()
     else if ( var145 < ( ( ( 20 + 10 ) + 20 ) + 10 ) )
     {
         
-        if ( ( ( FUNCTION_003F( 4 ) == 0 ) || ( FUNCTION_003F( 1 ) == 0 ) ) || ( FUNCTION_003F( 0x80 ) == 0 ) )
+        if ( ( ( AI_ENBAD( 4 ) == 0 ) || ( AI_ENBAD( 1 ) == 0 ) ) || ( AI_ENBAD( 0x80 ) == 0 ) )
         {
             AI_ACT_SKILL( 62 );
             AI_TAR_RND();
@@ -5566,13 +5566,13 @@ void AI_ROYAL_KAI()
     else if ( var145 < ( ( ( ( 20 + 10 ) + 20 ) + 10 ) + 20 ) )
     {
         
-        if ( ( ( FUNCTION_003F( 4 ) == 1 ) || ( FUNCTION_003F( 1 ) == 1 ) ) || ( FUNCTION_003F( 0x80 ) == 1 ) )
+        if ( ( ( AI_ENBAD( 4 ) == 1 ) || ( AI_ENBAD( 1 ) == 1 ) ) || ( AI_ENBAD( 0x80 ) == 1 ) )
         {
             AI_ACT_SKILL( 68 );
             AI_TAR_RND();
             return;
         }
-        else if ( ( ( FUNCTION_003F( 13 ) == 0 ) && ( FUNCTION_003F( 1 ) == 0 ) ) && ( FUNCTION_003F( 0x80 ) == 0 ) )
+        else if ( ( ( AI_ENBAD( 13 ) == 0 ) && ( AI_ENBAD( 1 ) == 0 ) ) && ( AI_ENBAD( 0x80 ) == 0 ) )
         {
             AI_ACT_SKILL( 68 );
             FUNCTION_0064( 0x80 );
@@ -5589,7 +5589,7 @@ void AI_ROYAL_KAI()
     else if ( var145 < ( ( ( ( ( 20 + 10 ) + 20 ) + 10 ) + 20 ) + 10 ) )
     {
         
-        if ( ( ( FUNCTION_003F( 4 ) == 0 ) || ( FUNCTION_003F( 1 ) == 0 ) ) || ( FUNCTION_003F( 0x80 ) == 0 ) )
+        if ( ( ( AI_ENBAD( 4 ) == 0 ) || ( AI_ENBAD( 1 ) == 0 ) ) || ( AI_ENBAD( 0x80 ) == 0 ) )
         {
             AI_ACT_SKILL( 69 );
             AI_TAR_RND();
@@ -6444,7 +6444,7 @@ void AI_KYOUSIN()
         else if ( var157 < ( 20 + 20 ) )
         {
             
-            if ( FUNCTION_003F( 0x80 ) == 1 )
+            if ( AI_ENBAD( 0x80 ) == 1 )
             {
                 AI_ACT_SKILL( 0x20 );
                 AI_TAR_RND();
@@ -6503,7 +6503,7 @@ void AI_KYOUSIN()
     else if ( var155 < 20 )
     {
         
-        if ( FUNCTION_003F( 0x80 ) == 0 )
+        if ( AI_ENBAD( 0x80 ) == 0 )
         {
             AI_ACT_SKILL( 69 );
             AI_TAR_RND();
@@ -6768,7 +6768,7 @@ void AI_GRAND_MAGS()
     else if ( var161 < ( ( ( 20 + 20 ) + 20 ) + 20 ) )
     {
         
-        if ( FUNCTION_003F( 4 ) == 0 )
+        if ( AI_ENBAD( 4 ) == 0 )
         {
             AI_ACT_SKILL( 62 );
             AI_TAR_RND();
@@ -6841,7 +6841,7 @@ void AI_ABYSS_MOTHER()
     int var164 = RNG( 100 );
     int var165 = RNG( 100 );
     
-    if ( FUNCTION_003F( 8 ) == 1 )
+    if ( AI_ENBAD( 8 ) == 1 )
     {
         
         if ( var165 < 50 )
@@ -7534,7 +7534,7 @@ void AI_EIEN_TOKEI()
     else if ( var179 < ( ( ( ( 20 + 20 ) + 20 ) + 20 ) + 20 ) )
     {
         
-        if ( ( FUNCTION_003F( 2 ) == 0 ) || ( FUNCTION_003F( 4 ) == 0 ) )
+        if ( ( AI_ENBAD( 2 ) == 0 ) || ( AI_ENBAD( 4 ) == 0 ) )
         {
             AI_ACT_SKILL( 60 );
             AI_TAR_RND();
@@ -7551,7 +7551,7 @@ void AI_EIEN_TOKEI()
     else if ( var179 < ( ( ( ( ( 20 + 20 ) + 20 ) + 20 ) + 20 ) + 20 ) )
     {
         
-        if ( ( FUNCTION_003F( 2 ) == 0 ) || ( FUNCTION_003F( 4 ) == 0 ) )
+        if ( ( AI_ENBAD( 2 ) == 0 ) || ( AI_ENBAD( 4 ) == 0 ) )
         {
             AI_ACT_SKILL( 62 );
             AI_TAR_RND();
@@ -8037,7 +8037,7 @@ void AI_ROYAL_AEGIS()
     }
 
     
-    if ( FUNCTION_003F( 2 ) == 1 )
+    if ( AI_ENBAD( 2 ) == 1 )
     {
         AI_ACT_SKILL( 117 );
         AI_TAR_RND();
@@ -8075,7 +8075,7 @@ void AI_ROYAL_AEGIS()
         else if ( var188 < ( ( 30 + 30 ) + 20 ) )
         {
             
-            if ( FUNCTION_003F( 0x80 ) == 0 )
+            if ( AI_ENBAD( 0x80 ) == 0 )
             {
                 AI_ACT_SKILL( 69 );
                 AI_TAR_RND();
@@ -8123,7 +8123,7 @@ void AI_ROYAL_AEGIS()
     else if ( var189 < ( ( 35 + 15 ) + 15 ) )
     {
         
-        if ( FUNCTION_003F( 0x80 ) == 0 )
+        if ( AI_ENBAD( 0x80 ) == 0 )
         {
             AI_ACT_SKILL( 69 );
             AI_TAR_RND();
@@ -8193,7 +8193,7 @@ void AI_ZANKOKU_AEGIS()
     else if ( var190 < ( ( 35 + 30 ) + 20 ) )
     {
         
-        if ( FUNCTION_003F( 2 ) == 0 )
+        if ( AI_ENBAD( 2 ) == 0 )
         {
             AI_ACT_SKILL( 60 );
             AI_TAR_RND();
@@ -8913,13 +8913,13 @@ void AI_IKARI_AEGIS()
     if ( FUNCTION_0044( 0x00400000 ) == 1 )
     {
         
-        if ( FUNCTION_003F( 0x10 ) == 1 )
+        if ( AI_ENBAD( 0x10 ) == 1 )
         {
             AI_ACT_WEAPON();
             FUNCTION_0063( 0x10 );
             return;
         }
-        else if ( FUNCTION_003F( 0x10 ) == 0 )
+        else if ( AI_ENBAD( 0x10 ) == 0 )
         {
             AI_ACT_SKILL( 67 );
             AI_TAR_RND();
@@ -8963,7 +8963,7 @@ void AI_IKARI_AEGIS()
 void AI_SAKEBU_AEGIS()
 {
     
-    if ( ( FUNCTION_003F( 0x10 ) == 1 ) && ( FUNCTION_0043( 0x00010000 ) == 0 ) )
+    if ( ( AI_ENBAD( 0x10 ) == 1 ) && ( FUNCTION_0043( 0x00010000 ) == 0 ) )
     {
         AI_ACT_SKILL( 241 );
         AI_TAR_RND();
@@ -9178,7 +9178,7 @@ void AI_OKUBYOU_AEGIS()
 {
     int var205 = RNG( 100 );
     
-    if ( FUNCTION_003F( 8 ) == 1 )
+    if ( AI_ENBAD( 8 ) == 1 )
     {
         AI_ACT_SKILL( 65 );
         AI_TAR_RND();
@@ -10227,7 +10227,7 @@ void AI_AKERON_AEGIS()
     else if ( var216 < ( ( 30 + 30 ) + 10 ) )
     {
         
-        if ( ( FUNCTION_003F( 4 ) == 0 ) && ( FUNCTION_0040( 8 ) == 0 ) )
+        if ( ( AI_ENBAD( 4 ) == 0 ) && ( FUNCTION_0040( 8 ) == 0 ) )
         {
             AI_ACT_SKILL( 62 );
             AI_TAR_RND();
@@ -10244,7 +10244,7 @@ void AI_AKERON_AEGIS()
     else if ( var216 < ( ( ( 30 + 30 ) + 10 ) + 10 ) )
     {
         
-        if ( ( FUNCTION_003F( 8 ) == 0 ) && ( FUNCTION_0040( 4 ) == 0 ) )
+        if ( ( AI_ENBAD( 8 ) == 0 ) && ( FUNCTION_0040( 4 ) == 0 ) )
         {
             AI_ACT_SKILL( 0x40 );
             AI_TAR_RND();
@@ -10341,7 +10341,7 @@ void AI_KONKYU_AEGIS()
             AI_TAR_RND();
             return;
         }
-        else if ( FUNCTION_003F( 0x80 ) == 0 )
+        else if ( AI_ENBAD( 0x80 ) == 0 )
         {
             AI_ACT_SKILL( 148 );
             FUNCTION_0064( 0x80 );
@@ -11020,7 +11020,7 @@ void AI_Erebos_B()
     }
 
     
-    if ( ( ( FUNCTION_003F( 2 ) == 1 ) || ( FUNCTION_003F( 4 ) == 1 ) ) || ( FUNCTION_003F( 8 ) == 1 ) )
+    if ( ( ( AI_ENBAD( 2 ) == 1 ) || ( AI_ENBAD( 4 ) == 1 ) ) || ( AI_ENBAD( 8 ) == 1 ) )
     {
         AI_ACT_SKILL( 111 );
         AI_TAR_RND();
@@ -12026,7 +12026,7 @@ void AI_Shadow_hero_AMADA()
     }
 
     
-    if ( FUNCTION_003F( 0x00100000 ) == 1 )
+    if ( AI_ENBAD( 0x00100000 ) == 1 )
     {
         AI_ACT_PERSONA( 229, 147 );
         FUNCTION_0063( 0x00100000 );
@@ -12177,13 +12177,13 @@ void AI_AMADAK_AEGIS()
     else if ( FUNCTION_0033( 50 ) == 0 )
     {
         
-        if ( FUNCTION_003F( 0x00100000 ) == 1 )
+        if ( AI_ENBAD( 0x00100000 ) == 1 )
         {
             AI_ACT_SKILL( 147 );
             FUNCTION_008C();
             return;
         }
-        else if ( FUNCTION_003F( 0x00100000 ) == 0 )
+        else if ( AI_ENBAD( 0x00100000 ) == 0 )
         {
             
             if ( FUNCTION_0044( 0x4000 ) == 0 )
@@ -12245,13 +12245,13 @@ void AI_AMADAK_AEGIS()
     else if ( FUNCTION_0033( 50 ) == 1 )
     {
         
-        if ( FUNCTION_003F( 0x00100000 ) == 1 )
+        if ( AI_ENBAD( 0x00100000 ) == 1 )
         {
             AI_ACT_SKILL( 147 );
             FUNCTION_008C();
             return;
         }
-        else if ( FUNCTION_003F( 0x00100000 ) == 0 )
+        else if ( AI_ENBAD( 0x00100000 ) == 0 )
         {
             
             if ( FUNCTION_0044( 0x00008000 ) == 0 )
@@ -12531,7 +12531,7 @@ void AI_Junpei()
     else if ( var248 < ( ( ( ( 13 + 13 ) + 13 ) + 13 ) + 12 ) )
     {
         
-        if ( FUNCTION_003F( 4 ) == 0 )
+        if ( AI_ENBAD( 4 ) == 0 )
         {
             AI_ACT_SKILL( 62 );
             AI_TAR_RND();
@@ -12649,7 +12649,7 @@ void AI_Koromaru()
     else if ( var249 < ( ( ( ( 12 + 11 ) + 11 ) + 11 ) + 11 ) )
     {
         
-        if ( FUNCTION_003F( 8 ) == 0 )
+        if ( AI_ENBAD( 8 ) == 0 )
         {
             AI_ACT_SKILL( 0x40 );
             AI_TAR_RND();
@@ -12860,7 +12860,7 @@ void AI_MIRURU_AEGIS()
         else if ( var253 < ( 20 + 20 ) )
         {
             
-            if ( FUNCTION_003F( 1 ) == 0 )
+            if ( AI_ENBAD( 1 ) == 0 )
             {
                 AI_ACT_SKILL( 58 );
                 AI_TAR_RND();
@@ -12877,7 +12877,7 @@ void AI_MIRURU_AEGIS()
         else if ( var253 < ( ( 20 + 20 ) + 20 ) )
         {
             
-            if ( FUNCTION_003F( 4 ) == 0 )
+            if ( AI_ENBAD( 4 ) == 0 )
             {
                 AI_ACT_SKILL( 62 );
                 AI_TAR_RND();
