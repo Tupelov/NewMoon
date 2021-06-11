@@ -461,9 +461,9 @@ void AI_PC_002_001()
     var13 = RNG( 100 );
     var7 = FUNCTION_00FE( 0, 1 );
     
-    if ( ( ( var13 <= var12 ) && AI_MYBAD( 1, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var13 <= var12 ) && AI_MYBAD( 1, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var7 );
         return;
     }
@@ -495,82 +495,82 @@ void AI_PC_002_001()
 
     var13 = RNG( 100 );
     
-    if ( ( ( var13 <= var12 ) && AI_MYBAD( 2, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var13 <= var12 ) && AI_MYBAD( 2, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var0 = FUNCTION_00FE( 0, 2 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var0 );
         return;
     }
 
     
-    if ( ( ( var13 <= var12 ) && AI_MYBAD( 3, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var13 <= var12 ) && AI_MYBAD( 3, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var0 = FUNCTION_00FE( 0, 3 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var0 );
         return;
     }
 
     
-    if ( ( ( var13 <= var12 ) && AI_MYBAD( 4, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var13 <= var12 ) && AI_MYBAD( 4, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var0 = FUNCTION_00FE( 0, 4 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var0 );
         return;
     }
 
     
-    if ( ( ( var13 <= var12 ) && AI_MYBAD( 5, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var13 <= var12 ) && AI_MYBAD( 5, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var0 = FUNCTION_00FE( 0, 5 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var0 );
         return;
     }
 
     
-    if ( ( ( var13 <= var12 ) && AI_MYBAD( 7, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var13 <= var12 ) && AI_MYBAD( 7, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var0 = FUNCTION_00FE( 0, 7 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var0 );
         return;
     }
 
     
-    if ( ( ( var13 <= var12 ) && AI_MYBAD( 8, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var13 <= var12 ) && AI_MYBAD( 8, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var0 = FUNCTION_00FE( 0, 8 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var0 );
         return;
     }
 
     
-    if ( ( ( var13 <= var12 ) && AI_MYBAD( 9, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var13 <= var12 ) && AI_MYBAD( 9, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var0 = FUNCTION_00FE( 0, 9 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var0 );
         return;
     }
 
     
-    if ( ( ( var13 <= var12 ) && AI_MYBAD( 10, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var13 <= var12 ) && AI_MYBAD( 10, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var0 = FUNCTION_00FE( 0, 10 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var0 );
         return;
     }
 
     
-    if ( ( ( var13 <= var12 ) && AI_MYBAD( 9, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var13 <= var12 ) && AI_MYBAD( 9, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var0 = FUNCTION_00FE( 0, 9 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var0 );
         return;
     }
@@ -594,9 +594,9 @@ void AI_PC_002_001()
 
         var13 = RNG( 100 );
         
-        if ( ( var13 <= var12 ) && AI_HAS_SKILL( 223 ) )
+        if ( ( var13 <= var12 ) && AI_HAS_SKILL( BattleSkill.Dekaja ) )
         {
-            AI_ACT_SKILL( 223 );
+            AI_ACT_SKILL( BattleSkill.Dekaja );
             AI_TAR_RND();
             return;
         }
@@ -628,9 +628,9 @@ void AI_PC_002_001()
 
         var13 = RNG( 100 );
         
-        if ( ( var13 <= var12 ) && AI_HAS_SKILL( 212 ) )
+        if ( ( var13 <= var12 ) && AI_HAS_SKILL( BattleSkill.Dekunda ) )
         {
-            AI_ACT_SKILL( 212 );
+            AI_ACT_SKILL( BattleSkill.Dekunda );
             AI_TAR_RND();
             return;
         }
@@ -672,81 +672,81 @@ void AI_PC_002_001()
     {
         var0 = FUNCTION_01CE( 3 );
         
-        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 1, 3 ) ) && AI_HAS_SKILL( 229 ) )
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 1, 3 ) ) && AI_HAS_SKILL( BattleSkill.FireBreak ) )
         {
-            AI_ACT_SKILL( 229 );
+            AI_ACT_SKILL( BattleSkill.FireBreak );
             FUNCTION_00FD( var0 );
             return;
         }
 
         var0 = FUNCTION_01CE( 4 );
         
-        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 1, 4 ) ) && AI_HAS_SKILL( 230 ) )
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 1, 4 ) ) && AI_HAS_SKILL( BattleSkill.IceBreak ) )
         {
-            AI_ACT_SKILL( 230 );
+            AI_ACT_SKILL( BattleSkill.IceBreak );
             FUNCTION_00FD( var0 );
             return;
         }
 
         var0 = FUNCTION_01CE( 6 );
         
-        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 1, 6 ) ) && AI_HAS_SKILL( 231 ) )
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 1, 6 ) ) && AI_HAS_SKILL( BattleSkill.WindBreak ) )
         {
-            AI_ACT_SKILL( 231 );
+            AI_ACT_SKILL( BattleSkill.WindBreak );
             FUNCTION_00FD( var0 );
             return;
         }
 
         var0 = FUNCTION_01CE( 5 );
         
-        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 1, 5 ) ) && AI_HAS_SKILL( 232 ) )
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 1, 5 ) ) && AI_HAS_SKILL( BattleSkill.ElecBreak ) )
         {
-            AI_ACT_SKILL( 232 );
+            AI_ACT_SKILL( BattleSkill.ElecBreak );
             FUNCTION_00FD( var0 );
             return;
         }
 
         var0 = FUNCTION_01CE( 3 );
         
-        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 5, 3 ) ) && AI_HAS_SKILL( 229 ) )
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 5, 3 ) ) && AI_HAS_SKILL( BattleSkill.FireBreak ) )
         {
-            AI_ACT_SKILL( 229 );
+            AI_ACT_SKILL( BattleSkill.FireBreak );
             FUNCTION_00FD( var0 );
             return;
         }
 
         var0 = FUNCTION_01CE( 3 );
         
-        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 10, 3 ) ) && AI_HAS_SKILL( 229 ) )
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 10, 3 ) ) && AI_HAS_SKILL( BattleSkill.FireBreak ) )
         {
-            AI_ACT_SKILL( 229 );
+            AI_ACT_SKILL( BattleSkill.FireBreak );
             FUNCTION_00FD( var0 );
             return;
         }
 
         var0 = FUNCTION_01CE( 6 );
         
-        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 2, 6 ) ) && AI_HAS_SKILL( 231 ) )
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 2, 6 ) ) && AI_HAS_SKILL( BattleSkill.WindBreak ) )
         {
-            AI_ACT_SKILL( 231 );
+            AI_ACT_SKILL( BattleSkill.WindBreak );
             FUNCTION_00FD( var0 );
             return;
         }
 
         var0 = FUNCTION_01CE( 5 );
         
-        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 7, 5 ) ) && AI_HAS_SKILL( 232 ) )
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 7, 5 ) ) && AI_HAS_SKILL( BattleSkill.ElecBreak ) )
         {
-            AI_ACT_SKILL( 232 );
+            AI_ACT_SKILL( BattleSkill.ElecBreak );
             FUNCTION_00FD( var0 );
             return;
         }
 
         var0 = FUNCTION_01CE( 4 );
         
-        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 4, 4 ) ) && AI_HAS_SKILL( 230 ) )
+        if ( ( ( var0 != -1 ) && FUNCTION_01CF( 4, 4 ) ) && AI_HAS_SKILL( BattleSkill.IceBreak ) )
         {
-            AI_ACT_SKILL( 230 );
+            AI_ACT_SKILL( BattleSkill.IceBreak );
             FUNCTION_00FD( var0 );
             return;
         }
@@ -773,9 +773,9 @@ void AI_PC_002_001()
 
     var13 = RNG( 100 );
     
-    if ( ( ( var13 <= var6 ) && ( FUNCTION_01C7( 0x0800 ) == 0 ) ) && AI_HAS_SKILL( 221 ) )
+    if ( ( ( var13 <= var6 ) && ( FUNCTION_01C7( 0x0800 ) == 0 ) ) && AI_HAS_SKILL( BattleSkill.MindCharge ) )
     {
-        AI_ACT_SKILL( 221 );
+        AI_ACT_SKILL( BattleSkill.MindCharge );
         AI_TAR_RND();
         return;
     }
@@ -800,18 +800,18 @@ void AI_PC_002_001()
 
     var13 = RNG( 100 );
     
-    if ( ( ( var13 <= var6 ) && ( FUNCTION_01C7( 0x0400 ) == 0 ) ) && AI_HAS_SKILL( 220 ) )
+    if ( ( ( var13 <= var6 ) && ( FUNCTION_01C7( 0x0400 ) == 0 ) ) && AI_HAS_SKILL( BattleSkill.PowerCharge ) )
     {
-        AI_ACT_SKILL( 220 );
+        AI_ACT_SKILL( BattleSkill.PowerCharge );
         AI_TAR_RND();
         return;
     }
 
     var0 = FUNCTION_0108( 2 );
     
-    if ( ( ( var0 != -1 ) && AI_HAS_SKILL( 146 ) ) && ( FUNCTION_0033( 40 ) == 0 ) )
+    if ( ( ( var0 != -1 ) && AI_HAS_SKILL( BattleSkill.CruelAttack ) ) && ( FUNCTION_0033( 40 ) == 0 ) )
     {
-        AI_ACT_SKILL( 146 );
+        AI_ACT_SKILL( BattleSkill.CruelAttack );
         FUNCTION_00FD( var0 );
         return;
     }
@@ -826,17 +826,17 @@ void AI_PC_002_001()
     }
 
     
-    if ( FUNCTION_0034( 10 ) && AI_HAS_SKILL( 76 ) )
+    if ( FUNCTION_0034( 10 ) && AI_HAS_SKILL( BattleSkill.SpiritDrain76 ) )
     {
-        AI_ACT_SKILL( 76 );
+        AI_ACT_SKILL( BattleSkill.SpiritDrain76 );
         AI_MPMAX();
         return;
     }
 
     
-    if ( ( AI_ENBAD( 8 ) && AI_HAS_SKILL( 65 ) ) && ( FUNCTION_019D() == 0 ) )
+    if ( ( AI_ENBAD( 8 ) && AI_HAS_SKILL( BattleSkill.GhastlyWail ) ) && ( FUNCTION_019D() == 0 ) )
     {
-        AI_ACT_SKILL( 65 );
+        AI_ACT_SKILL( BattleSkill.GhastlyWail );
         AI_TAR_RND();
         return;
     }
@@ -884,15 +884,15 @@ void AI_PC_002_001()
         if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
         {
             
-            if ( AI_HAS_SKILL( 48 ) )
+            if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
             {
-                AI_ACT_SKILL( 48 );
+                AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                 AI_TAR_RND();
                 return;
             }
-            else if ( AI_HAS_SKILL( 46 ) )
+            else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
             {
-                AI_ACT_SKILL( 46 );
+                AI_ACT_SKILL( BattleSkill.Mahama );
                 AI_TAR_RND();
                 return;
             }
@@ -902,15 +902,15 @@ void AI_PC_002_001()
         {
             var0 = FUNCTION_01CC( 8 );
             
-            if ( AI_HAS_SKILL( 47 ) )
+            if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
             {
-                AI_ACT_SKILL( 47 );
+                AI_ACT_SKILL( BattleSkill.Hamaon );
                 FUNCTION_00FD( var0 );
                 return;
             }
-            else if ( AI_HAS_SKILL( 45 ) )
+            else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
             {
-                AI_ACT_SKILL( 45 );
+                AI_ACT_SKILL( BattleSkill.Hama );
                 FUNCTION_00FD( var0 );
                 return;
             }
@@ -934,15 +934,15 @@ void AI_PC_002_001()
         if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
         {
             
-            if ( AI_HAS_SKILL( 54 ) )
+            if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
             {
-                AI_ACT_SKILL( 54 );
+                AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                 AI_TAR_RND();
                 return;
             }
-            else if ( AI_HAS_SKILL( 52 ) )
+            else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
             {
-                AI_ACT_SKILL( 52 );
+                AI_ACT_SKILL( BattleSkill.Mamudo );
                 AI_TAR_RND();
                 return;
             }
@@ -952,15 +952,15 @@ void AI_PC_002_001()
         {
             var0 = FUNCTION_01CC( 9 );
             
-            if ( AI_HAS_SKILL( 53 ) )
+            if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
             {
-                AI_ACT_SKILL( 53 );
+                AI_ACT_SKILL( BattleSkill.Mudoon );
                 FUNCTION_00FD( var0 );
                 return;
             }
-            else if ( AI_HAS_SKILL( 51 ) )
+            else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
             {
-                AI_ACT_SKILL( 51 );
+                AI_ACT_SKILL( BattleSkill.Mudo );
                 FUNCTION_00FD( var0 );
                 return;
             }
@@ -980,23 +980,23 @@ void AI_PC_002_001()
     var11 = ( var9 - var10 );
     BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     
-    if ( ( ( AI_HAS_SKILL( 57 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
+    if ( ( ( AI_HAS_SKILL( BattleSkill.MarinKarin ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( AI_HAS_SKILL( 57 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
+    else if ( ( ( AI_HAS_SKILL( BattleSkill.MarinKarin ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( AI_HAS_SKILL( 57 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
+    else if ( ( ( AI_HAS_SKILL( BattleSkill.MarinKarin ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( AI_HAS_SKILL( 57 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
+    else if ( ( ( AI_HAS_SKILL( BattleSkill.MarinKarin ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( AI_HAS_SKILL( 57 ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
+    else if ( ( AI_HAS_SKILL( BattleSkill.MarinKarin ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
@@ -1031,7 +1031,7 @@ void AI_PC_002_001()
         
         if ( var13 <= var6 )
         {
-            AI_ACT_SKILL( 57 );
+            AI_ACT_SKILL( BattleSkill.MarinKarin );
             AI_NOTBAD( 1 );
             return;
         }
@@ -1040,23 +1040,23 @@ void AI_PC_002_001()
 
     BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     
-    if ( ( ( ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
+    if ( ( ( ( AI_HAS_SKILL( BattleSkill.SexyDance58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
+    else if ( ( ( ( AI_HAS_SKILL( BattleSkill.SexyDance58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
+    else if ( ( ( ( AI_HAS_SKILL( BattleSkill.SexyDance58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
+    else if ( ( ( ( AI_HAS_SKILL( BattleSkill.SexyDance58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
+    else if ( ( ( AI_HAS_SKILL( BattleSkill.SexyDance58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
@@ -1089,9 +1089,9 @@ void AI_PC_002_001()
 
         var13 = RNG( 100 );
         
-        if ( ( var13 <= var6 ) && AI_HAS_SKILL( 58 ) )
+        if ( ( var13 <= var6 ) && AI_HAS_SKILL( BattleSkill.SexyDance58 ) )
         {
-            AI_ACT_SKILL( 58 );
+            AI_ACT_SKILL( BattleSkill.SexyDance58 );
             AI_TAR_RND();
             return;
         }
@@ -1106,23 +1106,23 @@ void AI_PC_002_001()
 
     BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     
-    if ( ( ( ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
+    if ( ( ( ( AI_HAS_SKILL( BattleSkill.Tentarafoo62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
+    else if ( ( ( ( AI_HAS_SKILL( BattleSkill.Tentarafoo62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
+    else if ( ( ( ( AI_HAS_SKILL( BattleSkill.Tentarafoo62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
+    else if ( ( ( ( AI_HAS_SKILL( BattleSkill.Tentarafoo62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
+    else if ( ( ( AI_HAS_SKILL( BattleSkill.Tentarafoo62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
@@ -1155,9 +1155,9 @@ void AI_PC_002_001()
 
         var13 = RNG( 100 );
         
-        if ( ( var13 <= var6 ) && AI_HAS_SKILL( 62 ) )
+        if ( ( var13 <= var6 ) && AI_HAS_SKILL( BattleSkill.Tentarafoo62 ) )
         {
-            AI_ACT_SKILL( 62 );
+            AI_ACT_SKILL( BattleSkill.Tentarafoo62 );
             AI_TAR_RND();
             return;
         }
@@ -1172,23 +1172,23 @@ void AI_PC_002_001()
 
     BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     
-    if ( ( ( ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
+    if ( ( ( ( AI_HAS_SKILL( BattleSkill.EvilSmile64 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
+    else if ( ( ( ( AI_HAS_SKILL( BattleSkill.EvilSmile64 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
+    else if ( ( ( ( AI_HAS_SKILL( BattleSkill.EvilSmile64 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
+    else if ( ( ( ( AI_HAS_SKILL( BattleSkill.EvilSmile64 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
+    else if ( ( ( AI_HAS_SKILL( BattleSkill.EvilSmile64 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
@@ -1221,9 +1221,9 @@ void AI_PC_002_001()
 
         var13 = RNG( 100 );
         
-        if ( ( var13 <= var6 ) && AI_HAS_SKILL( 0x40 ) )
+        if ( ( var13 <= var6 ) && AI_HAS_SKILL( BattleSkill.EvilSmile64 ) )
         {
-            AI_ACT_SKILL( 0x40 );
+            AI_ACT_SKILL( BattleSkill.EvilSmile64 );
             AI_TAR_RND();
             return;
         }
@@ -1238,23 +1238,23 @@ void AI_PC_002_001()
 
     BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     
-    if ( ( ( AI_HAS_SKILL( 60 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
+    if ( ( ( AI_HAS_SKILL( BattleSkill.EerieSound60 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var11 <= 10 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( AI_HAS_SKILL( 60 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
+    else if ( ( ( AI_HAS_SKILL( BattleSkill.EerieSound60 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 20 ) ) && ( var11 <= 7 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( AI_HAS_SKILL( 60 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
+    else if ( ( ( AI_HAS_SKILL( BattleSkill.EerieSound60 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 10 ) ) && ( var11 <= 5 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( ( AI_HAS_SKILL( 60 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
+    else if ( ( ( AI_HAS_SKILL( BattleSkill.EerieSound60 ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 5 ) ) && ( var11 <= 4 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
-    else if ( ( AI_HAS_SKILL( 60 ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
+    else if ( ( AI_HAS_SKILL( BattleSkill.EerieSound60 ) && ( FUNCTION_019D() == 0 ) ) && ( var11 <= 3 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
@@ -1289,7 +1289,7 @@ void AI_PC_002_001()
         
         if ( var13 <= var6 )
         {
-            AI_ACT_SKILL( 60 );
+            AI_ACT_SKILL( BattleSkill.EerieSound60 );
             AI_TAR_RND();
             return;
         }
@@ -1360,29 +1360,29 @@ void AI_PC_002_001()
                         if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                         {
                             
-                            if ( AI_HAS_SKILL( 48 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
                             {
-                                AI_ACT_SKILL( 48 );
+                                AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 46 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
                             {
-                                AI_ACT_SKILL( 46 );
+                                AI_ACT_SKILL( BattleSkill.Mahama );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 47 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                             {
                                 var0 = FUNCTION_01CC( 8 );
-                                AI_ACT_SKILL( 47 );
+                                AI_ACT_SKILL( BattleSkill.Hamaon );
                                 FUNCTION_00FD( var0 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 45 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                             {
                                 var0 = FUNCTION_01CC( 8 );
-                                AI_ACT_SKILL( 45 );
+                                AI_ACT_SKILL( BattleSkill.Hama );
                                 FUNCTION_00FD( var0 );
                                 return;
                             }
@@ -1399,15 +1399,15 @@ void AI_PC_002_001()
                         {
                             var0 = FUNCTION_01CC( 8 );
                             
-                            if ( AI_HAS_SKILL( 47 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                             {
-                                AI_ACT_SKILL( 47 );
+                                AI_ACT_SKILL( BattleSkill.Hamaon );
                                 FUNCTION_00FD( var0 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 45 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                             {
-                                AI_ACT_SKILL( 45 );
+                                AI_ACT_SKILL( BattleSkill.Hama );
                                 FUNCTION_00FD( var0 );
                                 return;
                             }
@@ -1427,29 +1427,29 @@ void AI_PC_002_001()
                         if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                         {
                             
-                            if ( AI_HAS_SKILL( 54 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
                             {
-                                AI_ACT_SKILL( 54 );
+                                AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 52 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
                             {
-                                AI_ACT_SKILL( 52 );
+                                AI_ACT_SKILL( BattleSkill.Mamudo );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 53 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                             {
                                 var0 = FUNCTION_01CC( 9 );
-                                AI_ACT_SKILL( 53 );
+                                AI_ACT_SKILL( BattleSkill.Mudoon );
                                 FUNCTION_00FD( var0 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 51 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                             {
                                 var0 = FUNCTION_01CC( 9 );
-                                AI_ACT_SKILL( 51 );
+                                AI_ACT_SKILL( BattleSkill.Mudo );
                                 FUNCTION_00FD( var0 );
                                 return;
                             }
@@ -1466,15 +1466,15 @@ void AI_PC_002_001()
                         {
                             var0 = FUNCTION_01CC( 9 );
                             
-                            if ( AI_HAS_SKILL( 53 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                             {
-                                AI_ACT_SKILL( 53 );
+                                AI_ACT_SKILL( BattleSkill.Mudoon );
                                 FUNCTION_00FD( var0 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 51 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                             {
-                                AI_ACT_SKILL( 51 );
+                                AI_ACT_SKILL( BattleSkill.Mudo );
                                 FUNCTION_00FD( var0 );
                                 return;
                             }
@@ -1563,29 +1563,29 @@ void AI_PC_002_001()
             if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
             {
                 
-                if ( AI_HAS_SKILL( 48 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
                 {
-                    AI_ACT_SKILL( 48 );
+                    AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 46 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
                 {
-                    AI_ACT_SKILL( 46 );
+                    AI_ACT_SKILL( BattleSkill.Mahama );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 47 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                 {
                     var0 = FUNCTION_01CC( 8 );
-                    AI_ACT_SKILL( 47 );
+                    AI_ACT_SKILL( BattleSkill.Hamaon );
                     FUNCTION_00FD( var0 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 45 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                 {
                     var0 = FUNCTION_01CC( 8 );
-                    AI_ACT_SKILL( 45 );
+                    AI_ACT_SKILL( BattleSkill.Hama );
                     FUNCTION_00FD( var0 );
                     return;
                 }
@@ -1602,15 +1602,15 @@ void AI_PC_002_001()
             {
                 var0 = FUNCTION_01CC( 8 );
                 
-                if ( AI_HAS_SKILL( 47 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                 {
-                    AI_ACT_SKILL( 47 );
+                    AI_ACT_SKILL( BattleSkill.Hamaon );
                     FUNCTION_00FD( var0 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 45 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                 {
-                    AI_ACT_SKILL( 45 );
+                    AI_ACT_SKILL( BattleSkill.Hama );
                     FUNCTION_00FD( var0 );
                     return;
                 }
@@ -1630,29 +1630,29 @@ void AI_PC_002_001()
             if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
             {
                 
-                if ( AI_HAS_SKILL( 54 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
                 {
-                    AI_ACT_SKILL( 54 );
+                    AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 52 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
                 {
-                    AI_ACT_SKILL( 52 );
+                    AI_ACT_SKILL( BattleSkill.Mamudo );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 53 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                 {
                     var0 = FUNCTION_01CC( 9 );
-                    AI_ACT_SKILL( 53 );
+                    AI_ACT_SKILL( BattleSkill.Mudoon );
                     FUNCTION_00FD( var0 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 51 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                 {
                     var0 = FUNCTION_01CC( 9 );
-                    AI_ACT_SKILL( 51 );
+                    AI_ACT_SKILL( BattleSkill.Mudo );
                     FUNCTION_00FD( var0 );
                     return;
                 }
@@ -1669,15 +1669,15 @@ void AI_PC_002_001()
             {
                 var0 = FUNCTION_01CC( 9 );
                 
-                if ( AI_HAS_SKILL( 53 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                 {
-                    AI_ACT_SKILL( 53 );
+                    AI_ACT_SKILL( BattleSkill.Mudoon );
                     FUNCTION_00FD( var0 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 51 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                 {
-                    AI_ACT_SKILL( 51 );
+                    AI_ACT_SKILL( BattleSkill.Mudo );
                     FUNCTION_00FD( var0 );
                     return;
                 }
@@ -1962,29 +1962,29 @@ void AI_PC_002_003()
                                 if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                                 {
                                     
-                                    if ( AI_HAS_SKILL( 48 ) )
+                                    if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
                                     {
-                                        AI_ACT_SKILL( 48 );
+                                        AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                                         AI_TAR_RND();
                                         return;
                                     }
-                                    else if ( AI_HAS_SKILL( 46 ) )
+                                    else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
                                     {
-                                        AI_ACT_SKILL( 46 );
+                                        AI_ACT_SKILL( BattleSkill.Mahama );
                                         AI_TAR_RND();
                                         return;
                                     }
-                                    else if ( AI_HAS_SKILL( 47 ) )
+                                    else if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                                     {
                                         var30 = FUNCTION_01CC( 8 );
-                                        AI_ACT_SKILL( 47 );
+                                        AI_ACT_SKILL( BattleSkill.Hamaon );
                                         FUNCTION_00FD( var30 );
                                         return;
                                     }
-                                    else if ( AI_HAS_SKILL( 45 ) )
+                                    else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                                     {
                                         var30 = FUNCTION_01CC( 8 );
-                                        AI_ACT_SKILL( 45 );
+                                        AI_ACT_SKILL( BattleSkill.Hama );
                                         FUNCTION_00FD( var30 );
                                         return;
                                     }
@@ -2001,15 +2001,15 @@ void AI_PC_002_003()
                                 {
                                     var30 = FUNCTION_01CC( 8 );
                                     
-                                    if ( AI_HAS_SKILL( 47 ) )
+                                    if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                                     {
-                                        AI_ACT_SKILL( 47 );
+                                        AI_ACT_SKILL( BattleSkill.Hamaon );
                                         FUNCTION_00FD( var30 );
                                         return;
                                     }
-                                    else if ( AI_HAS_SKILL( 45 ) )
+                                    else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                                     {
-                                        AI_ACT_SKILL( 45 );
+                                        AI_ACT_SKILL( BattleSkill.Hama );
                                         FUNCTION_00FD( var30 );
                                         return;
                                     }
@@ -2029,29 +2029,29 @@ void AI_PC_002_003()
                                 if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                                 {
                                     
-                                    if ( AI_HAS_SKILL( 54 ) )
+                                    if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
                                     {
-                                        AI_ACT_SKILL( 54 );
+                                        AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                                         AI_TAR_RND();
                                         return;
                                     }
-                                    else if ( AI_HAS_SKILL( 52 ) )
+                                    else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
                                     {
-                                        AI_ACT_SKILL( 52 );
+                                        AI_ACT_SKILL( BattleSkill.Mamudo );
                                         AI_TAR_RND();
                                         return;
                                     }
-                                    else if ( AI_HAS_SKILL( 53 ) )
+                                    else if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                                     {
                                         var30 = FUNCTION_01CC( 9 );
-                                        AI_ACT_SKILL( 53 );
+                                        AI_ACT_SKILL( BattleSkill.Mudoon );
                                         FUNCTION_00FD( var30 );
                                         return;
                                     }
-                                    else if ( AI_HAS_SKILL( 51 ) )
+                                    else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                                     {
                                         var30 = FUNCTION_01CC( 9 );
-                                        AI_ACT_SKILL( 51 );
+                                        AI_ACT_SKILL( BattleSkill.Mudo );
                                         FUNCTION_00FD( var30 );
                                         return;
                                     }
@@ -2068,15 +2068,15 @@ void AI_PC_002_003()
                                 {
                                     var30 = FUNCTION_01CC( 9 );
                                     
-                                    if ( AI_HAS_SKILL( 53 ) )
+                                    if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                                     {
-                                        AI_ACT_SKILL( 53 );
+                                        AI_ACT_SKILL( BattleSkill.Mudoon );
                                         FUNCTION_00FD( var30 );
                                         return;
                                     }
-                                    else if ( AI_HAS_SKILL( 51 ) )
+                                    else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                                     {
-                                        AI_ACT_SKILL( 51 );
+                                        AI_ACT_SKILL( BattleSkill.Mudo );
                                         FUNCTION_00FD( var30 );
                                         return;
                                     }
@@ -2165,29 +2165,29 @@ void AI_PC_002_003()
                     if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                     {
                         
-                        if ( AI_HAS_SKILL( 48 ) )
+                        if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
                         {
-                            AI_ACT_SKILL( 48 );
+                            AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                             AI_TAR_RND();
                             return;
                         }
-                        else if ( AI_HAS_SKILL( 46 ) )
+                        else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
                         {
-                            AI_ACT_SKILL( 46 );
+                            AI_ACT_SKILL( BattleSkill.Mahama );
                             AI_TAR_RND();
                             return;
                         }
-                        else if ( AI_HAS_SKILL( 47 ) )
+                        else if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                         {
                             var30 = FUNCTION_01CC( 8 );
-                            AI_ACT_SKILL( 47 );
+                            AI_ACT_SKILL( BattleSkill.Hamaon );
                             FUNCTION_00FD( var30 );
                             return;
                         }
-                        else if ( AI_HAS_SKILL( 45 ) )
+                        else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                         {
                             var30 = FUNCTION_01CC( 8 );
-                            AI_ACT_SKILL( 45 );
+                            AI_ACT_SKILL( BattleSkill.Hama );
                             FUNCTION_00FD( var30 );
                             return;
                         }
@@ -2204,15 +2204,15 @@ void AI_PC_002_003()
                     {
                         var30 = FUNCTION_01CC( 8 );
                         
-                        if ( AI_HAS_SKILL( 47 ) )
+                        if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                         {
-                            AI_ACT_SKILL( 47 );
+                            AI_ACT_SKILL( BattleSkill.Hamaon );
                             FUNCTION_00FD( var30 );
                             return;
                         }
-                        else if ( AI_HAS_SKILL( 45 ) )
+                        else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                         {
-                            AI_ACT_SKILL( 45 );
+                            AI_ACT_SKILL( BattleSkill.Hama );
                             FUNCTION_00FD( var30 );
                             return;
                         }
@@ -2232,29 +2232,29 @@ void AI_PC_002_003()
                     if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                     {
                         
-                        if ( AI_HAS_SKILL( 54 ) )
+                        if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
                         {
-                            AI_ACT_SKILL( 54 );
+                            AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                             AI_TAR_RND();
                             return;
                         }
-                        else if ( AI_HAS_SKILL( 52 ) )
+                        else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
                         {
-                            AI_ACT_SKILL( 52 );
+                            AI_ACT_SKILL( BattleSkill.Mamudo );
                             AI_TAR_RND();
                             return;
                         }
-                        else if ( AI_HAS_SKILL( 53 ) )
+                        else if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                         {
                             var30 = FUNCTION_01CC( 9 );
-                            AI_ACT_SKILL( 53 );
+                            AI_ACT_SKILL( BattleSkill.Mudoon );
                             FUNCTION_00FD( var30 );
                             return;
                         }
-                        else if ( AI_HAS_SKILL( 51 ) )
+                        else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                         {
                             var30 = FUNCTION_01CC( 9 );
-                            AI_ACT_SKILL( 51 );
+                            AI_ACT_SKILL( BattleSkill.Mudo );
                             FUNCTION_00FD( var30 );
                             return;
                         }
@@ -2271,15 +2271,15 @@ void AI_PC_002_003()
                     {
                         var30 = FUNCTION_01CC( 9 );
                         
-                        if ( AI_HAS_SKILL( 53 ) )
+                        if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                         {
-                            AI_ACT_SKILL( 53 );
+                            AI_ACT_SKILL( BattleSkill.Mudoon );
                             FUNCTION_00FD( var30 );
                             return;
                         }
-                        else if ( AI_HAS_SKILL( 51 ) )
+                        else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                         {
-                            AI_ACT_SKILL( 51 );
+                            AI_ACT_SKILL( BattleSkill.Mudo );
                             FUNCTION_00FD( var30 );
                             return;
                         }
@@ -2525,9 +2525,9 @@ void AI_PC_002_004()
 
     var31 = FUNCTION_0108( 2 );
     
-    if ( ( ( var31 != -1 ) && AI_HAS_SKILL( 146 ) ) && ( FUNCTION_0033( 40 ) == 0 ) )
+    if ( ( ( var31 != -1 ) && AI_HAS_SKILL( BattleSkill.CruelAttack ) ) && ( FUNCTION_0033( 40 ) == 0 ) )
     {
-        AI_ACT_SKILL( 146 );
+        AI_ACT_SKILL( BattleSkill.CruelAttack );
         FUNCTION_00FD( var31 );
         return;
     }
@@ -2542,9 +2542,9 @@ void AI_PC_002_004()
     }
 
     
-    if ( ( AI_ENBAD( 8 ) && AI_HAS_SKILL( 65 ) ) && ( FUNCTION_019D() == 0 ) )
+    if ( ( AI_ENBAD( 8 ) && AI_HAS_SKILL( BattleSkill.GhastlyWail ) ) && ( FUNCTION_019D() == 0 ) )
     {
-        AI_ACT_SKILL( 65 );
+        AI_ACT_SKILL( BattleSkill.GhastlyWail );
         AI_TAR_RND();
         return;
     }
@@ -2569,9 +2569,9 @@ void AI_PC_002_004()
 
     var36 = RNG( 100 );
     
-    if ( ( ( var36 <= var35 ) && ( FUNCTION_01C7( 0x0800 ) == 0 ) ) && AI_HAS_SKILL( 221 ) )
+    if ( ( ( var36 <= var35 ) && ( FUNCTION_01C7( 0x0800 ) == 0 ) ) && AI_HAS_SKILL( BattleSkill.MindCharge ) )
     {
-        AI_ACT_SKILL( 221 );
+        AI_ACT_SKILL( BattleSkill.MindCharge );
         AI_TAR_RND();
         return;
     }
@@ -2595,9 +2595,9 @@ void AI_PC_002_004()
     }
 
     
-    if ( ( ( var36 <= var35 ) && ( FUNCTION_01C7( 0x0400 ) == 0 ) ) && AI_HAS_SKILL( 220 ) )
+    if ( ( ( var36 <= var35 ) && ( FUNCTION_01C7( 0x0400 ) == 0 ) ) && AI_HAS_SKILL( BattleSkill.PowerCharge ) )
     {
-        AI_ACT_SKILL( 220 );
+        AI_ACT_SKILL( BattleSkill.PowerCharge );
         AI_TAR_RND();
         return;
     }
@@ -2666,29 +2666,29 @@ void AI_PC_002_004()
                         if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                         {
                             
-                            if ( AI_HAS_SKILL( 48 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
                             {
-                                AI_ACT_SKILL( 48 );
+                                AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 46 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
                             {
-                                AI_ACT_SKILL( 46 );
+                                AI_ACT_SKILL( BattleSkill.Mahama );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 47 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                             {
                                 var31 = FUNCTION_01CC( 8 );
-                                AI_ACT_SKILL( 47 );
+                                AI_ACT_SKILL( BattleSkill.Hamaon );
                                 FUNCTION_00FD( var31 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 45 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                             {
                                 var31 = FUNCTION_01CC( 8 );
-                                AI_ACT_SKILL( 45 );
+                                AI_ACT_SKILL( BattleSkill.Hama );
                                 FUNCTION_00FD( var31 );
                                 return;
                             }
@@ -2705,15 +2705,15 @@ void AI_PC_002_004()
                         {
                             var31 = FUNCTION_01CC( 8 );
                             
-                            if ( AI_HAS_SKILL( 47 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                             {
-                                AI_ACT_SKILL( 47 );
+                                AI_ACT_SKILL( BattleSkill.Hamaon );
                                 FUNCTION_00FD( var31 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 45 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                             {
-                                AI_ACT_SKILL( 45 );
+                                AI_ACT_SKILL( BattleSkill.Hama );
                                 FUNCTION_00FD( var31 );
                                 return;
                             }
@@ -2733,29 +2733,29 @@ void AI_PC_002_004()
                         if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                         {
                             
-                            if ( AI_HAS_SKILL( 54 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
                             {
-                                AI_ACT_SKILL( 54 );
+                                AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 52 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
                             {
-                                AI_ACT_SKILL( 52 );
+                                AI_ACT_SKILL( BattleSkill.Mamudo );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 53 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                             {
                                 var31 = FUNCTION_01CC( 9 );
-                                AI_ACT_SKILL( 53 );
+                                AI_ACT_SKILL( BattleSkill.Mudoon );
                                 FUNCTION_00FD( var31 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 51 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                             {
                                 var31 = FUNCTION_01CC( 9 );
-                                AI_ACT_SKILL( 51 );
+                                AI_ACT_SKILL( BattleSkill.Mudo );
                                 FUNCTION_00FD( var31 );
                                 return;
                             }
@@ -2772,15 +2772,15 @@ void AI_PC_002_004()
                         {
                             var31 = FUNCTION_01CC( 9 );
                             
-                            if ( AI_HAS_SKILL( 53 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                             {
-                                AI_ACT_SKILL( 53 );
+                                AI_ACT_SKILL( BattleSkill.Mudoon );
                                 FUNCTION_00FD( var31 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 51 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                             {
-                                AI_ACT_SKILL( 51 );
+                                AI_ACT_SKILL( BattleSkill.Mudo );
                                 FUNCTION_00FD( var31 );
                                 return;
                             }
@@ -2869,29 +2869,29 @@ void AI_PC_002_004()
             if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
             {
                 
-                if ( AI_HAS_SKILL( 48 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
                 {
-                    AI_ACT_SKILL( 48 );
+                    AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 46 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
                 {
-                    AI_ACT_SKILL( 46 );
+                    AI_ACT_SKILL( BattleSkill.Mahama );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 47 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                 {
                     var31 = FUNCTION_01CC( 8 );
-                    AI_ACT_SKILL( 47 );
+                    AI_ACT_SKILL( BattleSkill.Hamaon );
                     FUNCTION_00FD( var31 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 45 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                 {
                     var31 = FUNCTION_01CC( 8 );
-                    AI_ACT_SKILL( 45 );
+                    AI_ACT_SKILL( BattleSkill.Hama );
                     FUNCTION_00FD( var31 );
                     return;
                 }
@@ -2908,15 +2908,15 @@ void AI_PC_002_004()
             {
                 var31 = FUNCTION_01CC( 8 );
                 
-                if ( AI_HAS_SKILL( 47 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                 {
-                    AI_ACT_SKILL( 47 );
+                    AI_ACT_SKILL( BattleSkill.Hamaon );
                     FUNCTION_00FD( var31 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 45 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                 {
-                    AI_ACT_SKILL( 45 );
+                    AI_ACT_SKILL( BattleSkill.Hama );
                     FUNCTION_00FD( var31 );
                     return;
                 }
@@ -2936,29 +2936,29 @@ void AI_PC_002_004()
             if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
             {
                 
-                if ( AI_HAS_SKILL( 54 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
                 {
-                    AI_ACT_SKILL( 54 );
+                    AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 52 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
                 {
-                    AI_ACT_SKILL( 52 );
+                    AI_ACT_SKILL( BattleSkill.Mamudo );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 53 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                 {
                     var31 = FUNCTION_01CC( 9 );
-                    AI_ACT_SKILL( 53 );
+                    AI_ACT_SKILL( BattleSkill.Mudoon );
                     FUNCTION_00FD( var31 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 51 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                 {
                     var31 = FUNCTION_01CC( 9 );
-                    AI_ACT_SKILL( 51 );
+                    AI_ACT_SKILL( BattleSkill.Mudo );
                     FUNCTION_00FD( var31 );
                     return;
                 }
@@ -2975,15 +2975,15 @@ void AI_PC_002_004()
             {
                 var31 = FUNCTION_01CC( 9 );
                 
-                if ( AI_HAS_SKILL( 53 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                 {
-                    AI_ACT_SKILL( 53 );
+                    AI_ACT_SKILL( BattleSkill.Mudoon );
                     FUNCTION_00FD( var31 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 51 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                 {
-                    AI_ACT_SKILL( 51 );
+                    AI_ACT_SKILL( BattleSkill.Mudo );
                     FUNCTION_00FD( var31 );
                     return;
                 }
@@ -3469,9 +3469,9 @@ void AI_PC_002_005()
     var47 = RNG( 100 );
     var48 = FUNCTION_00FE( 0, 1 );
     
-    if ( ( ( var47 <= var46 ) && AI_MYBAD( 1, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var47 <= var46 ) && AI_MYBAD( 1, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var48 );
         return;
     }
@@ -3637,15 +3637,15 @@ void AI_PC_002_005()
     if ( ( var47 <= var46 ) || FUNCTION_019D() )
     {
         
-        if ( ( FUNCTION_0044( 0x4000 ) == 0 ) && AI_HAS_SKILL( 226 ) )
+        if ( ( FUNCTION_0044( 0x4000 ) == 0 ) && AI_HAS_SKILL( BattleSkill.Rebellion ) )
         {
-            AI_ACT_SKILL( 226 );
+            AI_ACT_SKILL( BattleSkill.Rebellion );
             AI_TAR_RND();
             return;
         }
-        else if ( ( FUNCTION_0044( 0x00008000 ) == 0 ) && AI_HAS_SKILL( 227 ) )
+        else if ( ( FUNCTION_0044( 0x00008000 ) == 0 ) && AI_HAS_SKILL( BattleSkill.Revolution ) )
         {
-            AI_ACT_SKILL( 227 );
+            AI_ACT_SKILL( BattleSkill.Revolution );
             AI_TAR_RND();
             return;
         }
@@ -3672,18 +3672,18 @@ void AI_PC_002_005()
         {
             var38 = FUNCTION_019A( 1 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 214 ) || AI_HAS_SKILL( 215 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Tarukaja ) || AI_HAS_SKILL( BattleSkill.Matarukaja ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 214 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Tarukaja ) )
                 {
-                    AI_ACT_SKILL( 214 );
+                    AI_ACT_SKILL( BattleSkill.Tarukaja );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 215 );
+                    AI_ACT_SKILL( BattleSkill.Matarukaja );
                     AI_TAR_RND();
                     return;
                 }
@@ -3692,18 +3692,18 @@ void AI_PC_002_005()
 
             var38 = FUNCTION_019A( 0x10 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 216 ) || AI_HAS_SKILL( 217 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Sukukaja ) || AI_HAS_SKILL( BattleSkill.Masukukaja ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 216 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Sukukaja ) )
                 {
-                    AI_ACT_SKILL( 216 );
+                    AI_ACT_SKILL( BattleSkill.Sukukaja );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 217 );
+                    AI_ACT_SKILL( BattleSkill.Masukukaja );
                     AI_TAR_RND();
                     return;
                 }
@@ -3741,18 +3741,18 @@ void AI_PC_002_005()
 
             var38 = FUNCTION_019A( 0x40 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 218 ) || AI_HAS_SKILL( 219 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Rakukaja ) || AI_HAS_SKILL( BattleSkill.Marakukaja ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 218 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Rakukaja ) )
                 {
-                    AI_ACT_SKILL( 218 );
+                    AI_ACT_SKILL( BattleSkill.Rakukaja );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 219 );
+                    AI_ACT_SKILL( BattleSkill.Marakukaja );
                     AI_TAR_RND();
                     return;
                 }
@@ -3764,18 +3764,18 @@ void AI_PC_002_005()
         {
             var38 = FUNCTION_019A( 0x40 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 218 ) || AI_HAS_SKILL( 219 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Rakukaja ) || AI_HAS_SKILL( BattleSkill.Marakukaja ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 218 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Rakukaja ) )
                 {
-                    AI_ACT_SKILL( 218 );
+                    AI_ACT_SKILL( BattleSkill.Rakukaja );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 219 );
+                    AI_ACT_SKILL( BattleSkill.Marakukaja );
                     AI_TAR_RND();
                     return;
                 }
@@ -3784,18 +3784,18 @@ void AI_PC_002_005()
 
             var38 = FUNCTION_019A( 1 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 214 ) || AI_HAS_SKILL( 215 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Tarukaja ) || AI_HAS_SKILL( BattleSkill.Matarukaja ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 214 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Tarukaja ) )
                 {
-                    AI_ACT_SKILL( 214 );
+                    AI_ACT_SKILL( BattleSkill.Tarukaja );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 215 );
+                    AI_ACT_SKILL( BattleSkill.Matarukaja );
                     AI_TAR_RND();
                     return;
                 }
@@ -3804,18 +3804,18 @@ void AI_PC_002_005()
 
             var38 = FUNCTION_019A( 0x10 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 216 ) || AI_HAS_SKILL( 217 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Sukukaja ) || AI_HAS_SKILL( BattleSkill.Masukukaja ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 216 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Sukukaja ) )
                 {
-                    AI_ACT_SKILL( 216 );
+                    AI_ACT_SKILL( BattleSkill.Sukukaja );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 217 );
+                    AI_ACT_SKILL( BattleSkill.Masukukaja );
                     AI_TAR_RND();
                     return;
                 }
@@ -3856,18 +3856,18 @@ void AI_PC_002_005()
         {
             var38 = FUNCTION_019A( 0x10 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 216 ) || AI_HAS_SKILL( 217 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Sukukaja ) || AI_HAS_SKILL( BattleSkill.Masukukaja ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 216 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Sukukaja ) )
                 {
-                    AI_ACT_SKILL( 216 );
+                    AI_ACT_SKILL( BattleSkill.Sukukaja );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 217 );
+                    AI_ACT_SKILL( BattleSkill.Masukukaja );
                     AI_TAR_RND();
                     return;
                 }
@@ -3905,18 +3905,18 @@ void AI_PC_002_005()
 
             var38 = FUNCTION_019A( 0x40 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 218 ) || AI_HAS_SKILL( 219 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Rakukaja ) || AI_HAS_SKILL( BattleSkill.Marakukaja ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 218 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Rakukaja ) )
                 {
-                    AI_ACT_SKILL( 218 );
+                    AI_ACT_SKILL( BattleSkill.Rakukaja );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 219 );
+                    AI_ACT_SKILL( BattleSkill.Marakukaja );
                     AI_TAR_RND();
                     return;
                 }
@@ -3925,18 +3925,18 @@ void AI_PC_002_005()
 
             var38 = FUNCTION_019A( 1 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 214 ) || AI_HAS_SKILL( 215 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Tarukaja ) || AI_HAS_SKILL( BattleSkill.Matarukaja ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 214 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Tarukaja ) )
                 {
-                    AI_ACT_SKILL( 214 );
+                    AI_ACT_SKILL( BattleSkill.Tarukaja );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 215 );
+                    AI_ACT_SKILL( BattleSkill.Matarukaja );
                     AI_TAR_RND();
                     return;
                 }
@@ -4017,18 +4017,18 @@ void AI_PC_002_005()
         {
             var38 = FUNCTION_019B( 2 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 206 ) || AI_HAS_SKILL( 207 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Tarunda ) || AI_HAS_SKILL( BattleSkill.Matarunda ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 206 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Tarunda ) )
                 {
-                    AI_ACT_SKILL( 206 );
+                    AI_ACT_SKILL( BattleSkill.Tarunda );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 207 );
+                    AI_ACT_SKILL( BattleSkill.Matarunda );
                     AI_TAR_RND();
                     return;
                 }
@@ -4037,18 +4037,18 @@ void AI_PC_002_005()
 
             var38 = FUNCTION_019B( 0x80 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 210 ) || AI_HAS_SKILL( 211 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Rakunda ) || AI_HAS_SKILL( BattleSkill.Marakunda ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 210 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Rakunda ) )
                 {
-                    AI_ACT_SKILL( 210 );
+                    AI_ACT_SKILL( BattleSkill.Rakunda );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 211 );
+                    AI_ACT_SKILL( BattleSkill.Marakunda );
                     AI_TAR_RND();
                     return;
                 }
@@ -4057,18 +4057,18 @@ void AI_PC_002_005()
 
             var38 = FUNCTION_019B( 0x20 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 208 ) || AI_HAS_SKILL( 209 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Sukunda ) || AI_HAS_SKILL( BattleSkill.Masukunda ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 208 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Sukunda ) )
                 {
-                    AI_ACT_SKILL( 208 );
+                    AI_ACT_SKILL( BattleSkill.Sukunda );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 209 );
+                    AI_ACT_SKILL( BattleSkill.Masukunda );
                     AI_TAR_RND();
                     return;
                 }
@@ -4080,18 +4080,18 @@ void AI_PC_002_005()
         {
             var38 = FUNCTION_019B( 0x20 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 208 ) || AI_HAS_SKILL( 209 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Sukunda ) || AI_HAS_SKILL( BattleSkill.Masukunda ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 208 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Sukunda ) )
                 {
-                    AI_ACT_SKILL( 208 );
+                    AI_ACT_SKILL( BattleSkill.Sukunda );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 209 );
+                    AI_ACT_SKILL( BattleSkill.Masukunda );
                     AI_TAR_RND();
                     return;
                 }
@@ -4100,18 +4100,18 @@ void AI_PC_002_005()
 
             var38 = FUNCTION_019B( 2 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 206 ) || AI_HAS_SKILL( 207 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Tarunda ) || AI_HAS_SKILL( BattleSkill.Matarunda ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 206 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Tarunda ) )
                 {
-                    AI_ACT_SKILL( 206 );
+                    AI_ACT_SKILL( BattleSkill.Tarunda );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 207 );
+                    AI_ACT_SKILL( BattleSkill.Matarunda );
                     AI_TAR_RND();
                     return;
                 }
@@ -4120,18 +4120,18 @@ void AI_PC_002_005()
 
             var38 = FUNCTION_019B( 0x80 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 210 ) || AI_HAS_SKILL( 211 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Rakunda ) || AI_HAS_SKILL( BattleSkill.Marakunda ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 210 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Rakunda ) )
                 {
-                    AI_ACT_SKILL( 210 );
+                    AI_ACT_SKILL( BattleSkill.Rakunda );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 211 );
+                    AI_ACT_SKILL( BattleSkill.Marakunda );
                     AI_TAR_RND();
                     return;
                 }
@@ -4143,18 +4143,18 @@ void AI_PC_002_005()
         {
             var38 = FUNCTION_019B( 0x80 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 210 ) || AI_HAS_SKILL( 211 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Rakunda ) || AI_HAS_SKILL( BattleSkill.Marakunda ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 210 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Rakunda ) )
                 {
-                    AI_ACT_SKILL( 210 );
+                    AI_ACT_SKILL( BattleSkill.Rakunda );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 211 );
+                    AI_ACT_SKILL( BattleSkill.Marakunda );
                     AI_TAR_RND();
                     return;
                 }
@@ -4163,18 +4163,18 @@ void AI_PC_002_005()
 
             var38 = FUNCTION_019B( 0x20 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 208 ) || AI_HAS_SKILL( 209 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Sukunda ) || AI_HAS_SKILL( BattleSkill.Masukunda ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 208 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Sukunda ) )
                 {
-                    AI_ACT_SKILL( 208 );
+                    AI_ACT_SKILL( BattleSkill.Sukunda );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 209 );
+                    AI_ACT_SKILL( BattleSkill.Masukunda );
                     AI_TAR_RND();
                     return;
                 }
@@ -4183,18 +4183,18 @@ void AI_PC_002_005()
 
             var38 = FUNCTION_019B( 2 );
             
-            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( 206 ) || AI_HAS_SKILL( 207 ) ) )
+            if ( ( var38 != -1 ) && ( AI_HAS_SKILL( BattleSkill.Tarunda ) || AI_HAS_SKILL( BattleSkill.Matarunda ) ) )
             {
                 
-                if ( AI_HAS_SKILL( 206 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Tarunda ) )
                 {
-                    AI_ACT_SKILL( 206 );
+                    AI_ACT_SKILL( BattleSkill.Tarunda );
                     FUNCTION_00FD( var38 );
                     return;
                 }
                 else 
                 {
-                    AI_ACT_SKILL( 207 );
+                    AI_ACT_SKILL( BattleSkill.Matarunda );
                     AI_TAR_RND();
                     return;
                 }
@@ -4232,82 +4232,82 @@ void AI_PC_002_005()
 
     var47 = RNG( 100 );
     
-    if ( ( ( var47 <= var46 ) && AI_MYBAD( 2, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var47 <= var46 ) && AI_MYBAD( 2, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var38 = FUNCTION_00FE( 0, 2 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var38 );
         return;
     }
 
     
-    if ( ( ( var47 <= var46 ) && AI_MYBAD( 3, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var47 <= var46 ) && AI_MYBAD( 3, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var38 = FUNCTION_00FE( 0, 3 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var38 );
         return;
     }
 
     
-    if ( ( ( var47 <= var46 ) && AI_MYBAD( 4, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var47 <= var46 ) && AI_MYBAD( 4, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var38 = FUNCTION_00FE( 0, 4 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var38 );
         return;
     }
 
     
-    if ( ( ( var47 <= var46 ) && AI_MYBAD( 5, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var47 <= var46 ) && AI_MYBAD( 5, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var38 = FUNCTION_00FE( 0, 5 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var38 );
         return;
     }
 
     
-    if ( ( ( var47 <= var46 ) && AI_MYBAD( 7, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var47 <= var46 ) && AI_MYBAD( 7, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var38 = FUNCTION_00FE( 0, 7 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var38 );
         return;
     }
 
     
-    if ( ( ( var47 <= var46 ) && AI_MYBAD( 8, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var47 <= var46 ) && AI_MYBAD( 8, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var38 = FUNCTION_00FE( 0, 8 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var38 );
         return;
     }
 
     
-    if ( ( ( var47 <= var46 ) && AI_MYBAD( 9, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var47 <= var46 ) && AI_MYBAD( 9, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var38 = FUNCTION_00FE( 0, 9 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var38 );
         return;
     }
 
     
-    if ( ( ( var47 <= var46 ) && AI_MYBAD( 10, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var47 <= var46 ) && AI_MYBAD( 10, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var38 = FUNCTION_00FE( 0, 10 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var38 );
         return;
     }
 
     
-    if ( ( ( var47 <= var46 ) && AI_MYBAD( 9, 0x00100000 ) ) && AI_HAS_SKILL( 201 ) )
+    if ( ( ( var47 <= var46 ) && AI_MYBAD( 9, 0x00100000 ) ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var38 = FUNCTION_00FE( 0, 9 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var38 );
         return;
     }
@@ -4331,9 +4331,9 @@ void AI_PC_002_005()
 
         var47 = RNG( 100 );
         
-        if ( ( var47 <= var46 ) && AI_HAS_SKILL( 223 ) )
+        if ( ( var47 <= var46 ) && AI_HAS_SKILL( BattleSkill.Dekaja ) )
         {
-            AI_ACT_SKILL( 223 );
+            AI_ACT_SKILL( BattleSkill.Dekaja );
             AI_TAR_RND();
             return;
         }
@@ -4365,9 +4365,9 @@ void AI_PC_002_005()
 
         var47 = RNG( 100 );
         
-        if ( ( var47 <= var46 ) && AI_HAS_SKILL( 212 ) )
+        if ( ( var47 <= var46 ) && AI_HAS_SKILL( BattleSkill.Dekunda ) )
         {
-            AI_ACT_SKILL( 212 );
+            AI_ACT_SKILL( BattleSkill.Dekunda );
             AI_TAR_RND();
             return;
         }
@@ -4405,81 +4405,81 @@ void AI_PC_002_005()
     {
         var38 = FUNCTION_01CE( 3 );
         
-        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 1, 3 ) ) && AI_HAS_SKILL( 229 ) )
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 1, 3 ) ) && AI_HAS_SKILL( BattleSkill.FireBreak ) )
         {
-            AI_ACT_SKILL( 229 );
+            AI_ACT_SKILL( BattleSkill.FireBreak );
             FUNCTION_00FD( var38 );
             return;
         }
 
         var38 = FUNCTION_01CE( 4 );
         
-        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 1, 4 ) ) && AI_HAS_SKILL( 230 ) )
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 1, 4 ) ) && AI_HAS_SKILL( BattleSkill.IceBreak ) )
         {
-            AI_ACT_SKILL( 230 );
+            AI_ACT_SKILL( BattleSkill.IceBreak );
             FUNCTION_00FD( var38 );
             return;
         }
 
         var38 = FUNCTION_01CE( 6 );
         
-        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 1, 6 ) ) && AI_HAS_SKILL( 231 ) )
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 1, 6 ) ) && AI_HAS_SKILL( BattleSkill.WindBreak ) )
         {
-            AI_ACT_SKILL( 231 );
+            AI_ACT_SKILL( BattleSkill.WindBreak );
             FUNCTION_00FD( var38 );
             return;
         }
 
         var38 = FUNCTION_01CE( 5 );
         
-        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 1, 5 ) ) && AI_HAS_SKILL( 232 ) )
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 1, 5 ) ) && AI_HAS_SKILL( BattleSkill.ElecBreak ) )
         {
-            AI_ACT_SKILL( 232 );
+            AI_ACT_SKILL( BattleSkill.ElecBreak );
             FUNCTION_00FD( var38 );
             return;
         }
 
         var38 = FUNCTION_01CE( 3 );
         
-        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 5, 3 ) ) && AI_HAS_SKILL( 229 ) )
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 5, 3 ) ) && AI_HAS_SKILL( BattleSkill.FireBreak ) )
         {
-            AI_ACT_SKILL( 229 );
+            AI_ACT_SKILL( BattleSkill.FireBreak );
             FUNCTION_00FD( var38 );
             return;
         }
 
         var38 = FUNCTION_01CE( 3 );
         
-        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 10, 3 ) ) && AI_HAS_SKILL( 229 ) )
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 10, 3 ) ) && AI_HAS_SKILL( BattleSkill.FireBreak ) )
         {
-            AI_ACT_SKILL( 229 );
+            AI_ACT_SKILL( BattleSkill.FireBreak );
             FUNCTION_00FD( var38 );
             return;
         }
 
         var38 = FUNCTION_01CE( 6 );
         
-        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 2, 6 ) ) && AI_HAS_SKILL( 231 ) )
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 2, 6 ) ) && AI_HAS_SKILL( BattleSkill.WindBreak ) )
         {
-            AI_ACT_SKILL( 231 );
+            AI_ACT_SKILL( BattleSkill.WindBreak );
             FUNCTION_00FD( var38 );
             return;
         }
 
         var38 = FUNCTION_01CE( 5 );
         
-        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 7, 5 ) ) && AI_HAS_SKILL( 232 ) )
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 7, 5 ) ) && AI_HAS_SKILL( BattleSkill.ElecBreak ) )
         {
-            AI_ACT_SKILL( 232 );
+            AI_ACT_SKILL( BattleSkill.ElecBreak );
             FUNCTION_00FD( var38 );
             return;
         }
 
         var38 = FUNCTION_01CE( 4 );
         
-        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 4, 4 ) ) && AI_HAS_SKILL( 230 ) )
+        if ( ( ( var38 != -1 ) && FUNCTION_01CF( 4, 4 ) ) && AI_HAS_SKILL( BattleSkill.IceBreak ) )
         {
-            AI_ACT_SKILL( 230 );
+            AI_ACT_SKILL( BattleSkill.IceBreak );
             FUNCTION_00FD( var38 );
             return;
         }
@@ -4551,17 +4551,17 @@ void AI_PC_002_005()
     }
 
     
-    if ( FUNCTION_0034( 10 ) && AI_HAS_SKILL( 76 ) )
+    if ( FUNCTION_0034( 10 ) && AI_HAS_SKILL( BattleSkill.SpiritDrain76 ) )
     {
-        AI_ACT_SKILL( 76 );
+        AI_ACT_SKILL( BattleSkill.SpiritDrain76 );
         AI_MPMAX();
         return;
     }
 
     
-    if ( ( AI_ENBAD( 8 ) && AI_HAS_SKILL( 65 ) ) && ( FUNCTION_019D() == 0 ) )
+    if ( ( AI_ENBAD( 8 ) && AI_HAS_SKILL( BattleSkill.GhastlyWail ) ) && ( FUNCTION_019D() == 0 ) )
     {
-        AI_ACT_SKILL( 65 );
+        AI_ACT_SKILL( BattleSkill.GhastlyWail );
         AI_TAR_RND();
         return;
     }
@@ -4571,14 +4571,14 @@ void AI_PC_002_005()
     var45 = ( var43 - var44 );
     BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     
-    if ( ( ( ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var45 <= 10 ) )
+    if ( ( ( ( AI_HAS_SKILL( BattleSkill.SexyDance58 ) || AI_HAS_SKILL( 243 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var45 <= 10 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
 
     var60 = 0;
     
-    if ( ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 ) && ( AI_HAS_SKILL( 58 ) || AI_HAS_SKILL( 243 ) ) )
+    if ( ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 ) && ( AI_HAS_SKILL( BattleSkill.SexyDance58 ) || AI_HAS_SKILL( 243 ) ) )
     {
         var38 = FUNCTION_01E5( 10 );
         
@@ -4605,9 +4605,9 @@ void AI_PC_002_005()
 
         var47 = RNG( 100 );
         
-        if ( ( var47 <= var60 ) && AI_HAS_SKILL( 58 ) )
+        if ( ( var47 <= var60 ) && AI_HAS_SKILL( BattleSkill.SexyDance58 ) )
         {
-            AI_ACT_SKILL( 58 );
+            AI_ACT_SKILL( BattleSkill.SexyDance58 );
             AI_TAR_RND();
             return;
         }
@@ -4622,13 +4622,13 @@ void AI_PC_002_005()
 
     BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     
-    if ( ( ( ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var45 <= 10 ) )
+    if ( ( ( ( AI_HAS_SKILL( BattleSkill.Tentarafoo62 ) || AI_HAS_SKILL( 249 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var45 <= 10 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
 
     
-    if ( ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 ) && ( AI_HAS_SKILL( 62 ) || AI_HAS_SKILL( 249 ) ) )
+    if ( ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 ) && ( AI_HAS_SKILL( BattleSkill.Tentarafoo62 ) || AI_HAS_SKILL( 249 ) ) )
     {
         var38 = FUNCTION_01E5( 13 );
         
@@ -4655,9 +4655,9 @@ void AI_PC_002_005()
 
         var47 = RNG( 100 );
         
-        if ( ( var47 <= var60 ) && AI_HAS_SKILL( 62 ) )
+        if ( ( var47 <= var60 ) && AI_HAS_SKILL( BattleSkill.Tentarafoo62 ) )
         {
-            AI_ACT_SKILL( 62 );
+            AI_ACT_SKILL( BattleSkill.Tentarafoo62 );
             AI_TAR_RND();
             return;
         }
@@ -4672,13 +4672,13 @@ void AI_PC_002_005()
 
     BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     
-    if ( ( ( ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var45 <= 10 ) )
+    if ( ( ( ( AI_HAS_SKILL( BattleSkill.EvilSmile64 ) || AI_HAS_SKILL( 244 ) ) && ( FUNCTION_019D() == 0 ) ) && FUNCTION_0039( 60 ) ) && ( var45 <= 10 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
 
     
-    if ( ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 ) && ( AI_HAS_SKILL( 0x40 ) || AI_HAS_SKILL( 244 ) ) )
+    if ( ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 ) && ( AI_HAS_SKILL( BattleSkill.EvilSmile64 ) || AI_HAS_SKILL( 244 ) ) )
     {
         var38 = FUNCTION_01E5( 14 );
         
@@ -4705,9 +4705,9 @@ void AI_PC_002_005()
 
         var47 = RNG( 100 );
         
-        if ( ( var47 <= var60 ) && AI_HAS_SKILL( 0x40 ) )
+        if ( ( var47 <= var60 ) && AI_HAS_SKILL( BattleSkill.EvilSmile64 ) )
         {
-            AI_ACT_SKILL( 0x40 );
+            AI_ACT_SKILL( BattleSkill.EvilSmile64 );
             AI_TAR_RND();
             return;
         }
@@ -4722,13 +4722,13 @@ void AI_PC_002_005()
 
     BIT_OFF( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     
-    if ( AI_HAS_SKILL( 60 ) && ( FUNCTION_019D() == 0 ) )
+    if ( AI_HAS_SKILL( BattleSkill.EerieSound60 ) && ( FUNCTION_019D() == 0 ) )
     {
         BIT_ON( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) );
     }
 
     
-    if ( ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 ) && AI_HAS_SKILL( 60 ) )
+    if ( ( BIT_CHK( ( ( ( ( ( 0 + 0x0400 ) + 0x0800 ) + 0x0400 ) + 0x0400 ) + 320 ) ) == 1 ) && AI_HAS_SKILL( BattleSkill.EerieSound60 ) )
     {
         var38 = FUNCTION_01E5( 12 );
         
@@ -4757,7 +4757,7 @@ void AI_PC_002_005()
         
         if ( var47 <= var60 )
         {
-            AI_ACT_SKILL( 60 );
+            AI_ACT_SKILL( BattleSkill.EerieSound60 );
             AI_TAR_RND();
             return;
         }
@@ -4921,9 +4921,9 @@ void AI_PC_002_006()
 
     var61 = FUNCTION_0108( 2 );
     
-    if ( ( ( var61 != -1 ) && AI_HAS_SKILL( 146 ) ) && ( FUNCTION_0033( 40 ) == 0 ) )
+    if ( ( ( var61 != -1 ) && AI_HAS_SKILL( BattleSkill.CruelAttack ) ) && ( FUNCTION_0033( 40 ) == 0 ) )
     {
-        AI_ACT_SKILL( 146 );
+        AI_ACT_SKILL( BattleSkill.CruelAttack );
         FUNCTION_00FD( var61 );
         return;
     }
@@ -4939,9 +4939,9 @@ void AI_PC_002_006()
     }
 
     
-    if ( FUNCTION_0034( 10 ) && AI_HAS_SKILL( 76 ) )
+    if ( FUNCTION_0034( 10 ) && AI_HAS_SKILL( BattleSkill.SpiritDrain76 ) )
     {
-        AI_ACT_SKILL( 76 );
+        AI_ACT_SKILL( BattleSkill.SpiritDrain76 );
         AI_MPMAX();
         return;
     }
@@ -5110,29 +5110,29 @@ void AI_PC_002_007()
                         if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                         {
                             
-                            if ( AI_HAS_SKILL( 48 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
                             {
-                                AI_ACT_SKILL( 48 );
+                                AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 46 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
                             {
-                                AI_ACT_SKILL( 46 );
+                                AI_ACT_SKILL( BattleSkill.Mahama );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 47 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                             {
                                 var73 = FUNCTION_01CC( 8 );
-                                AI_ACT_SKILL( 47 );
+                                AI_ACT_SKILL( BattleSkill.Hamaon );
                                 FUNCTION_00FD( var73 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 45 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                             {
                                 var73 = FUNCTION_01CC( 8 );
-                                AI_ACT_SKILL( 45 );
+                                AI_ACT_SKILL( BattleSkill.Hama );
                                 FUNCTION_00FD( var73 );
                                 return;
                             }
@@ -5149,15 +5149,15 @@ void AI_PC_002_007()
                         {
                             var73 = FUNCTION_01CC( 8 );
                             
-                            if ( AI_HAS_SKILL( 47 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                             {
-                                AI_ACT_SKILL( 47 );
+                                AI_ACT_SKILL( BattleSkill.Hamaon );
                                 FUNCTION_00FD( var73 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 45 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                             {
-                                AI_ACT_SKILL( 45 );
+                                AI_ACT_SKILL( BattleSkill.Hama );
                                 FUNCTION_00FD( var73 );
                                 return;
                             }
@@ -5177,29 +5177,29 @@ void AI_PC_002_007()
                         if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                         {
                             
-                            if ( AI_HAS_SKILL( 54 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
                             {
-                                AI_ACT_SKILL( 54 );
+                                AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 52 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
                             {
-                                AI_ACT_SKILL( 52 );
+                                AI_ACT_SKILL( BattleSkill.Mamudo );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 53 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                             {
                                 var73 = FUNCTION_01CC( 9 );
-                                AI_ACT_SKILL( 53 );
+                                AI_ACT_SKILL( BattleSkill.Mudoon );
                                 FUNCTION_00FD( var73 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 51 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                             {
                                 var73 = FUNCTION_01CC( 9 );
-                                AI_ACT_SKILL( 51 );
+                                AI_ACT_SKILL( BattleSkill.Mudo );
                                 FUNCTION_00FD( var73 );
                                 return;
                             }
@@ -5216,15 +5216,15 @@ void AI_PC_002_007()
                         {
                             var73 = FUNCTION_01CC( 9 );
                             
-                            if ( AI_HAS_SKILL( 53 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                             {
-                                AI_ACT_SKILL( 53 );
+                                AI_ACT_SKILL( BattleSkill.Mudoon );
                                 FUNCTION_00FD( var73 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 51 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                             {
-                                AI_ACT_SKILL( 51 );
+                                AI_ACT_SKILL( BattleSkill.Mudo );
                                 FUNCTION_00FD( var73 );
                                 return;
                             }
@@ -5313,29 +5313,29 @@ void AI_PC_002_007()
             if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
             {
                 
-                if ( AI_HAS_SKILL( 48 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
                 {
-                    AI_ACT_SKILL( 48 );
+                    AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 46 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
                 {
-                    AI_ACT_SKILL( 46 );
+                    AI_ACT_SKILL( BattleSkill.Mahama );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 47 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                 {
                     var73 = FUNCTION_01CC( 8 );
-                    AI_ACT_SKILL( 47 );
+                    AI_ACT_SKILL( BattleSkill.Hamaon );
                     FUNCTION_00FD( var73 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 45 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                 {
                     var73 = FUNCTION_01CC( 8 );
-                    AI_ACT_SKILL( 45 );
+                    AI_ACT_SKILL( BattleSkill.Hama );
                     FUNCTION_00FD( var73 );
                     return;
                 }
@@ -5352,15 +5352,15 @@ void AI_PC_002_007()
             {
                 var73 = FUNCTION_01CC( 8 );
                 
-                if ( AI_HAS_SKILL( 47 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                 {
-                    AI_ACT_SKILL( 47 );
+                    AI_ACT_SKILL( BattleSkill.Hamaon );
                     FUNCTION_00FD( var73 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 45 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                 {
-                    AI_ACT_SKILL( 45 );
+                    AI_ACT_SKILL( BattleSkill.Hama );
                     FUNCTION_00FD( var73 );
                     return;
                 }
@@ -5380,29 +5380,29 @@ void AI_PC_002_007()
             if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
             {
                 
-                if ( AI_HAS_SKILL( 54 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
                 {
-                    AI_ACT_SKILL( 54 );
+                    AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 52 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
                 {
-                    AI_ACT_SKILL( 52 );
+                    AI_ACT_SKILL( BattleSkill.Mamudo );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 53 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                 {
                     var73 = FUNCTION_01CC( 9 );
-                    AI_ACT_SKILL( 53 );
+                    AI_ACT_SKILL( BattleSkill.Mudoon );
                     FUNCTION_00FD( var73 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 51 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                 {
                     var73 = FUNCTION_01CC( 9 );
-                    AI_ACT_SKILL( 51 );
+                    AI_ACT_SKILL( BattleSkill.Mudo );
                     FUNCTION_00FD( var73 );
                     return;
                 }
@@ -5419,15 +5419,15 @@ void AI_PC_002_007()
             {
                 var73 = FUNCTION_01CC( 9 );
                 
-                if ( AI_HAS_SKILL( 53 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                 {
-                    AI_ACT_SKILL( 53 );
+                    AI_ACT_SKILL( BattleSkill.Mudoon );
                     FUNCTION_00FD( var73 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 51 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                 {
-                    AI_ACT_SKILL( 51 );
+                    AI_ACT_SKILL( BattleSkill.Mudo );
                     FUNCTION_00FD( var73 );
                     return;
                 }
@@ -5546,29 +5546,29 @@ void AI_PC_002_008()
                         if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                         {
                             
-                            if ( AI_HAS_SKILL( 48 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
                             {
-                                AI_ACT_SKILL( 48 );
+                                AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 46 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
                             {
-                                AI_ACT_SKILL( 46 );
+                                AI_ACT_SKILL( BattleSkill.Mahama );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 47 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                             {
                                 var80 = FUNCTION_01CC( 8 );
-                                AI_ACT_SKILL( 47 );
+                                AI_ACT_SKILL( BattleSkill.Hamaon );
                                 FUNCTION_00FD( var80 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 45 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                             {
                                 var80 = FUNCTION_01CC( 8 );
-                                AI_ACT_SKILL( 45 );
+                                AI_ACT_SKILL( BattleSkill.Hama );
                                 FUNCTION_00FD( var80 );
                                 return;
                             }
@@ -5585,15 +5585,15 @@ void AI_PC_002_008()
                         {
                             var80 = FUNCTION_01CC( 8 );
                             
-                            if ( AI_HAS_SKILL( 47 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                             {
-                                AI_ACT_SKILL( 47 );
+                                AI_ACT_SKILL( BattleSkill.Hamaon );
                                 FUNCTION_00FD( var80 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 45 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                             {
-                                AI_ACT_SKILL( 45 );
+                                AI_ACT_SKILL( BattleSkill.Hama );
                                 FUNCTION_00FD( var80 );
                                 return;
                             }
@@ -5613,29 +5613,29 @@ void AI_PC_002_008()
                         if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                         {
                             
-                            if ( AI_HAS_SKILL( 54 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
                             {
-                                AI_ACT_SKILL( 54 );
+                                AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 52 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
                             {
-                                AI_ACT_SKILL( 52 );
+                                AI_ACT_SKILL( BattleSkill.Mamudo );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 53 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                             {
                                 var80 = FUNCTION_01CC( 9 );
-                                AI_ACT_SKILL( 53 );
+                                AI_ACT_SKILL( BattleSkill.Mudoon );
                                 FUNCTION_00FD( var80 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 51 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                             {
                                 var80 = FUNCTION_01CC( 9 );
-                                AI_ACT_SKILL( 51 );
+                                AI_ACT_SKILL( BattleSkill.Mudo );
                                 FUNCTION_00FD( var80 );
                                 return;
                             }
@@ -5652,15 +5652,15 @@ void AI_PC_002_008()
                         {
                             var80 = FUNCTION_01CC( 9 );
                             
-                            if ( AI_HAS_SKILL( 53 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                             {
-                                AI_ACT_SKILL( 53 );
+                                AI_ACT_SKILL( BattleSkill.Mudoon );
                                 FUNCTION_00FD( var80 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 51 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                             {
-                                AI_ACT_SKILL( 51 );
+                                AI_ACT_SKILL( BattleSkill.Mudo );
                                 FUNCTION_00FD( var80 );
                                 return;
                             }
@@ -5749,29 +5749,29 @@ void AI_PC_002_008()
             if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
             {
                 
-                if ( AI_HAS_SKILL( 48 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
                 {
-                    AI_ACT_SKILL( 48 );
+                    AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 46 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
                 {
-                    AI_ACT_SKILL( 46 );
+                    AI_ACT_SKILL( BattleSkill.Mahama );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 47 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                 {
                     var80 = FUNCTION_01CC( 8 );
-                    AI_ACT_SKILL( 47 );
+                    AI_ACT_SKILL( BattleSkill.Hamaon );
                     FUNCTION_00FD( var80 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 45 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                 {
                     var80 = FUNCTION_01CC( 8 );
-                    AI_ACT_SKILL( 45 );
+                    AI_ACT_SKILL( BattleSkill.Hama );
                     FUNCTION_00FD( var80 );
                     return;
                 }
@@ -5788,15 +5788,15 @@ void AI_PC_002_008()
             {
                 var80 = FUNCTION_01CC( 8 );
                 
-                if ( AI_HAS_SKILL( 47 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                 {
-                    AI_ACT_SKILL( 47 );
+                    AI_ACT_SKILL( BattleSkill.Hamaon );
                     FUNCTION_00FD( var80 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 45 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                 {
-                    AI_ACT_SKILL( 45 );
+                    AI_ACT_SKILL( BattleSkill.Hama );
                     FUNCTION_00FD( var80 );
                     return;
                 }
@@ -5816,29 +5816,29 @@ void AI_PC_002_008()
             if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
             {
                 
-                if ( AI_HAS_SKILL( 54 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
                 {
-                    AI_ACT_SKILL( 54 );
+                    AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 52 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
                 {
-                    AI_ACT_SKILL( 52 );
+                    AI_ACT_SKILL( BattleSkill.Mamudo );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 53 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                 {
                     var80 = FUNCTION_01CC( 9 );
-                    AI_ACT_SKILL( 53 );
+                    AI_ACT_SKILL( BattleSkill.Mudoon );
                     FUNCTION_00FD( var80 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 51 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                 {
                     var80 = FUNCTION_01CC( 9 );
-                    AI_ACT_SKILL( 51 );
+                    AI_ACT_SKILL( BattleSkill.Mudo );
                     FUNCTION_00FD( var80 );
                     return;
                 }
@@ -5855,15 +5855,15 @@ void AI_PC_002_008()
             {
                 var80 = FUNCTION_01CC( 9 );
                 
-                if ( AI_HAS_SKILL( 53 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                 {
-                    AI_ACT_SKILL( 53 );
+                    AI_ACT_SKILL( BattleSkill.Mudoon );
                     FUNCTION_00FD( var80 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 51 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                 {
-                    AI_ACT_SKILL( 51 );
+                    AI_ACT_SKILL( BattleSkill.Mudo );
                     FUNCTION_00FD( var80 );
                     return;
                 }
@@ -6226,9 +6226,9 @@ void AI_PC_003_00A()
 
     var87 = FUNCTION_0108( 2 );
     
-    if ( ( ( var87 != -1 ) && AI_HAS_SKILL( 146 ) ) && ( FUNCTION_0033( 40 ) == 0 ) )
+    if ( ( ( var87 != -1 ) && AI_HAS_SKILL( BattleSkill.CruelAttack ) ) && ( FUNCTION_0033( 40 ) == 0 ) )
     {
-        AI_ACT_SKILL( 146 );
+        AI_ACT_SKILL( BattleSkill.CruelAttack );
         FUNCTION_00FD( var87 );
         return;
     }
@@ -6306,29 +6306,29 @@ void AI_PC_003_00A()
                         if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                         {
                             
-                            if ( AI_HAS_SKILL( 48 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
                             {
-                                AI_ACT_SKILL( 48 );
+                                AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 46 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
                             {
-                                AI_ACT_SKILL( 46 );
+                                AI_ACT_SKILL( BattleSkill.Mahama );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 47 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                             {
                                 var87 = FUNCTION_01CC( 8 );
-                                AI_ACT_SKILL( 47 );
+                                AI_ACT_SKILL( BattleSkill.Hamaon );
                                 FUNCTION_00FD( var87 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 45 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                             {
                                 var87 = FUNCTION_01CC( 8 );
-                                AI_ACT_SKILL( 45 );
+                                AI_ACT_SKILL( BattleSkill.Hama );
                                 FUNCTION_00FD( var87 );
                                 return;
                             }
@@ -6345,15 +6345,15 @@ void AI_PC_003_00A()
                         {
                             var87 = FUNCTION_01CC( 8 );
                             
-                            if ( AI_HAS_SKILL( 47 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                             {
-                                AI_ACT_SKILL( 47 );
+                                AI_ACT_SKILL( BattleSkill.Hamaon );
                                 FUNCTION_00FD( var87 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 45 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                             {
-                                AI_ACT_SKILL( 45 );
+                                AI_ACT_SKILL( BattleSkill.Hama );
                                 FUNCTION_00FD( var87 );
                                 return;
                             }
@@ -6373,29 +6373,29 @@ void AI_PC_003_00A()
                         if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
                         {
                             
-                            if ( AI_HAS_SKILL( 54 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
                             {
-                                AI_ACT_SKILL( 54 );
+                                AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 52 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
                             {
-                                AI_ACT_SKILL( 52 );
+                                AI_ACT_SKILL( BattleSkill.Mamudo );
                                 AI_TAR_RND();
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 53 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                             {
                                 var87 = FUNCTION_01CC( 9 );
-                                AI_ACT_SKILL( 53 );
+                                AI_ACT_SKILL( BattleSkill.Mudoon );
                                 FUNCTION_00FD( var87 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 51 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                             {
                                 var87 = FUNCTION_01CC( 9 );
-                                AI_ACT_SKILL( 51 );
+                                AI_ACT_SKILL( BattleSkill.Mudo );
                                 FUNCTION_00FD( var87 );
                                 return;
                             }
@@ -6412,15 +6412,15 @@ void AI_PC_003_00A()
                         {
                             var87 = FUNCTION_01CC( 9 );
                             
-                            if ( AI_HAS_SKILL( 53 ) )
+                            if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                             {
-                                AI_ACT_SKILL( 53 );
+                                AI_ACT_SKILL( BattleSkill.Mudoon );
                                 FUNCTION_00FD( var87 );
                                 return;
                             }
-                            else if ( AI_HAS_SKILL( 51 ) )
+                            else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                             {
-                                AI_ACT_SKILL( 51 );
+                                AI_ACT_SKILL( BattleSkill.Mudo );
                                 FUNCTION_00FD( var87 );
                                 return;
                             }
@@ -6509,29 +6509,29 @@ void AI_PC_003_00A()
             if ( ( FUNCTION_004D( 8 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
             {
                 
-                if ( AI_HAS_SKILL( 48 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mahamaon48 ) )
                 {
-                    AI_ACT_SKILL( 48 );
+                    AI_ACT_SKILL( BattleSkill.Mahamaon48 );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 46 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mahama ) )
                 {
-                    AI_ACT_SKILL( 46 );
+                    AI_ACT_SKILL( BattleSkill.Mahama );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 47 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                 {
                     var87 = FUNCTION_01CC( 8 );
-                    AI_ACT_SKILL( 47 );
+                    AI_ACT_SKILL( BattleSkill.Hamaon );
                     FUNCTION_00FD( var87 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 45 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                 {
                     var87 = FUNCTION_01CC( 8 );
-                    AI_ACT_SKILL( 45 );
+                    AI_ACT_SKILL( BattleSkill.Hama );
                     FUNCTION_00FD( var87 );
                     return;
                 }
@@ -6548,15 +6548,15 @@ void AI_PC_003_00A()
             {
                 var87 = FUNCTION_01CC( 8 );
                 
-                if ( AI_HAS_SKILL( 47 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Hamaon ) )
                 {
-                    AI_ACT_SKILL( 47 );
+                    AI_ACT_SKILL( BattleSkill.Hamaon );
                     FUNCTION_00FD( var87 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 45 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Hama ) )
                 {
-                    AI_ACT_SKILL( 45 );
+                    AI_ACT_SKILL( BattleSkill.Hama );
                     FUNCTION_00FD( var87 );
                     return;
                 }
@@ -6577,29 +6577,29 @@ void AI_PC_003_00A()
             if ( ( FUNCTION_004D( 9 ) == 0 ) && ( FUNCTION_003C( 1 ) == 0 ) )
             {
                 
-                if ( AI_HAS_SKILL( 54 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mamudoon54 ) )
                 {
-                    AI_ACT_SKILL( 54 );
+                    AI_ACT_SKILL( BattleSkill.Mamudoon54 );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 52 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mamudo ) )
                 {
-                    AI_ACT_SKILL( 52 );
+                    AI_ACT_SKILL( BattleSkill.Mamudo );
                     AI_TAR_RND();
                     return;
                 }
-                else if ( AI_HAS_SKILL( 53 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                 {
                     var87 = FUNCTION_01CC( 9 );
-                    AI_ACT_SKILL( 53 );
+                    AI_ACT_SKILL( BattleSkill.Mudoon );
                     FUNCTION_00FD( var87 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 51 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                 {
                     var87 = FUNCTION_01CC( 9 );
-                    AI_ACT_SKILL( 51 );
+                    AI_ACT_SKILL( BattleSkill.Mudo );
                     FUNCTION_00FD( var87 );
                     return;
                 }
@@ -6616,15 +6616,15 @@ void AI_PC_003_00A()
             {
                 var87 = FUNCTION_01CC( 9 );
                 
-                if ( AI_HAS_SKILL( 53 ) )
+                if ( AI_HAS_SKILL( BattleSkill.Mudoon ) )
                 {
-                    AI_ACT_SKILL( 53 );
+                    AI_ACT_SKILL( BattleSkill.Mudoon );
                     FUNCTION_00FD( var87 );
                     return;
                 }
-                else if ( AI_HAS_SKILL( 51 ) )
+                else if ( AI_HAS_SKILL( BattleSkill.Mudo ) )
                 {
-                    AI_ACT_SKILL( 51 );
+                    AI_ACT_SKILL( BattleSkill.Mudo );
                     FUNCTION_00FD( var87 );
                     return;
                 }
@@ -7230,90 +7230,90 @@ void GOTODOWN()
 
     var98 = FUNCTION_00FE( 0, 1 );
     
-    if ( AI_MYBAD( 1, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    if ( AI_MYBAD( 1, 0x00100000 ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var98 );
         return;
     }
 
     
-    if ( AI_MYBAD( 2, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    if ( AI_MYBAD( 2, 0x00100000 ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var93 = FUNCTION_00FE( 0, 2 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var93 );
         return;
     }
 
     
-    if ( AI_MYBAD( 3, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    if ( AI_MYBAD( 3, 0x00100000 ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var93 = FUNCTION_00FE( 0, 3 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var93 );
         return;
     }
 
     
-    if ( AI_MYBAD( 4, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    if ( AI_MYBAD( 4, 0x00100000 ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var93 = FUNCTION_00FE( 0, 4 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var93 );
         return;
     }
 
     
-    if ( AI_MYBAD( 5, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    if ( AI_MYBAD( 5, 0x00100000 ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var93 = FUNCTION_00FE( 0, 5 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var93 );
         return;
     }
 
     
-    if ( AI_MYBAD( 7, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    if ( AI_MYBAD( 7, 0x00100000 ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var93 = FUNCTION_00FE( 0, 7 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var93 );
         return;
     }
 
     
-    if ( AI_MYBAD( 8, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    if ( AI_MYBAD( 8, 0x00100000 ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var93 = FUNCTION_00FE( 0, 8 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var93 );
         return;
     }
 
     
-    if ( AI_MYBAD( 9, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    if ( AI_MYBAD( 9, 0x00100000 ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var93 = FUNCTION_00FE( 0, 9 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var93 );
         return;
     }
 
     
-    if ( AI_MYBAD( 10, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    if ( AI_MYBAD( 10, 0x00100000 ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var93 = FUNCTION_00FE( 0, 10 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var93 );
         return;
     }
 
     
-    if ( AI_MYBAD( 10, 0x00100000 ) && AI_HAS_SKILL( 201 ) )
+    if ( AI_MYBAD( 10, 0x00100000 ) && AI_HAS_SKILL( BattleSkill.RePatra ) )
     {
         var93 = FUNCTION_00FE( 0, 9 );
-        AI_ACT_SKILL( 201 );
+        AI_ACT_SKILL( BattleSkill.RePatra );
         FUNCTION_00FD( var93 );
         return;
     }

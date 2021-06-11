@@ -1393,13 +1393,13 @@
     {
         "Index": "0x0063",
         "ReturnType": "void",
-        "Name": "AI_FUNCTION_0063",
-        "Description": "002CC4F0",
+        "Name": "AI_TAR_BAD",
+        "Description": "Targets enemy with condition",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "condition",
 				"Description": ""
 			}
         ]
@@ -1579,7 +1579,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleSkill",
 				"Name": "skill_ID",
 				"Description": ""
 			}
@@ -2759,7 +2759,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			}
@@ -2773,7 +2773,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			}
@@ -2787,7 +2787,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			}
@@ -2801,7 +2801,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			}
@@ -3398,7 +3398,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleSkill",
 				"Name": "skill",
 				"Description": ""
 			}
@@ -5437,7 +5437,7 @@
 				"Description": ""
 			},
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "Skill",
 				"Description": ""
 			}
