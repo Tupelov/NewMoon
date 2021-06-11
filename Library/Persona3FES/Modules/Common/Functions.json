@@ -1366,7 +1366,7 @@
     {
         "Index": "0x0060",
         "ReturnType": "void",
-        "Name": "FUNCTION_0060",
+        "Name": "AI_HPMIN",
         "Description": "002CC3A0",
         "Parameters":
         [
@@ -1375,7 +1375,7 @@
     {
         "Index": "0x0061",
         "ReturnType": "void",
-        "Name": "FUNCTION_0061",
+        "Name": "AI_LVMIN",
         "Description": "002CC410",
         "Parameters":
         [
@@ -1384,7 +1384,7 @@
     {
         "Index": "0x0062",
         "ReturnType": "void",
-        "Name": "FUNCTION_0062",
+        "Name": "AI_MPMAX",
         "Description": "002CC480",
         "Parameters":
         [
@@ -1393,7 +1393,7 @@
     {
         "Index": "0x0063",
         "ReturnType": "void",
-        "Name": "FUNCTION_0063",
+        "Name": "AI_FUNCTION_0063",
         "Description": "002CC4F0",
         "Parameters":
         [
@@ -1407,7 +1407,7 @@
     {
         "Index": "0x0064",
         "ReturnType": "void",
-        "Name": "FUNCTION_0064",
+        "Name": "AI_NOTBAD",
         "Description": "002CC5A0",
         "Parameters":
         [
@@ -1421,7 +1421,7 @@
     {
         "Index": "0x0065",
         "ReturnType": "void",
-        "Name": "FUNCTION_0065",
+        "Name": "AI_ID",
         "Description": "002CC650",
         "Parameters":
         [
@@ -1444,7 +1444,7 @@
     {
         "Index": "0x0067",
         "ReturnType": "void",
-        "Name": "FUNCTION_0067",
+        "Name": "AI_TAR_MYAI",
         "Description": "002CC770",
         "Parameters":
         [
@@ -1453,7 +1453,7 @@
     {
         "Index": "0x0068",
         "ReturnType": "void",
-        "Name": "FUNCTION_0068",
+        "Name": "AI_HANSYA",
         "Description": "002CC7E0",
         "Parameters":
         [
@@ -1467,7 +1467,7 @@
     {
         "Index": "0x0069",
         "ReturnType": "void",
-        "Name": "FUNCTION_0069",
+        "Name": "AI_KYUSYU",
         "Description": "002CC890",
         "Parameters":
         [
@@ -1481,7 +1481,7 @@
     {
         "Index": "0x006a",
         "ReturnType": "void",
-        "Name": "FUNCTION_006A",
+        "Name": "AI_MUKOU",
         "Description": "002CC940",
         "Parameters":
         [
@@ -1495,7 +1495,7 @@
     {
         "Index": "0x006b",
         "ReturnType": "void",
-        "Name": "FUNCTION_006B",
+        "Name": "AI_WEAK",
         "Description": "002CC9F0",
         "Parameters":
         [
@@ -1509,7 +1509,7 @@
     {
         "Index": "0x006c",
         "ReturnType": "void",
-        "Name": "FUNCTION_006C",
+        "Name": "AI_NOTHANSYA",
         "Description": "002CCAA0",
         "Parameters":
         [
@@ -1523,7 +1523,7 @@
     {
         "Index": "0x006d",
         "ReturnType": "void",
-        "Name": "FUNCTION_006D",
+        "Name": "AI_NOTKYUSYU",
         "Description": "002CCB50",
         "Parameters":
         [
@@ -1537,7 +1537,7 @@
     {
         "Index": "0x006e",
         "ReturnType": "void",
-        "Name": "FUNCTION_006E",
+        "Name": "AI_NOTMUKOU",
         "Description": "002CCC00",
         "Parameters":
         [
@@ -1551,7 +1551,7 @@
     {
         "Index": "0x006f",
         "ReturnType": "void",
-        "Name": "FUNCTION_006F",
+        "Name": "AI_NOTWEAK",
         "Description": "002CCCB0",
         "Parameters":
         [

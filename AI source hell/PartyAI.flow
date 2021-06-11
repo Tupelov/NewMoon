@@ -807,7 +807,7 @@ void AI_PC_002_001()
     if ( FUNCTION_0034( 10 ) && AI_HAS_SKILL( 76 ) )
     {
         AI_ACT_SKILL( 76 );
-        FUNCTION_0062();
+        AI_MPMAX();
         return;
     }
 
@@ -1010,7 +1010,7 @@ void AI_PC_002_001()
         if ( localVariable13 <= localVariable6 )
         {
             AI_ACT_SKILL( 57 );
-            FUNCTION_0064( 1 );
+            AI_NOTBAD( 1 );
             return;
         }
 
@@ -4493,7 +4493,7 @@ void AI_PC_002_005()
     if ( FUNCTION_0034( 10 ) && AI_HAS_SKILL( 76 ) )
     {
         AI_ACT_SKILL( 76 );
-        FUNCTION_0062();
+        AI_MPMAX();
         return;
     }
 
@@ -4869,7 +4869,7 @@ void AI_PC_002_006()
     if ( FUNCTION_0034( 10 ) && AI_HAS_SKILL( 76 ) )
     {
         AI_ACT_SKILL( 76 );
-        FUNCTION_0062();
+        AI_MPMAX();
         return;
     }
 

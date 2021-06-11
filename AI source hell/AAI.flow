@@ -278,16 +278,16 @@ void AI_EVENT_1AE_ACTSTART()
             FUNCTION_01BA();
             OPEN_MSG_WIN();
             FUNCTION_01C1( 0 );
-            FUNCTION_01B3( -47.20f, 101.30f, -944.50f, -54.00f, 93.10f, -845.10f );
-            FUNCTION_01B4( 2.90f, 297.70f, -1036.20f, -7.50f, 268.00f, -941.30f );
+            FUNCTION_01B3( 0.00f, 101.30f, 0.00f, 0.00f, 93.10f, 0.00f );
+            FUNCTION_01B4( 2.90f, 297.70f, 0.00f, 0.00f, 268.00f, 0.00f );
             FUNCTION_01B5( 112 );
             MSG( MSG_0867 );
-            FUNCTION_01B3( 399.30f, 400.40f, 63.40f, 348.30f, 346.40f, -3.60f );
+            FUNCTION_01B3( 399.30f, 400.40f, 63.40f, 348.30f, 346.40f, 0.00f );
             FUNCTION_01B4( 54.30f, 357.40f, 229.20f, 57.50f, 305.40f, 143.80f );
             FUNCTION_01B5( 88 );
             MSG( MSG_0868 );
             FUNCTION_01B3( 31.00f, 408.90f, 456.00f, 38.80f, 367.10f, 365.40f );
-            FUNCTION_01B4( -3.40f, 99.80f, 853.80f, 5.20f, 96.20f, 754.30f );
+            FUNCTION_01B4( 0.00f, 99.80f, 853.80f, 5.20f, 96.20f, 754.30f );
             FUNCTION_01B5( 103 );
             MSG( MSG_0869 );
             CLOSE_MSG_WIN();
@@ -303,8 +303,8 @@ void AI_EVENT_1AE_ACTSTART()
             FUNCTION_01BA();
             OPEN_MSG_WIN();
             FUNCTION_01C1( 0 );
-            FUNCTION_01B3( 124.90f, 151.60f, -896.40f, 94.40f, 134.30f, -802.80f );
-            FUNCTION_01B4( -18.80f, 63.30f, -871.50f, -21.10f, 59.00f, -771.60f );
+            FUNCTION_01B3( 124.90f, 151.60f, 0.00f, 94.40f, 134.30f, 0.00f );
+            FUNCTION_01B4( 0.00f, 63.30f, 0.00f, 0.00f, 59.00f, 0.00f );
             FUNCTION_01B5( 105 );
             MSG( MSG_0874 );
             CLOSE_MSG_WIN();
@@ -319,8 +319,8 @@ void AI_EVENT_1AE_ACTSTART()
             FUNCTION_01BA();
             OPEN_MSG_WIN();
             FUNCTION_01C1( 0 );
-            FUNCTION_01B3( -249.30f, 315.10f, -772.50f, -219.90f, 272.50f, -687.00f );
-            FUNCTION_01B4( 9.20f, 112.80f, -847.80f, -7.70f, 98.20f, -750.30f );
+            FUNCTION_01B3( 0.00f, 315.10f, 0.00f, 0.00f, 272.50f, 0.00f );
+            FUNCTION_01B4( 9.20f, 112.80f, 0.00f, 0.00f, 98.20f, 0.00f );
             FUNCTION_01B5( 79 );
             MSG( MSG_0872 );
             FUNCTION_01B3( 3.60f, 83.90f, 626.90f, 10.40f, 81.30f, 527.20f );
@@ -342,8 +342,8 @@ void AI_EVENT_1AE_ACTSTART()
             FUNCTION_01B4( 95.70f, 313.50f, 296.30f, 97.50f, 272.50f, 205.10f );
             FUNCTION_01B5( 136 );
             MSG( MSG_0870 );
-            FUNCTION_01B3( -337.00f, 370.30f, -912.30f, -306.00f, 329.80f, -826.40f );
-            FUNCTION_01B4( -20.30f, 204.30f, -1121.00f, -32.00f, 191.50f, -1022.50f );
+            FUNCTION_01B3( 0.00f, 370.30f, 0.00f, 0.00f, 329.80f, 0.00f );
+            FUNCTION_01B4( 0.00f, 204.30f, 0.00f, 0.00f, 191.50f, 0.00f );
             FUNCTION_01B5( 132 );
             MSG( MSG_0871 );
             CLOSE_MSG_WIN();
@@ -1037,8 +1037,8 @@ void AI_EVENT_1AF_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( -94.10f, 195.80f, 95.90f, -64.80f, 162.40f, 6.30f );
-        FUNCTION_01B4( -182.50f, 152.10f, 72.80f, -129.30f, 130.50f, -9.00f );
+        FUNCTION_01B3( 0.00f, 195.80f, 95.90f, 0.00f, 162.40f, 6.30f );
+        FUNCTION_01B4( 0.00f, 152.10f, 72.80f, 0.00f, 130.50f, 0.00f );
         FUNCTION_01B5( 50 );
         MSG( MSG_0877 );
         CLOSE_MSG_WIN();
@@ -1052,8 +1052,8 @@ void AI_EVENT_1AF_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( 173.20f, 268.80f, -676.40f, 139.30f, 229.00f, -591.10f );
-        FUNCTION_01B4( 125.30f, 98.40f, -723.50f, 92.80f, 89.10f, -629.40f );
+        FUNCTION_01B3( 173.20f, 268.80f, 0.00f, 139.30f, 229.00f, 0.00f );
+        FUNCTION_01B4( 125.30f, 98.40f, 0.00f, 92.80f, 89.10f, 0.00f );
         FUNCTION_01B5( 89 );
         MSG( MSG_0876 );
         CLOSE_MSG_WIN();
@@ -1225,8 +1225,8 @@ void AI_EVENT_1B0_ACTSTART()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( 134.80f, 383.90f, -901.60f, 101.10f, 343.80f, -816.50f );
-        FUNCTION_01B4( -17.10f, 58.40f, -791.30f, -25.30f, 62.40f, -691.70f );
+        FUNCTION_01B3( 134.80f, 383.90f, 0.00f, 101.10f, 343.80f, 0.00f );
+        FUNCTION_01B4( 0.00f, 58.40f, 0.00f, 0.00f, 62.40f, 0.00f );
         FUNCTION_01B5( 170 );
         MSG( MSG_0881 );
         CLOSE_MSG_WIN();
@@ -1240,8 +1240,8 @@ void AI_EVENT_1B0_ACTSTART()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( 134.80f, 383.90f, -901.60f, 101.10f, 343.80f, -816.50f );
-        FUNCTION_01B4( -17.10f, 58.40f, -791.30f, -25.30f, 62.40f, -691.70f );
+        FUNCTION_01B3( 134.80f, 383.90f, 0.00f, 101.10f, 343.80f, 0.00f );
+        FUNCTION_01B4( 0.00f, 58.40f, 0.00f, 0.00f, 62.40f, 0.00f );
         FUNCTION_01B5( 170 );
         MSG( MSG_0880 );
         CLOSE_MSG_WIN();
@@ -1255,8 +1255,8 @@ void AI_EVENT_1B0_ACTSTART()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( 134.80f, 383.90f, -901.60f, 101.10f, 343.80f, -816.50f );
-        FUNCTION_01B4( -17.10f, 58.40f, -791.30f, -25.30f, 62.40f, -691.70f );
+        FUNCTION_01B3( 134.80f, 383.90f, 0.00f, 101.10f, 343.80f, 0.00f );
+        FUNCTION_01B4( 0.00f, 58.40f, 0.00f, 0.00f, 62.40f, 0.00f );
         FUNCTION_01B5( 170 );
         MSG( MSG_0884 );
         CLOSE_MSG_WIN();
@@ -1270,8 +1270,8 @@ void AI_EVENT_1B0_ACTSTART()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( 134.80f, 383.90f, -901.60f, 101.10f, 343.80f, -816.50f );
-        FUNCTION_01B4( -17.10f, 58.40f, -791.30f, -25.30f, 62.40f, -691.70f );
+        FUNCTION_01B3( 134.80f, 383.90f, 0.00f, 101.10f, 343.80f, 0.00f );
+        FUNCTION_01B4( 0.00f, 58.40f, 0.00f, 0.00f, 62.40f, 0.00f );
         FUNCTION_01B5( 170 );
         MSG( MSG_0886 );
         CLOSE_MSG_WIN();
@@ -1285,8 +1285,8 @@ void AI_EVENT_1B0_ACTSTART()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( 134.80f, 383.90f, -901.60f, 101.10f, 343.80f, -816.50f );
-        FUNCTION_01B4( -17.10f, 58.40f, -791.30f, -25.30f, 62.40f, -691.70f );
+        FUNCTION_01B3( 134.80f, 383.90f, 0.00f, 101.10f, 343.80f, 0.00f );
+        FUNCTION_01B4( 0.00f, 58.40f, 0.00f, 0.00f, 62.40f, 0.00f );
         FUNCTION_01B5( 170 );
         MSG( MSG_0888 );
         CLOSE_MSG_WIN();
@@ -1300,8 +1300,8 @@ void AI_EVENT_1B0_ACTSTART()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( 134.80f, 383.90f, -901.60f, 101.10f, 343.80f, -816.50f );
-        FUNCTION_01B4( -17.10f, 58.40f, -791.30f, -25.30f, 62.40f, -691.70f );
+        FUNCTION_01B3( 134.80f, 383.90f, 0.00f, 101.10f, 343.80f, 0.00f );
+        FUNCTION_01B4( 0.00f, 58.40f, 0.00f, 0.00f, 62.40f, 0.00f );
         FUNCTION_01B5( 170 );
         MSG( MSG_0928 );
         CLOSE_MSG_WIN();
@@ -1315,8 +1315,8 @@ void AI_EVENT_1B0_ACTSTART()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( 134.80f, 383.90f, -901.60f, 101.10f, 343.80f, -816.50f );
-        FUNCTION_01B4( -17.10f, 58.40f, -791.30f, -25.30f, 62.40f, -691.70f );
+        FUNCTION_01B3( 134.80f, 383.90f, 0.00f, 101.10f, 343.80f, 0.00f );
+        FUNCTION_01B4( 0.00f, 58.40f, 0.00f, 0.00f, 62.40f, 0.00f );
         FUNCTION_01B5( 170 );
         MSG( MSG_0889 );
         CLOSE_MSG_WIN();
@@ -1339,12 +1339,12 @@ void AI_EVENT_1B1_BTLSTART()
     FUNCTION_01BA();
     OPEN_MSG_WIN();
     FUNCTION_01C1( 0 );
-    FUNCTION_01B3( 0.00f, 175.20f, 246.10f, -11.60f, 151.40f, 149.70f );
+    FUNCTION_01B3( 0.00f, 175.20f, 246.10f, 0.00f, 151.40f, 149.70f );
     FUNCTION_01B4( 63.70f, 99.80f, 659.60f, 38.10f, 83.20f, 564.40f );
     FUNCTION_01B5( 83 );
     MSG( MSG_0890 );
-    FUNCTION_01B3( 389.40f, 373.00f, -813.90f, 338.70f, 325.30f, -742.10f );
-    FUNCTION_01B4( 227.50f, 125.70f, -688.60f, 193.80f, 106.70f, -596.40f );
+    FUNCTION_01B3( 389.40f, 373.00f, 0.00f, 338.70f, 325.30f, 0.00f );
+    FUNCTION_01B4( 227.50f, 125.70f, 0.00f, 193.80f, 106.70f, 0.00f );
     FUNCTION_01B5( 67 );
     MSG( MSG_0894 );
     CLOSE_MSG_WIN();
@@ -1378,8 +1378,8 @@ void AI_EVENT_1B1_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( 12.90f, 329.90f, 105.10f, -5.40f, 269.70f, 27.40f );
-        FUNCTION_01B4( 27.80f, 58.40f, 680.70f, -0.10f, 57.30f, 584.70f );
+        FUNCTION_01B3( 12.90f, 329.90f, 105.10f, 0.00f, 269.70f, 27.40f );
+        FUNCTION_01B4( 27.80f, 58.40f, 680.70f, 0.00f, 57.30f, 584.70f );
         FUNCTION_01B5( 161 );
         MSG( MSG_0893 );
         CLOSE_MSG_WIN();
@@ -1394,8 +1394,8 @@ void AI_EVENT_1B1_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( -425.70f, 415.90f, -860.40f, -401.40f, 368.60f, -775.70f );
-        FUNCTION_01B4( -304.80f, 197.10f, -740.20f, -287.40f, 167.60f, -646.30f );
+        FUNCTION_01B3( 0.00f, 415.90f, 0.00f, 0.00f, 368.60f, 0.00f );
+        FUNCTION_01B4( 0.00f, 197.10f, 0.00f, 0.00f, 167.60f, 0.00f );
         FUNCTION_01B5( 120 );
         MSG( MSG_0892 );
         CLOSE_MSG_WIN();
@@ -1409,8 +1409,8 @@ void AI_EVENT_1B1_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( -422.60f, 254.00f, 146.80f, -359.50f, 213.70f, 80.50f );
-        FUNCTION_01B4( -306.10f, 94.10f, 111.90f, -254.70f, 79.80f, 27.30f );
+        FUNCTION_01B3( 0.00f, 254.00f, 146.80f, 0.00f, 213.70f, 80.50f );
+        FUNCTION_01B4( 0.00f, 94.10f, 111.90f, 0.00f, 79.80f, 27.30f );
         FUNCTION_01B5( 0x40 );
         MSG( MSG_0891 );
         CLOSE_MSG_WIN();
@@ -1426,8 +1426,8 @@ void AI_EVENT_1B1_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( 384.10f, 360.10f, -727.10f, 332.10f, 310.60f, -657.40f );
-        FUNCTION_01B4( 265.20f, 214.20f, -713.00f, 228.90f, 179.30f, -626.60f );
+        FUNCTION_01B3( 384.10f, 360.10f, 0.00f, 332.10f, 310.60f, 0.00f );
+        FUNCTION_01B4( 265.20f, 214.20f, 0.00f, 228.90f, 179.30f, 0.00f );
         FUNCTION_01B5( 91 );
         MSG( MSG_0897 );
         CLOSE_MSG_WIN();
@@ -1479,8 +1479,8 @@ void AI_EVENT_1B2_BTLSTART()
     FUNCTION_01B4( 361.80f, 210.60f, 613.10f, 331.10f, 172.60f, 525.90f );
     FUNCTION_01B5( 92 );
     MSG( MSG_0898 );
-    FUNCTION_01B3( -425.60f, 242.80f, -664.30f, -382.50f, 202.50f, -583.60f );
-    FUNCTION_01B4( -403.80f, 113.10f, -582.80f, -349.10f, 94.00f, -501.30f );
+    FUNCTION_01B3( 0.00f, 242.80f, 0.00f, 0.00f, 202.50f, 0.00f );
+    FUNCTION_01B4( 0.00f, 113.10f, 0.00f, 0.00f, 94.00f, 0.00f );
     FUNCTION_01B5( 50 );
     MSG( MSG_0902 );
     CLOSE_MSG_WIN();
@@ -1514,8 +1514,8 @@ void AI_EVENT_1B2_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( 290.60f, 258.10f, -751.30f, 250.10f, 216.60f, -669.80f );
-        FUNCTION_01B4( -85.20f, 161.90f, -681.10f, -54.90f, 136.30f, -589.30f );
+        FUNCTION_01B3( 290.60f, 258.10f, 0.00f, 250.10f, 216.60f, 0.00f );
+        FUNCTION_01B4( 0.00f, 161.90f, 0.00f, 0.00f, 136.30f, 0.00f );
         FUNCTION_01B5( 144 );
         MSG( MSG_0901 );
         CLOSE_MSG_WIN();
@@ -1530,8 +1530,8 @@ void AI_EVENT_1B2_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( -108.80f, 281.60f, -744.50f, -75.30f, 243.10f, -658.60f );
-        FUNCTION_01B4( 263.40f, 150.50f, -808.10f, 229.40f, 134.40f, -715.40f );
+        FUNCTION_01B3( 0.00f, 281.60f, 0.00f, 0.00f, 243.10f, 0.00f );
+        FUNCTION_01B4( 263.40f, 150.50f, 0.00f, 229.40f, 134.40f, 0.00f );
         FUNCTION_01B5( 160 );
         MSG( MSG_0900 );
         CLOSE_MSG_WIN();
@@ -1545,8 +1545,8 @@ void AI_EVENT_1B2_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( -1.50f, 320.70f, 188.60f, 36.20f, 273.10f, 109.20f );
-        FUNCTION_01B4( -109.70f, 103.80f, 21.00f, -37.90f, 88.80f, -47.00f );
+        FUNCTION_01B3( 0.00f, 320.70f, 188.60f, 36.20f, 273.10f, 109.20f );
+        FUNCTION_01B4( 0.00f, 103.80f, 21.00f, 0.00f, 88.80f, 0.00f );
         FUNCTION_01B5( 120 );
         MSG( MSG_0899 );
         CLOSE_MSG_WIN();
@@ -1562,8 +1562,8 @@ void AI_EVENT_1B2_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( -318.40f, 145.60f, -498.40f, -274.30f, 118.80f, -412.80f );
-        FUNCTION_01B4( -434.20f, 99.60f, -539.80f, -373.20f, 81.10f, -462.80f );
+        FUNCTION_01B3( 0.00f, 145.60f, 0.00f, 0.00f, 118.80f, 0.00f );
+        FUNCTION_01B4( 0.00f, 99.60f, 0.00f, 0.00f, 81.10f, 0.00f );
         FUNCTION_01B5( 50 );
         MSG( MSG_0905 );
         CLOSE_MSG_WIN();
@@ -1578,8 +1578,8 @@ void AI_EVENT_1B2_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( -478.40f, 234.30f, -644.90f, -427.00f, 200.80f, -565.90f );
-        FUNCTION_01B4( -371.00f, 89.50f, -650.40f, -333.20f, 80.20f, -558.30f );
+        FUNCTION_01B3( 0.00f, 234.30f, 0.00f, 0.00f, 200.80f, 0.00f );
+        FUNCTION_01B4( 0.00f, 89.50f, 0.00f, 0.00f, 80.20f, 0.00f );
         FUNCTION_01B5( 50 );
         MSG( MSG_0904 );
         CLOSE_MSG_WIN();
@@ -1593,8 +1593,8 @@ void AI_EVENT_1B2_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( -86.20f, 254.70f, 80.20f, -87.00f, 199.40f, -3.10f );
-        FUNCTION_01B4( 9.90f, 173.10f, 57.90f, -17.30f, 135.20f, -30.60f );
+        FUNCTION_01B3( 0.00f, 254.70f, 80.20f, 0.00f, 199.40f, 0.00f );
+        FUNCTION_01B4( 9.90f, 173.10f, 57.90f, 0.00f, 135.20f, 0.00f );
         FUNCTION_01B5( 50 );
         MSG( MSG_0903 );
         CLOSE_MSG_WIN();
@@ -1611,12 +1611,12 @@ void AI_EVENT_1B3_BTLSTART()
     FUNCTION_01BA();
     OPEN_MSG_WIN();
     FUNCTION_01C1( 0 );
-    FUNCTION_01B3( -205.80f, 341.10f, 353.40f, -181.20f, 295.90f, 267.60f );
-    FUNCTION_01B4( -291.40f, 164.50f, 674.90f, -249.90f, 134.60f, 589.00f );
+    FUNCTION_01B3( 0.00f, 341.10f, 353.40f, 0.00f, 295.90f, 267.60f );
+    FUNCTION_01B4( 0.00f, 164.50f, 674.90f, 0.00f, 134.60f, 589.00f );
     FUNCTION_01B5( 108 );
     MSG( MSG_0906 );
-    FUNCTION_01B3( 115.00f, 317.40f, -804.30f, 107.00f, 272.70f, -715.20f );
-    FUNCTION_01B4( 203.60f, 64.00f, -761.60f, 177.00f, 59.70f, -665.30f );
+    FUNCTION_01B3( 115.00f, 317.40f, 0.00f, 107.00f, 272.70f, 0.00f );
+    FUNCTION_01B4( 203.60f, 64.00f, 0.00f, 177.00f, 59.70f, 0.00f );
     FUNCTION_01B5( 82 );
     MSG( MSG_0913 );
     CLOSE_MSG_WIN();
@@ -1650,8 +1650,8 @@ void AI_EVENT_1B3_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( -69.70f, 262.00f, -597.60f, -94.10f, 234.30f, -504.70f );
-        FUNCTION_01B4( -252.40f, 99.60f, -684.70f, -242.80f, 84.90f, -586.30f );
+        FUNCTION_01B3( 0.00f, 262.00f, 0.00f, 0.00f, 234.30f, 0.00f );
+        FUNCTION_01B4( 0.00f, 99.60f, 0.00f, 0.00f, 84.90f, 0.00f );
         FUNCTION_01B5( 83 );
         MSG( MSG_0909 );
         CLOSE_MSG_WIN();
@@ -1666,8 +1666,8 @@ void AI_EVENT_1B3_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( -477.30f, 383.70f, -725.40f, -440.20f, 331.30f, -648.70f );
-        FUNCTION_01B4( -324.90f, 108.10f, -731.20f, -306.10f, 93.00f, -634.20f );
+        FUNCTION_01B3( 0.00f, 383.70f, 0.00f, 0.00f, 331.30f, 0.00f );
+        FUNCTION_01B4( 0.00f, 108.10f, 0.00f, 0.00f, 93.00f, 0.00f );
         FUNCTION_01B5( 87 );
         MSG( MSG_0908 );
         CLOSE_MSG_WIN();
@@ -1681,8 +1681,8 @@ void AI_EVENT_1B3_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( -422.60f, 254.00f, 146.80f, -359.50f, 213.70f, 80.50f );
-        FUNCTION_01B4( -306.10f, 94.10f, 111.90f, -254.70f, 79.80f, 27.30f );
+        FUNCTION_01B3( 0.00f, 254.00f, 146.80f, 0.00f, 213.70f, 80.50f );
+        FUNCTION_01B4( 0.00f, 94.10f, 111.90f, 0.00f, 79.80f, 27.30f );
         FUNCTION_01B5( 0x40 );
         MSG( MSG_0907 );
         CLOSE_MSG_WIN();
@@ -1699,7 +1699,7 @@ void AI_EVENT_1B3_ACTEND()
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
         FUNCTION_01B3( 48.40f, 281.90f, 158.50f, 80.30f, 230.60f, 78.90f );
-        FUNCTION_01B4( -194.60f, 90.80f, 707.30f, -157.70f, 80.30f, 615.00f );
+        FUNCTION_01B4( 0.00f, 90.80f, 707.30f, 0.00f, 80.30f, 615.00f );
         FUNCTION_01B5( 125 );
         MSG( MSG_0912 );
         CLOSE_MSG_WIN();
@@ -1714,8 +1714,8 @@ void AI_EVENT_1B3_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( 382.50f, 258.80f, -800.10f, 327.90f, 222.10f, -724.80f );
-        FUNCTION_01B4( 460.10f, 119.40f, -662.30f, 386.10f, 101.60f, -597.50f );
+        FUNCTION_01B3( 382.50f, 258.80f, 0.00f, 327.90f, 222.10f, 0.00f );
+        FUNCTION_01B4( 460.10f, 119.40f, 0.00f, 386.10f, 101.60f, 0.00f );
         FUNCTION_01B5( 0x40 );
         MSG( MSG_0911 );
         CLOSE_MSG_WIN();
@@ -1729,8 +1729,8 @@ void AI_EVENT_1B3_ACTEND()
         FUNCTION_01BA();
         OPEN_MSG_WIN();
         FUNCTION_01C1( 0 );
-        FUNCTION_01B3( -245.90f, 229.00f, -40.40f, -159.40f, 192.60f, -74.80f );
-        FUNCTION_01B4( -156.70f, 55.30f, -7.10f, -75.80f, 54.00f, -65.90f );
+        FUNCTION_01B3( 0.00f, 229.00f, 0.00f, 0.00f, 192.60f, 0.00f );
+        FUNCTION_01B4( 0.00f, 55.30f, 0.00f, 0.00f, 54.00f, 0.00f );
         FUNCTION_01B5( 67 );
         MSG( MSG_0910 );
         CLOSE_MSG_WIN();
@@ -1788,7 +1788,7 @@ void AI_P_TUKIBITOA()
     else if ( BIT_CHK( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 458 ) == 1 )
     {
         AI_ACT_WEAPON();
-        FUNCTION_0063( 4 );
+        AI_FUNCTION_0063( 4 );
         return;
     }
 
@@ -1832,7 +1832,7 @@ void AI_P_TUKIBITOB()
         if ( localVariable2 < 50 )
         {
             AI_ACT_SKILL( 192 );
-            FUNCTION_0065( 0x0100 );
+            AI_ID( 0x0100 );
             return;
         }
         else 
@@ -1846,13 +1846,13 @@ void AI_P_TUKIBITOB()
     else if ( BIT_CHK( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 464 ) == 0 && BIT_CHK( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 465 ) == 1 )
     {
         AI_ACT_SKILL( 192 );
-        FUNCTION_0065( 276 );
+        AI_ID( 276 );
         return;
     }
     else if ( BIT_CHK( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 464 ) == 1 && BIT_CHK( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 465 ) == 1 )
     {
         AI_ACT_SKILL( 192 );
-        FUNCTION_0065( 276 );
+        AI_ID( 276 );
         return;
     }
     else 
@@ -2497,73 +2497,73 @@ void AI_KILLER()
             if ( FUNCTION_004D( 3 ) == 1 )
             {
                 AI_ACT_SKILL( 229 );
-                FUNCTION_0068( 3 );
+                AI_HANSYA( 3 );
                 return;
             }
             else if ( FUNCTION_004F( 3 ) == 1 )
             {
                 AI_ACT_SKILL( 229 );
-                FUNCTION_0069( 3 );
+                AI_KYUSYU( 3 );
                 return;
             }
             else if ( FUNCTION_0051( 3 ) == 1 )
             {
                 AI_ACT_SKILL( 229 );
-                FUNCTION_006A( 3 );
+                AI_MUKOU( 3 );
                 return;
             }
             else if ( FUNCTION_004D( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 230 );
-                FUNCTION_0068( 4 );
+                AI_HANSYA( 4 );
                 return;
             }
             else if ( FUNCTION_004F( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 230 );
-                FUNCTION_0069( 4 );
+                AI_KYUSYU( 4 );
                 return;
             }
             else if ( FUNCTION_0051( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 230 );
-                FUNCTION_006A( 4 );
+                AI_MUKOU( 4 );
                 return;
             }
             else if ( FUNCTION_004D( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 232 );
-                FUNCTION_0068( 5 );
+                AI_HANSYA( 5 );
                 return;
             }
             else if ( FUNCTION_004F( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 232 );
-                FUNCTION_0069( 5 );
+                AI_KYUSYU( 5 );
                 return;
             }
             else if ( FUNCTION_0051( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 232 );
-                FUNCTION_006A( 5 );
+                AI_MUKOU( 5 );
                 return;
             }
             else if ( FUNCTION_004D( 6 ) == 1 )
             {
                 AI_ACT_SKILL( 231 );
-                FUNCTION_0068( 6 );
+                AI_HANSYA( 6 );
                 return;
             }
             else if ( FUNCTION_004F( 6 ) == 1 )
             {
                 AI_ACT_SKILL( 231 );
-                FUNCTION_0069( 6 );
+                AI_KYUSYU( 6 );
                 return;
             }
             else if ( FUNCTION_0051( 6 ) == 1 )
             {
                 AI_ACT_SKILL( 231 );
-                FUNCTION_006A( 6 );
+                AI_MUKOU( 6 );
                 return;
             }
             else 
@@ -2597,25 +2597,25 @@ void AI_KILLER()
             if ( AI_ENWEAK_PAI( 3 ) == 1 )
             {
                 AI_ACT_SKILL( 3 );
-                FUNCTION_006B( 3 );
+                AI_WEAK( 3 );
                 return;
             }
             else if ( AI_ENWEAK_PAI( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 21 );
-                FUNCTION_006B( 4 );
+                AI_WEAK( 4 );
                 return;
             }
             else if ( AI_ENWEAK_PAI( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 30 );
-                FUNCTION_006B( 5 );
+                AI_WEAK( 5 );
                 return;
             }
             else if ( AI_ENWEAK_PAI( 6 ) == 1 )
             {
                 AI_ACT_SKILL( 12 );
-                FUNCTION_006B( 6 );
+                AI_WEAK( 6 );
                 return;
             }
             else 
@@ -2689,73 +2689,73 @@ void AI_KILLER()
             if ( FUNCTION_004D( 3 ) == 1 )
             {
                 AI_ACT_SKILL( 229 );
-                FUNCTION_0068( 3 );
+                AI_HANSYA( 3 );
                 return;
             }
             else if ( FUNCTION_004F( 3 ) == 1 )
             {
                 AI_ACT_SKILL( 229 );
-                FUNCTION_0069( 3 );
+                AI_KYUSYU( 3 );
                 return;
             }
             else if ( FUNCTION_0051( 3 ) == 1 )
             {
                 AI_ACT_SKILL( 229 );
-                FUNCTION_006A( 3 );
+                AI_MUKOU( 3 );
                 return;
             }
             else if ( FUNCTION_004D( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 230 );
-                FUNCTION_0068( 4 );
+                AI_HANSYA( 4 );
                 return;
             }
             else if ( FUNCTION_004F( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 230 );
-                FUNCTION_0069( 4 );
+                AI_KYUSYU( 4 );
                 return;
             }
             else if ( FUNCTION_0051( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 230 );
-                FUNCTION_006A( 4 );
+                AI_MUKOU( 4 );
                 return;
             }
             else if ( FUNCTION_004D( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 232 );
-                FUNCTION_0068( 5 );
+                AI_HANSYA( 5 );
                 return;
             }
             else if ( FUNCTION_004F( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 232 );
-                FUNCTION_0069( 5 );
+                AI_KYUSYU( 5 );
                 return;
             }
             else if ( FUNCTION_0051( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 232 );
-                FUNCTION_006A( 5 );
+                AI_MUKOU( 5 );
                 return;
             }
             else if ( FUNCTION_004D( 6 ) == 1 )
             {
                 AI_ACT_SKILL( 231 );
-                FUNCTION_0068( 6 );
+                AI_HANSYA( 6 );
                 return;
             }
             else if ( FUNCTION_004F( 6 ) == 1 )
             {
                 AI_ACT_SKILL( 231 );
-                FUNCTION_0069( 6 );
+                AI_KYUSYU( 6 );
                 return;
             }
             else if ( FUNCTION_0051( 6 ) == 1 )
             {
                 AI_ACT_SKILL( 231 );
-                FUNCTION_006A( 6 );
+                AI_MUKOU( 6 );
                 return;
             }
             else 
@@ -2789,25 +2789,25 @@ void AI_KILLER()
             if ( AI_ENWEAK_PAI( 3 ) == 1 )
             {
                 AI_ACT_SKILL( 3 );
-                FUNCTION_006B( 3 );
+                AI_WEAK( 3 );
                 return;
             }
             else if ( AI_ENWEAK_PAI( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 21 );
-                FUNCTION_006B( 4 );
+                AI_WEAK( 4 );
                 return;
             }
             else if ( AI_ENWEAK_PAI( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 30 );
-                FUNCTION_006B( 5 );
+                AI_WEAK( 5 );
                 return;
             }
             else if ( AI_ENWEAK_PAI( 6 ) == 1 )
             {
                 AI_ACT_SKILL( 12 );
-                FUNCTION_006B( 6 );
+                AI_WEAK( 6 );
                 return;
             }
             else 
@@ -3814,7 +3814,7 @@ void AI_KING()
         if ( FUNCTION_0040( 8 ) == 0 )
         {
             AI_ACT_SKILL( 63 );
-            FUNCTION_0064( 8 );
+            AI_NOTBAD( 8 );
             return;
         }
         else 
@@ -3875,19 +3875,19 @@ void AI_DANCING_KAI()
         if ( localVariable29 < 30 )
         {
             AI_ACT_SKILL( 28 );
-            FUNCTION_0064( 0x00100000 );
+            AI_NOTBAD( 0x00100000 );
             return;
         }
         else if ( localVariable29 < 30 + 30 )
         {
             AI_ACT_SKILL( 19 );
-            FUNCTION_0064( 0x00100000 );
+            AI_NOTBAD( 0x00100000 );
             return;
         }
         else if ( localVariable29 < 30 + 30 + 30 )
         {
             AI_ACT_SKILL( 1 );
-            FUNCTION_0064( 0x00100000 );
+            AI_NOTBAD( 0x00100000 );
             return;
         }
         else if ( localVariable29 < 30 + 30 + 30 + 10 )
@@ -3902,7 +3902,7 @@ void AI_DANCING_KAI()
             else 
             {
                 AI_ACT_SKILL( 1 );
-                FUNCTION_0064( 0x00100000 );
+                AI_NOTBAD( 0x00100000 );
                 return;
             }
 
@@ -3927,7 +3927,7 @@ void AI_DANCING_KAI()
         else if ( localVariable30 < 50 + 5 )
         {
             AI_ACT_SKILL( 192 );
-            FUNCTION_0060();
+            AI_HPMIN();
             return;
         }
         else if ( localVariable30 < 50 + 5 + 15 )
@@ -3983,7 +3983,7 @@ void AI_NAKU_KAI()
         else if ( FUNCTION_0040( 0x80 ) == 0 )
         {
             AI_ACT_SKILL( 68 );
-            FUNCTION_0064( 0x80 );
+            AI_NOTBAD( 0x80 );
             return;
         }
         else 
@@ -4170,19 +4170,19 @@ void AI_FUKUTU_KAI()
                     if ( FUNCTION_004D( 6 ) == 1 )
                     {
                         AI_ACT_SKILL( 231 );
-                        FUNCTION_0068( 6 );
+                        AI_HANSYA( 6 );
                         return;
                     }
                     else if ( FUNCTION_004F( 6 ) == 1 )
                     {
                         AI_ACT_SKILL( 231 );
-                        FUNCTION_0069( 6 );
+                        AI_KYUSYU( 6 );
                         return;
                     }
                     else if ( FUNCTION_0051( 6 ) == 1 )
                     {
                         AI_ACT_SKILL( 231 );
-                        FUNCTION_006A( 6 );
+                        AI_MUKOU( 6 );
                         return;
                     }
 
@@ -4308,19 +4308,19 @@ void AI_FUKUTU_KAI()
                     if ( FUNCTION_004D( 6 ) == 1 )
                     {
                         AI_ACT_SKILL( 231 );
-                        FUNCTION_0068( 6 );
+                        AI_HANSYA( 6 );
                         return;
                     }
                     else if ( FUNCTION_004F( 6 ) == 1 )
                     {
                         AI_ACT_SKILL( 231 );
-                        FUNCTION_0069( 6 );
+                        AI_KYUSYU( 6 );
                         return;
                     }
                     else if ( FUNCTION_0051( 6 ) == 1 )
                     {
                         AI_ACT_SKILL( 231 );
-                        FUNCTION_006A( 6 );
+                        AI_MUKOU( 6 );
                         return;
                     }
 
@@ -4495,7 +4495,7 @@ void AI_GAIA_KAI()
             if ( localVariable41 < 10 )
             {
                 AI_ACT_SKILL( 118 );
-                FUNCTION_0065( 1 );
+                AI_ID( 1 );
                 return;
             }
             else if ( localVariable41 < 10 + 90 )
@@ -4518,7 +4518,7 @@ void AI_GAIA_KAI()
             if ( localVariable41 < 10 )
             {
                 AI_ACT_SKILL( 122 );
-                FUNCTION_0065( 1 );
+                AI_ID( 1 );
                 return;
             }
             else if ( localVariable41 < 10 + 90 )
@@ -4637,7 +4637,7 @@ void AI_MEGATON_KAI()
     if ( FUNCTION_008F() == 1 )
     {
         AI_ACT_SKILL( 147 );
-        FUNCTION_0063( 0x00100000 );
+        AI_FUNCTION_0063( 0x00100000 );
         return;
     }
 
@@ -4819,19 +4819,19 @@ void AI_JIGOKU_KAI()
                     if ( FUNCTION_004D( 5 ) == 1 )
                     {
                         AI_ACT_SKILL( 232 );
-                        FUNCTION_0068( 5 );
+                        AI_HANSYA( 5 );
                         return;
                     }
                     else if ( FUNCTION_004F( 5 ) == 1 )
                     {
                         AI_ACT_SKILL( 232 );
-                        FUNCTION_0069( 5 );
+                        AI_KYUSYU( 5 );
                         return;
                     }
                     else if ( FUNCTION_0051( 5 ) == 1 )
                     {
                         AI_ACT_SKILL( 232 );
-                        FUNCTION_006A( 5 );
+                        AI_MUKOU( 5 );
                         return;
                     }
 
@@ -4957,19 +4957,19 @@ void AI_JIGOKU_KAI()
                     if ( FUNCTION_004D( 5 ) == 1 )
                     {
                         AI_ACT_SKILL( 232 );
-                        FUNCTION_0068( 5 );
+                        AI_HANSYA( 5 );
                         return;
                     }
                     else if ( FUNCTION_004F( 5 ) == 1 )
                     {
                         AI_ACT_SKILL( 232 );
-                        FUNCTION_0069( 5 );
+                        AI_KYUSYU( 5 );
                         return;
                     }
                     else if ( FUNCTION_0051( 5 ) == 1 )
                     {
                         AI_ACT_SKILL( 232 );
-                        FUNCTION_006A( 5 );
+                        AI_MUKOU( 5 );
                         return;
                     }
 
@@ -5231,7 +5231,7 @@ void AI_HEIKOU_KAI()
         if ( FUNCTION_003E( 0x80 ) == 1 )
         {
             AI_ACT_SKILL( 202 );
-            FUNCTION_0063( 0x80 );
+            AI_FUNCTION_0063( 0x80 );
             return;
         }
         else if ( FUNCTION_003E( 4 ) == 1 )
@@ -5254,7 +5254,7 @@ void AI_HEIKOU_KAI()
         else if ( FUNCTION_0035( 90 ) == 1 )
         {
             AI_ACT_SKILL( 193 );
-            FUNCTION_0060();
+            AI_HPMIN();
             return;
         }
         else 
@@ -5433,7 +5433,7 @@ void AI_ROYAL_KAI()
         if ( FUNCTION_0033( 90 ) == 1 )
         {
             AI_ACT_SKILL( 192 );
-            FUNCTION_0060();
+            AI_HPMIN();
             return;
         }
         else 
@@ -5449,7 +5449,7 @@ void AI_ROYAL_KAI()
     if ( FUNCTION_003E( 1 ) == 1 )
     {
         AI_ACT_SKILL( 237 );
-        FUNCTION_0063( 1 );
+        AI_FUNCTION_0063( 1 );
         return;
     }
 
@@ -5457,7 +5457,7 @@ void AI_ROYAL_KAI()
     if ( FUNCTION_003E( 4 ) == 1 )
     {
         AI_ACT_SKILL( 199 );
-        FUNCTION_0063( 4 );
+        AI_FUNCTION_0063( 4 );
         return;
     }
 
@@ -5465,7 +5465,7 @@ void AI_ROYAL_KAI()
     if ( FUNCTION_003E( 0x80 ) == 1 )
     {
         AI_ACT_SKILL( 202 );
-        FUNCTION_0063( 0x80 );
+        AI_FUNCTION_0063( 0x80 );
         return;
     }
 
@@ -5473,7 +5473,7 @@ void AI_ROYAL_KAI()
     if ( FUNCTION_003E( 8 ) == 1 )
     {
         AI_ACT_SKILL( 199 );
-        FUNCTION_0063( 8 );
+        AI_FUNCTION_0063( 8 );
         return;
     }
 
@@ -5484,7 +5484,7 @@ void AI_ROYAL_KAI()
         if ( AI_CHK_PLAYER_ID( BattleUnit.Yukari ) == 1 )
         {
             AI_ACT_SKILL( 57 );
-            FUNCTION_0065( 2 );
+            AI_ID( 2 );
             return;
         }
         else if ( AI_ENBAD( 1 ) == 1 || AI_ENBAD( 4 ) == 1 || AI_ENBAD( 0x80 ) == 1 )
@@ -5496,7 +5496,7 @@ void AI_ROYAL_KAI()
         else if ( AI_ENBAD( 1 ) == 0 && AI_ENBAD( 4 ) == 0 && AI_ENBAD( 0x80 ) == 0 )
         {
             AI_ACT_SKILL( 57 );
-            FUNCTION_0064( 1 );
+            AI_NOTBAD( 1 );
             return;
         }
         else 
@@ -5536,7 +5536,7 @@ void AI_ROYAL_KAI()
         else if ( AI_ENBAD( 13 ) == 0 && AI_ENBAD( 1 ) == 0 && AI_ENBAD( 0x80 ) == 0 )
         {
             AI_ACT_SKILL( 61 );
-            FUNCTION_0064( 13 );
+            AI_NOTBAD( 13 );
             return;
         }
         else 
@@ -5575,7 +5575,7 @@ void AI_ROYAL_KAI()
         else if ( AI_ENBAD( 13 ) == 0 && AI_ENBAD( 1 ) == 0 && AI_ENBAD( 0x80 ) == 0 )
         {
             AI_ACT_SKILL( 68 );
-            FUNCTION_0064( 0x80 );
+            AI_NOTBAD( 0x80 );
             return;
         }
         else 
@@ -5746,19 +5746,19 @@ void AI_NIKUYOKU_KAI()
     if ( FUNCTION_004D( 3 ) == 1 )
     {
         AI_ACT_SKILL( 229 );
-        FUNCTION_0068( 3 );
+        AI_HANSYA( 3 );
         return;
     }
     else if ( FUNCTION_004F( 3 ) == 1 )
     {
         AI_ACT_SKILL( 229 );
-        FUNCTION_0069( 3 );
+        AI_KYUSYU( 3 );
         return;
     }
     else if ( FUNCTION_0051( 3 ) == 1 )
     {
         AI_ACT_SKILL( 229 );
-        FUNCTION_006A( 3 );
+        AI_MUKOU( 3 );
         return;
     }
 
@@ -5919,7 +5919,7 @@ void AI_ZENNOU()
             if ( FUNCTION_0159( 1, 5 ) == 0 )
             {
                 AI_ACT_SKILL( 94 );
-                FUNCTION_0065( 1 );
+                AI_ID( 1 );
                 return;
             }
             else 
@@ -5970,25 +5970,25 @@ void AI_ZENNOU()
         if ( FUNCTION_0160( 1, 3 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 3 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
             return;
         }
         else if ( FUNCTION_0160( 1, 4 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 21 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
             return;
         }
         else if ( FUNCTION_0160( 1, 5 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 30 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
             return;
         }
         else if ( FUNCTION_0160( 1, 6 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 12 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
         }
 
     }
@@ -6000,25 +6000,25 @@ void AI_ZENNOU()
         if ( FUNCTION_0160( 1, 3 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 3 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
             return;
         }
         else if ( FUNCTION_0160( 1, 4 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 21 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
             return;
         }
         else if ( FUNCTION_0160( 1, 5 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 30 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
             return;
         }
         else if ( FUNCTION_0160( 1, 6 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 12 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
         }
 
     }
@@ -6030,25 +6030,25 @@ void AI_ZENNOU()
         if ( FUNCTION_0160( 1, 3 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 3 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
             return;
         }
         else if ( FUNCTION_0160( 1, 4 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 21 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
             return;
         }
         else if ( FUNCTION_0160( 1, 5 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 30 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
             return;
         }
         else if ( FUNCTION_0160( 1, 6 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 12 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
         }
 
     }
@@ -6060,25 +6060,25 @@ void AI_ZENNOU()
         if ( FUNCTION_0160( 1, 3 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 3 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
             return;
         }
         else if ( FUNCTION_0160( 1, 4 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 21 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
             return;
         }
         else if ( FUNCTION_0160( 1, 5 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 30 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
             return;
         }
         else if ( FUNCTION_0160( 1, 6 ) == 1 && FUNCTION_0057( 94 ) == 0 )
         {
             AI_ACT_SKILL( 12 );
-            FUNCTION_0065( 1 );
+            AI_ID( 1 );
         }
 
     }
@@ -6159,25 +6159,25 @@ void AI_ZENNOU()
         if ( AI_ENWEAK_ST_PAI( 3 ) == 1 )
         {
             AI_ACT_SKILL( 3 );
-            FUNCTION_006B( 3 );
+            AI_WEAK( 3 );
             return;
         }
         else if ( AI_ENWEAK_ST_PAI( 4 ) == 1 )
         {
             AI_ACT_SKILL( 21 );
-            FUNCTION_006B( 4 );
+            AI_WEAK( 4 );
             return;
         }
         else if ( AI_ENWEAK_ST_PAI( 6 ) == 1 )
         {
             AI_ACT_SKILL( 12 );
-            FUNCTION_006B( 6 );
+            AI_WEAK( 6 );
             return;
         }
         else if ( AI_ENWEAK_ST_PAI( 5 ) == 1 )
         {
             AI_ACT_SKILL( 30 );
-            FUNCTION_006B( 5 );
+            AI_WEAK( 5 );
             return;
         }
         else 
@@ -6470,19 +6470,19 @@ void AI_KYOUSIN()
             if ( FUNCTION_004D( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 232 );
-                FUNCTION_0068( 5 );
+                AI_HANSYA( 5 );
                 return;
             }
             else if ( FUNCTION_004F( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 232 );
-                FUNCTION_0069( 5 );
+                AI_KYUSYU( 5 );
                 return;
             }
             else if ( FUNCTION_0051( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 232 );
-                FUNCTION_006A( 5 );
+                AI_MUKOU( 5 );
                 return;
             }
             else 
@@ -6575,19 +6575,19 @@ void AI_MAGS_KAI()
                 if ( FUNCTION_004D( 4 ) == 1 )
                 {
                     AI_ACT_SKILL( 230 );
-                    FUNCTION_0068( 4 );
+                    AI_HANSYA( 4 );
                     return;
                 }
                 else if ( FUNCTION_004F( 4 ) == 1 )
                 {
                     AI_ACT_SKILL( 230 );
-                    FUNCTION_0069( 4 );
+                    AI_KYUSYU( 4 );
                     return;
                 }
                 else if ( FUNCTION_0051( 4 ) == 1 )
                 {
                     AI_ACT_SKILL( 230 );
-                    FUNCTION_006A( 4 );
+                    AI_MUKOU( 4 );
                     return;
                 }
                 else 
@@ -6667,7 +6667,7 @@ void AI_MAGS_KAI()
         if ( localVariable69 < 50 )
         {
             AI_ACT_SKILL( 21 );
-            FUNCTION_0060();
+            AI_HPMIN();
             return;
         }
         else if ( localVariable69 < 50 + 50 )
@@ -6685,13 +6685,13 @@ void AI_MAGS_KAI()
         else if ( FUNCTION_004D( 4 ) == 1 )
         {
             AI_ACT_SKILL( 230 );
-            FUNCTION_0068( 4 );
+            AI_HANSYA( 4 );
             return;
         }
         else if ( FUNCTION_004F( 4 ) == 1 )
         {
             AI_ACT_SKILL( 230 );
-            FUNCTION_0069( 4 );
+            AI_KYUSYU( 4 );
             return;
         }
         else if ( FUNCTION_0051( 4 ) == 1 )
@@ -7031,7 +7031,7 @@ void AI_KING_CATHLE()
         if ( FUNCTION_0051( 5 ) == 1 )
         {
             AI_ACT_SKILL( 232 );
-            FUNCTION_006A( 5 );
+            AI_MUKOU( 5 );
             return;
         }
         else 
@@ -7154,7 +7154,7 @@ void AI_INYOKU_HEBI()
         if ( localVariable81 < 40 )
         {
             AI_ACT_SKILL( 193 );
-            FUNCTION_0060();
+            AI_HPMIN();
             return;
         }
         else if ( localVariable81 < 40 + 40 )
@@ -7179,7 +7179,7 @@ void AI_INYOKU_HEBI()
         if ( localVariable82 < 60 )
         {
             AI_ACT_SKILL( 201 );
-            FUNCTION_0063( 0x00100000 );
+            AI_FUNCTION_0063( 0x00100000 );
             return;
         }
         else if ( localVariable82 < 60 + 20 )
@@ -7508,19 +7508,19 @@ void AI_EIEN_TOKEI()
         if ( FUNCTION_0051( 6 ) == 1 )
         {
             AI_ACT_SKILL( 231 );
-            FUNCTION_006A( 6 );
+            AI_MUKOU( 6 );
             return;
         }
         else if ( FUNCTION_004D( 6 ) == 1 )
         {
             AI_ACT_SKILL( 231 );
-            FUNCTION_0068( 6 );
+            AI_HANSYA( 6 );
             return;
         }
         else if ( FUNCTION_004F( 6 ) == 1 )
         {
             AI_ACT_SKILL( 231 );
-            FUNCTION_0069( 6 );
+            AI_KYUSYU( 6 );
             return;
         }
         else 
@@ -7709,25 +7709,25 @@ void AI_HONSYO_AEGIS()
         if ( FUNCTION_00AB( 122, 1 ) == 0 )
         {
             AI_ACT_SKILL( 214 );
-            FUNCTION_0065( 122 );
+            AI_ID( 122 );
             return;
         }
         else if ( FUNCTION_00AB( 122, 0x40 ) == 0 )
         {
             AI_ACT_SKILL( 218 );
-            FUNCTION_0065( 122 );
+            AI_ID( 122 );
             return;
         }
         else if ( FUNCTION_00AB( 122, 0x10 ) == 0 )
         {
             AI_ACT_SKILL( 216 );
-            FUNCTION_0065( 122 );
+            AI_ID( 122 );
             return;
         }
         else if ( FUNCTION_00AB( 122, 2 ) == 1 || FUNCTION_00AB( 122, 0x80 ) == 1 || FUNCTION_00AB( 122, 0x20 ) == 1 )
         {
             AI_ACT_SKILL( 212 );
-            FUNCTION_0065( 122 );
+            AI_ID( 122 );
             return;
         }
 
@@ -7735,7 +7735,7 @@ void AI_HONSYO_AEGIS()
         if ( AI_MYBAD( 122, 0x00100000 ) == 1 )
         {
             AI_ACT_SKILL( 201 );
-            FUNCTION_0065( 122 );
+            AI_ID( 122 );
             return;
         }
         else if ( localVariable92 < 34 )
@@ -7797,7 +7797,7 @@ void AI_GOUWAN_AEGIS()
         else if ( localVariable93 < 10 + 30 )
         {
             AI_ACT_SKILL( 20 );
-            FUNCTION_006B( 4 );
+            AI_WEAK( 4 );
             return;
         }
         else 
@@ -7832,7 +7832,7 @@ void AI_GOUWAN_AEGIS()
         else if ( localVariable94 < 34 + 33 )
         {
             AI_ACT_SKILL( 21 );
-            FUNCTION_006B( 4 );
+            AI_WEAK( 4 );
             return;
         }
         else 
@@ -7861,7 +7861,7 @@ void AI_GOUWAN_AEGIS()
         else if ( localVariable94 < 34 + 33 )
         {
             AI_ACT_SKILL( 21 );
-            FUNCTION_006B( 4 );
+            AI_WEAK( 4 );
             return;
         }
         else 
@@ -7897,7 +7897,7 @@ void AI_CATHLE_AEGIS()
     if ( AI_MYBAD( 325, 4 ) == 1 )
     {
         AI_ACT_SKILL( 199 );
-        FUNCTION_0063( 4 );
+        AI_FUNCTION_0063( 4 );
         return;
     }
 
@@ -7905,7 +7905,7 @@ void AI_CATHLE_AEGIS()
     if ( AI_MYBAD( 325, 0x00100000 ) == 1 )
     {
         AI_ACT_SKILL( 201 );
-        FUNCTION_0063( 0x00100000 );
+        AI_FUNCTION_0063( 0x00100000 );
         return;
     }
 
@@ -7913,19 +7913,19 @@ void AI_CATHLE_AEGIS()
     if ( FUNCTION_004D( 3 ) == 1 )
     {
         AI_ACT_SKILL( 229 );
-        FUNCTION_0068( 3 );
+        AI_HANSYA( 3 );
         return;
     }
     else if ( FUNCTION_004F( 3 ) == 1 )
     {
         AI_ACT_SKILL( 229 );
-        FUNCTION_0069( 3 );
+        AI_KYUSYU( 3 );
         return;
     }
     else if ( FUNCTION_0051( 3 ) == 1 )
     {
         AI_ACT_SKILL( 229 );
-        FUNCTION_006A( 3 );
+        AI_MUKOU( 3 );
         return;
     }
 
@@ -7974,7 +7974,7 @@ void AI_CATHLE_AEGIS()
     else 
     {
         AI_ACT_SKILL( 61 );
-        FUNCTION_0064( 4 );
+        AI_NOTBAD( 4 );
         return;
     }
 
@@ -8109,7 +8109,7 @@ void AI_ROYAL_AEGIS()
         if ( FUNCTION_0040( 1 ) == 0 )
         {
             AI_ACT_SKILL( 57 );
-            FUNCTION_0064( 1 );
+            AI_NOTBAD( 1 );
             return;
         }
         else 
@@ -8140,7 +8140,7 @@ void AI_ROYAL_AEGIS()
     else if ( FUNCTION_0053( 3 ) == 1 )
     {
         AI_ACT_SKILL( 3 );
-        FUNCTION_006B( 3 );
+        AI_WEAK( 3 );
         return;
     }
     else 
@@ -8173,7 +8173,7 @@ void AI_ZANKOKU_AEGIS()
         if ( FUNCTION_0053( 3 ) == 1 )
         {
             AI_ACT_SKILL( 2 );
-            FUNCTION_006B( 3 );
+            AI_WEAK( 3 );
             return;
         }
         else 
@@ -8216,7 +8216,7 @@ void AI_ZANKOKU_AEGIS()
     else if ( FUNCTION_0053( 3 ) == 1 )
     {
         AI_ACT_SKILL( 2 );
-        FUNCTION_006B( 3 );
+        AI_WEAK( 3 );
         return;
     }
     else 
@@ -8258,19 +8258,19 @@ void AI_BRAVE_AEGIS()
                 if ( FUNCTION_004D( 5 ) == 1 )
                 {
                     AI_ACT_SKILL( 232 );
-                    FUNCTION_0068( 5 );
+                    AI_HANSYA( 5 );
                     return;
                 }
                 else if ( FUNCTION_004F( 5 ) == 1 )
                 {
                     AI_ACT_SKILL( 232 );
-                    FUNCTION_0069( 5 );
+                    AI_KYUSYU( 5 );
                     return;
                 }
                 else if ( FUNCTION_0051( 5 ) == 1 )
                 {
                     AI_ACT_SKILL( 232 );
-                    FUNCTION_006A( 5 );
+                    AI_MUKOU( 5 );
                     return;
                 }
                 else if ( FUNCTION_0044( 2 ) == 0 )
@@ -8293,19 +8293,19 @@ void AI_BRAVE_AEGIS()
                 if ( FUNCTION_004D( 4 ) == 1 )
                 {
                     AI_ACT_SKILL( 230 );
-                    FUNCTION_0068( 4 );
+                    AI_HANSYA( 4 );
                     return;
                 }
                 else if ( FUNCTION_004F( 4 ) == 1 )
                 {
                     AI_ACT_SKILL( 230 );
-                    FUNCTION_0069( 4 );
+                    AI_KYUSYU( 4 );
                     return;
                 }
                 else if ( FUNCTION_0051( 4 ) == 1 )
                 {
                     AI_ACT_SKILL( 230 );
-                    FUNCTION_006A( 4 );
+                    AI_MUKOU( 4 );
                     return;
                 }
                 else if ( FUNCTION_0044( 2 ) == 0 )
@@ -8365,19 +8365,19 @@ void AI_BRAVE_AEGIS()
             if ( FUNCTION_004D( 3 ) == 1 )
             {
                 AI_ACT_SKILL( 229 );
-                FUNCTION_0068( 3 );
+                AI_HANSYA( 3 );
                 return;
             }
             else if ( FUNCTION_004F( 3 ) == 1 )
             {
                 AI_ACT_SKILL( 229 );
-                FUNCTION_0069( 3 );
+                AI_KYUSYU( 3 );
                 return;
             }
             else if ( FUNCTION_0051( 3 ) == 1 )
             {
                 AI_ACT_SKILL( 229 );
-                FUNCTION_006A( 3 );
+                AI_MUKOU( 3 );
                 return;
             }
             else if ( FUNCTION_01C7( 0x0800 ) == 0 )
@@ -8440,19 +8440,19 @@ void AI_HANKETU_AEGIS()
                 if ( FUNCTION_004D( 3 ) == 1 )
                 {
                     AI_ACT_SKILL( 229 );
-                    FUNCTION_0068( 229 );
+                    AI_HANSYA( 229 );
                     return;
                 }
                 else if ( FUNCTION_004F( 3 ) == 1 )
                 {
                     AI_ACT_SKILL( 229 );
-                    FUNCTION_0069( 3 );
+                    AI_KYUSYU( 3 );
                     return;
                 }
                 else if ( FUNCTION_0051( 3 ) == 1 )
                 {
                     AI_ACT_SKILL( 229 );
-                    FUNCTION_006A( 3 );
+                    AI_MUKOU( 3 );
                     return;
                 }
                 else if ( FUNCTION_0044( 0x80 ) == 0 )
@@ -8475,19 +8475,19 @@ void AI_HANKETU_AEGIS()
                 if ( FUNCTION_004D( 4 ) == 1 )
                 {
                     AI_ACT_SKILL( 230 );
-                    FUNCTION_0068( 4 );
+                    AI_HANSYA( 4 );
                     return;
                 }
                 else if ( FUNCTION_004F( 4 ) == 1 )
                 {
                     AI_ACT_SKILL( 230 );
-                    FUNCTION_0069( 4 );
+                    AI_KYUSYU( 4 );
                     return;
                 }
                 else if ( FUNCTION_0051( 4 ) == 1 )
                 {
                     AI_ACT_SKILL( 230 );
-                    FUNCTION_006A( 4 );
+                    AI_MUKOU( 4 );
                     return;
                 }
                 else if ( FUNCTION_0044( 0x80 ) == 0 )
@@ -8547,19 +8547,19 @@ void AI_HANKETU_AEGIS()
             if ( FUNCTION_004D( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 232 );
-                FUNCTION_0068( 5 );
+                AI_HANSYA( 5 );
                 return;
             }
             else if ( FUNCTION_004F( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 232 );
-                FUNCTION_0069( 5 );
+                AI_KYUSYU( 5 );
                 return;
             }
             else if ( FUNCTION_0051( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 232 );
-                FUNCTION_006A( 5 );
+                AI_MUKOU( 5 );
                 return;
             }
             else if ( FUNCTION_01C7( 0x0800 ) == 0 )
@@ -8622,19 +8622,19 @@ void AI_ICE_AEGIS()
                 if ( FUNCTION_004D( 3 ) == 1 )
                 {
                     AI_ACT_SKILL( 229 );
-                    FUNCTION_0068( 229 );
+                    AI_HANSYA( 229 );
                     return;
                 }
                 else if ( FUNCTION_004F( 3 ) == 1 )
                 {
                     AI_ACT_SKILL( 229 );
-                    FUNCTION_0069( 3 );
+                    AI_KYUSYU( 3 );
                     return;
                 }
                 else if ( FUNCTION_0051( 3 ) == 1 )
                 {
                     AI_ACT_SKILL( 229 );
-                    FUNCTION_006A( 3 );
+                    AI_MUKOU( 3 );
                     return;
                 }
                 else if ( FUNCTION_0044( 0x20 ) == 0 )
@@ -8657,19 +8657,19 @@ void AI_ICE_AEGIS()
                 if ( FUNCTION_004D( 5 ) == 1 )
                 {
                     AI_ACT_SKILL( 232 );
-                    FUNCTION_0068( 5 );
+                    AI_HANSYA( 5 );
                     return;
                 }
                 else if ( FUNCTION_004F( 5 ) == 1 )
                 {
                     AI_ACT_SKILL( 232 );
-                    FUNCTION_0069( 5 );
+                    AI_KYUSYU( 5 );
                     return;
                 }
                 else if ( FUNCTION_0051( 5 ) == 1 )
                 {
                     AI_ACT_SKILL( 232 );
-                    FUNCTION_006A( 5 );
+                    AI_MUKOU( 5 );
                     return;
                 }
                 else if ( FUNCTION_0044( 0x20 ) == 0 )
@@ -8735,19 +8735,19 @@ void AI_ICE_AEGIS()
             if ( FUNCTION_004D( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 230 );
-                FUNCTION_0068( 4 );
+                AI_HANSYA( 4 );
                 return;
             }
             else if ( FUNCTION_004F( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 230 );
-                FUNCTION_0069( 4 );
+                AI_KYUSYU( 4 );
                 return;
             }
             else if ( FUNCTION_0051( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 230 );
-                FUNCTION_006A( 4 );
+                AI_MUKOU( 4 );
                 return;
             }
             else if ( FUNCTION_01C7( 0x0400 ) == 0 )
@@ -8916,7 +8916,7 @@ void AI_IKARI_AEGIS()
         if ( AI_ENBAD( 0x10 ) == 1 )
         {
             AI_ACT_WEAPON();
-            FUNCTION_0063( 0x10 );
+            AI_FUNCTION_0063( 0x10 );
             return;
         }
         else if ( AI_ENBAD( 0x10 ) == 0 )
@@ -8984,19 +8984,19 @@ void AI_SAKEBU_AEGIS()
     else if ( FUNCTION_004D( 4 ) == 1 )
     {
         AI_ACT_SKILL( 230 );
-        FUNCTION_0068( 4 );
+        AI_HANSYA( 4 );
         return;
     }
     else if ( FUNCTION_004F( 4 ) == 1 )
     {
         AI_ACT_SKILL( 230 );
-        FUNCTION_0069( 4 );
+        AI_KYUSYU( 4 );
         return;
     }
     else if ( FUNCTION_0051( 4 ) == 1 )
     {
         AI_ACT_SKILL( 230 );
-        FUNCTION_006A( 4 );
+        AI_MUKOU( 4 );
         return;
     }
     else 
@@ -9021,7 +9021,7 @@ void AI_WANDA_AEGIS()
         if ( localVariable112 < 50 && FUNCTION_0053( 6 ) == 1 )
         {
             AI_ACT_SKILL( 12 );
-            FUNCTION_006B( 6 );
+            AI_WEAK( 6 );
             return;
         }
         else 
@@ -9189,7 +9189,7 @@ void AI_OKUBYOU_AEGIS()
     if ( FUNCTION_003E( 0x00100000 ) == 1 )
     {
         AI_ACT_SKILL( 201 );
-        FUNCTION_0063( 0x00100000 );
+        AI_FUNCTION_0063( 0x00100000 );
         return;
     }
 
@@ -9206,13 +9206,13 @@ void AI_OKUBYOU_AEGIS()
         else if ( FUNCTION_0053( 4 ) == 1 )
         {
             AI_ACT_SKILL( 20 );
-            FUNCTION_006B( 4 );
+            AI_WEAK( 4 );
             return;
         }
         else if ( FUNCTION_003E( 4 ) == 1 )
         {
             AI_ACT_SKILL( 199 );
-            FUNCTION_0063( 4 );
+            AI_FUNCTION_0063( 4 );
             return;
         }
         else 
@@ -9246,13 +9246,13 @@ void AI_OKUBYOU_AEGIS()
         if ( FUNCTION_0053( 4 ) == 1 )
         {
             AI_ACT_SKILL( 20 );
-            FUNCTION_006B( 4 );
+            AI_WEAK( 4 );
             return;
         }
         else if ( FUNCTION_003E( 4 ) == 1 )
         {
             AI_ACT_SKILL( 199 );
-            FUNCTION_0063( 4 );
+            AI_FUNCTION_0063( 4 );
             return;
         }
         else 
@@ -9275,19 +9275,19 @@ void AI_OKUBYOU_AEGIS()
         if ( FUNCTION_004D( 3 ) == 1 )
         {
             AI_ACT_SKILL( 229 );
-            FUNCTION_0068( 3 );
+            AI_HANSYA( 3 );
             return;
         }
         else if ( FUNCTION_004F( 3 ) == 1 )
         {
             AI_ACT_SKILL( 229 );
-            FUNCTION_0069( 3 );
+            AI_KYUSYU( 3 );
             return;
         }
         else if ( FUNCTION_0051( 3 ) == 1 )
         {
             AI_ACT_SKILL( 229 );
-            FUNCTION_006A( 3 );
+            AI_MUKOU( 3 );
             return;
         }
         else 
@@ -9427,7 +9427,7 @@ void AI_KYOUKI_AEGIS()
         if ( FUNCTION_0053( 6 ) == 1 )
         {
             AI_ACT_SKILL( 15 );
-            FUNCTION_006B( 6 );
+            AI_WEAK( 6 );
             return;
         }
         else 
@@ -9492,19 +9492,19 @@ void AI_KYOUKI_AEGIS()
         if ( FUNCTION_004D( 6 ) == 1 )
         {
             AI_ACT_SKILL( 231 );
-            FUNCTION_0068( 6 );
+            AI_HANSYA( 6 );
             return;
         }
         else if ( FUNCTION_004F( 6 ) == 1 )
         {
             AI_ACT_SKILL( 231 );
-            FUNCTION_0069( 6 );
+            AI_KYUSYU( 6 );
             return;
         }
         else if ( FUNCTION_0051( 6 ) == 1 )
         {
             AI_ACT_SKILL( 231 );
-            FUNCTION_006A( 6 );
+            AI_MUKOU( 6 );
             return;
         }
         else 
@@ -9538,7 +9538,7 @@ void AI_KYOEIM_AEGIS()
     if ( FUNCTION_008F() == 1 )
     {
         AI_ACT_SKILL( 146 );
-        FUNCTION_0063( 0x00100000 );
+        AI_FUNCTION_0063( 0x00100000 );
         return;
     }
 
@@ -9552,25 +9552,25 @@ void AI_KYOEIM_AEGIS()
             if ( FUNCTION_0053( 3 ) == 1 )
             {
                 AI_ACT_SKILL( 1 );
-                FUNCTION_006B( 3 );
+                AI_WEAK( 3 );
                 return;
             }
             else if ( FUNCTION_0053( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 19 );
-                FUNCTION_006B( 4 );
+                AI_WEAK( 4 );
                 return;
             }
             else if ( FUNCTION_0053( 5 ) == 1 )
             {
                 AI_ACT_SKILL( 28 );
-                FUNCTION_006B( 5 );
+                AI_WEAK( 5 );
                 return;
             }
             else if ( FUNCTION_0053( 6 ) == 1 )
             {
                 AI_ACT_SKILL( 10 );
-                FUNCTION_006B( 6 );
+                AI_WEAK( 6 );
                 return;
             }
             else if ( localVariable118 < 25 )
@@ -9624,13 +9624,13 @@ void AI_KYOEIM_AEGIS()
         if ( FUNCTION_003E( 0x80 ) == 1 )
         {
             AI_ACT_SKILL( 202 );
-            FUNCTION_0063( 0x80 );
+            AI_FUNCTION_0063( 0x80 );
             return;
         }
         else if ( FUNCTION_003E( 4 ) == 1 )
         {
             AI_ACT_SKILL( 199 );
-            FUNCTION_0063( 4 );
+            AI_FUNCTION_0063( 4 );
             return;
         }
         else if ( FUNCTION_0044( 2 ) == 0 )
@@ -9672,25 +9672,25 @@ void AI_KYOEIM_AEGIS()
         else if ( FUNCTION_0053( 3 ) == 1 )
         {
             AI_ACT_SKILL( 1 );
-            FUNCTION_006B( 3 );
+            AI_WEAK( 3 );
             return;
         }
         else if ( FUNCTION_0053( 4 ) == 1 )
         {
             AI_ACT_SKILL( 19 );
-            FUNCTION_006B( 4 );
+            AI_WEAK( 4 );
             return;
         }
         else if ( FUNCTION_0053( 5 ) == 1 )
         {
             AI_ACT_SKILL( 28 );
-            FUNCTION_006B( 5 );
+            AI_WEAK( 5 );
             return;
         }
         else if ( FUNCTION_0053( 6 ) == 1 )
         {
             AI_ACT_SKILL( 10 );
-            FUNCTION_006B( 6 );
+            AI_WEAK( 6 );
             return;
         }
         else if ( localVariable118 < 25 )
@@ -9810,7 +9810,7 @@ void AI_TINOHE_AEGIS()
         if ( localVariable121 < 60 )
         {
             AI_ACT_SKILL( 21 );
-            FUNCTION_006B( 4 );
+            AI_WEAK( 4 );
             return;
         }
         else 
@@ -9827,7 +9827,7 @@ void AI_TINOHE_AEGIS()
         if ( localVariable121 < 60 )
         {
             AI_ACT_SKILL( 30 );
-            FUNCTION_006B( 5 );
+            AI_WEAK( 5 );
             return;
         }
         else 
@@ -9844,7 +9844,7 @@ void AI_TINOHE_AEGIS()
         if ( localVariable121 < 60 )
         {
             AI_ACT_SKILL( 12 );
-            FUNCTION_006B( 6 );
+            AI_WEAK( 6 );
             return;
         }
         else 
@@ -9861,7 +9861,7 @@ void AI_TINOHE_AEGIS()
         if ( localVariable121 < 60 )
         {
             AI_ACT_SKILL( 3 );
-            FUNCTION_006B( 3 );
+            AI_WEAK( 3 );
             return;
         }
         else 
@@ -10012,7 +10012,7 @@ void AI_SINKNO_AEGIS()
             {
                 AI_ACT_SKILL( 3 );
                 BIT_OFF( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 448 );
-                FUNCTION_006B( 3 );
+                AI_WEAK( 3 );
                 return;
             }
             else 
@@ -10154,13 +10154,13 @@ void AI_AKERON_AEGIS()
     if ( FUNCTION_0053( 8 ) == 1 )
     {
         AI_ACT_SKILL( 49 );
-        FUNCTION_006B( 8 );
+        AI_WEAK( 8 );
         return;
     }
     else if ( FUNCTION_0053( 9 ) == 1 )
     {
         AI_ACT_SKILL( 55 );
-        FUNCTION_006B( 9 );
+        AI_WEAK( 9 );
         return;
     }
 
@@ -10344,7 +10344,7 @@ void AI_KONKYU_AEGIS()
         else if ( AI_ENBAD( 0x80 ) == 0 )
         {
             AI_ACT_SKILL( 148 );
-            FUNCTION_0064( 0x80 );
+            AI_NOTBAD( 0x80 );
             return;
         }
         else 
@@ -10556,19 +10556,19 @@ void AI_K_GARDKILL()
     if ( FUNCTION_004D( 3 ) == 1 )
     {
         AI_ACT_SKILL( 229 );
-        FUNCTION_0068( 3 );
+        AI_HANSYA( 3 );
         return;
     }
     else if ( FUNCTION_004F( 3 ) == 1 )
     {
         AI_ACT_SKILL( 229 );
-        FUNCTION_0069( 3 );
+        AI_KYUSYU( 3 );
         return;
     }
     else if ( FUNCTION_0051( 3 ) == 1 )
     {
         AI_ACT_SKILL( 229 );
-        FUNCTION_006A( 3 );
+        AI_MUKOU( 3 );
         return;
     }
 
@@ -10582,19 +10582,19 @@ void AI_H_GARDKILL()
     if ( FUNCTION_004D( 4 ) == 1 )
     {
         AI_ACT_SKILL( 230 );
-        FUNCTION_0068( 4 );
+        AI_HANSYA( 4 );
         return;
     }
     else if ( FUNCTION_004F( 4 ) == 1 )
     {
         AI_ACT_SKILL( 230 );
-        FUNCTION_0069( 4 );
+        AI_KYUSYU( 4 );
         return;
     }
     else if ( FUNCTION_0051( 4 ) == 1 )
     {
         AI_ACT_SKILL( 230 );
-        FUNCTION_006A( 4 );
+        AI_MUKOU( 4 );
         return;
     }
 
@@ -10608,19 +10608,19 @@ void AI_D_GARDKILL()
     if ( FUNCTION_004D( 5 ) == 1 )
     {
         AI_ACT_SKILL( 232 );
-        FUNCTION_0068( 5 );
+        AI_HANSYA( 5 );
         return;
     }
     else if ( FUNCTION_004F( 5 ) == 1 )
     {
         AI_ACT_SKILL( 232 );
-        FUNCTION_0069( 5 );
+        AI_KYUSYU( 5 );
         return;
     }
     else if ( FUNCTION_0051( 5 ) == 1 )
     {
         AI_ACT_SKILL( 232 );
-        FUNCTION_006A( 5 );
+        AI_MUKOU( 5 );
         return;
     }
 
@@ -10634,19 +10634,19 @@ void AI_S_GARDKILL()
     if ( FUNCTION_004D( 6 ) == 1 )
     {
         AI_ACT_SKILL( 231 );
-        FUNCTION_0068( 6 );
+        AI_HANSYA( 6 );
         return;
     }
     else if ( FUNCTION_004F( 6 ) == 1 )
     {
         AI_ACT_SKILL( 231 );
-        FUNCTION_0069( 6 );
+        AI_KYUSYU( 6 );
         return;
     }
     else if ( FUNCTION_0051( 6 ) == 1 )
     {
         AI_ACT_SKILL( 231 );
-        FUNCTION_006A( 6 );
+        AI_MUKOU( 6 );
         return;
     }
 
@@ -10766,19 +10766,19 @@ void AI_MAYA_GARDKILL()
     if ( FUNCTION_004D( 3 ) == 1 )
     {
         AI_ACT_SKILL( 229 );
-        FUNCTION_0068( 3 );
+        AI_HANSYA( 3 );
         return;
     }
     else if ( FUNCTION_004F( 3 ) == 1 )
     {
         AI_ACT_SKILL( 229 );
-        FUNCTION_0069( 3 );
+        AI_KYUSYU( 3 );
         return;
     }
     else if ( FUNCTION_0051( 3 ) == 1 )
     {
         AI_ACT_SKILL( 229 );
-        FUNCTION_006A( 3 );
+        AI_MUKOU( 3 );
         return;
     }
 
@@ -10786,19 +10786,19 @@ void AI_MAYA_GARDKILL()
     if ( FUNCTION_004D( 4 ) == 1 )
     {
         AI_ACT_SKILL( 230 );
-        FUNCTION_0068( 4 );
+        AI_HANSYA( 4 );
         return;
     }
     else if ( FUNCTION_004F( 4 ) == 1 )
     {
         AI_ACT_SKILL( 230 );
-        FUNCTION_0069( 4 );
+        AI_KYUSYU( 4 );
         return;
     }
     else if ( FUNCTION_0051( 4 ) == 1 )
     {
         AI_ACT_SKILL( 230 );
-        FUNCTION_006A( 4 );
+        AI_MUKOU( 4 );
         return;
     }
 
@@ -11349,37 +11349,37 @@ void AI_TUJYOU()
                 if ( FUNCTION_004D( 3 ) == 1 )
                 {
                     AI_ACT_SKILL( 229 );
-                    FUNCTION_0068( 3 );
+                    AI_HANSYA( 3 );
                     return;
                 }
                 else if ( FUNCTION_004F( 3 ) == 1 )
                 {
                     AI_ACT_SKILL( 229 );
-                    FUNCTION_0069( 3 );
+                    AI_KYUSYU( 3 );
                     return;
                 }
                 else if ( FUNCTION_0051( 3 ) == 1 )
                 {
                     AI_ACT_SKILL( 229 );
-                    FUNCTION_006A( 3 );
+                    AI_MUKOU( 3 );
                     return;
                 }
                 else if ( FUNCTION_004D( 5 ) == 1 )
                 {
                     AI_ACT_SKILL( 232 );
-                    FUNCTION_0068( 5 );
+                    AI_HANSYA( 5 );
                     return;
                 }
                 else if ( FUNCTION_004F( 5 ) == 1 )
                 {
                     AI_ACT_SKILL( 232 );
-                    FUNCTION_0069( 5 );
+                    AI_KYUSYU( 5 );
                     return;
                 }
                 else if ( FUNCTION_0051( 5 ) == 1 )
                 {
                     AI_ACT_SKILL( 232 );
-                    FUNCTION_006A( 5 );
+                    AI_MUKOU( 5 );
                     return;
                 }
                 else 
@@ -11393,37 +11393,37 @@ void AI_TUJYOU()
             else if ( FUNCTION_004D( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 230 );
-                FUNCTION_0068( 4 );
+                AI_HANSYA( 4 );
                 return;
             }
             else if ( FUNCTION_004F( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 230 );
-                FUNCTION_0069( 4 );
+                AI_KYUSYU( 4 );
                 return;
             }
             else if ( FUNCTION_0051( 4 ) == 1 )
             {
                 AI_ACT_SKILL( 230 );
-                FUNCTION_006A( 4 );
+                AI_MUKOU( 4 );
                 return;
             }
             else if ( FUNCTION_004D( 6 ) == 1 )
             {
                 AI_ACT_SKILL( 231 );
-                FUNCTION_0068( 6 );
+                AI_HANSYA( 6 );
                 return;
             }
             else if ( FUNCTION_004F( 6 ) == 1 )
             {
                 AI_ACT_SKILL( 231 );
-                FUNCTION_0069( 6 );
+                AI_KYUSYU( 6 );
                 return;
             }
             else if ( FUNCTION_0051( 6 ) == 1 )
             {
                 AI_ACT_SKILL( 231 );
-                FUNCTION_006A( 6 );
+                AI_MUKOU( 6 );
                 return;
             }
             else 
@@ -11656,7 +11656,7 @@ void AI_Shadow_hero_AIGISU()
     {
         BIT_ON( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 455 );
         AI_ACT_PERSONA( 225, 120 );
-        FUNCTION_0060();
+        AI_HPMIN();
         FUNCTION_011E( 297 );
         return;
     }
@@ -11677,7 +11677,7 @@ void AI_Shadow_hero_AIGISU()
             else 
             {
                 AI_ACT_PERSONA( 225, 120 );
-                FUNCTION_0060();
+                AI_HPMIN();
                 return;
             }
 
@@ -11749,7 +11749,7 @@ void AI_Shadow_hero_AIGISU()
         else 
         {
             AI_ACT_PERSONA( 225, 120 );
-            FUNCTION_0060();
+            AI_HPMIN();
             return;
         }
 
@@ -11784,7 +11784,7 @@ void AI_Shadow_hero_YUKARI()
     {
         BIT_ON( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 456 );
         AI_ACT_PERSONA( 224, 18 );
-        FUNCTION_0060();
+        AI_HPMIN();
         FUNCTION_011E( 298 );
         return;
     }
@@ -11843,7 +11843,7 @@ void AI_Shadow_hero_MITURU()
     {
         BIT_ON( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 457 );
         AI_ACT_PERSONA( 226, 27 );
-        FUNCTION_0060();
+        AI_HPMIN();
         FUNCTION_011E( 299 );
         return;
     }
@@ -11887,7 +11887,7 @@ void AI_Shadow_hero_MITURU()
     else 
     {
         AI_ACT_PERSONA( 226, 57 );
-        FUNCTION_006E( 1 );
+        AI_NOTMUKOU( 1 );
         return;
     }
 
@@ -11902,7 +11902,7 @@ void AI_Shadow_hero_JUNPEI()
     {
         BIT_ON( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 458 );
         AI_ACT_PERSONA( 227, 144 );
-        FUNCTION_0060();
+        AI_HPMIN();
         FUNCTION_011E( 300 );
         return;
     }
@@ -11950,7 +11950,7 @@ void AI_Shadow_hero_SANADA()
     {
         BIT_ON( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 459 );
         AI_ACT_PERSONA( 228, 36 );
-        FUNCTION_0060();
+        AI_HPMIN();
         FUNCTION_011E( 301 );
         return;
     }
@@ -12020,7 +12020,7 @@ void AI_Shadow_hero_AMADA()
     {
         BIT_ON( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 460 );
         AI_ACT_PERSONA( 229, 47 );
-        FUNCTION_0060();
+        AI_HPMIN();
         FUNCTION_011E( 302 );
         return;
     }
@@ -12029,7 +12029,7 @@ void AI_Shadow_hero_AMADA()
     if ( AI_ENBAD( 0x00100000 ) == 1 )
     {
         AI_ACT_PERSONA( 229, 147 );
-        FUNCTION_0063( 0x00100000 );
+        AI_FUNCTION_0063( 0x00100000 );
         return;
     }
 
@@ -12064,7 +12064,7 @@ void AI_Shadow_hero_KOROMARU()
     {
         BIT_ON( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 461 );
         AI_ACT_PERSONA( 230, 54 );
-        FUNCTION_0060();
+        AI_HPMIN();
         FUNCTION_011E( 303 );
         return;
     }
@@ -12120,7 +12120,7 @@ void AI_AMADAK_AEGIS()
         if ( RNG( 100 ) < 60 )
         {
             AI_ACT_SKILL( 232 );
-            FUNCTION_0068( 5 );
+            AI_HANSYA( 5 );
             return;
         }
         else 
@@ -12137,7 +12137,7 @@ void AI_AMADAK_AEGIS()
         if ( RNG( 100 ) < 70 )
         {
             AI_ACT_SKILL( 232 );
-            FUNCTION_0069( 5 );
+            AI_KYUSYU( 5 );
             return;
         }
         else 
@@ -12154,7 +12154,7 @@ void AI_AMADAK_AEGIS()
         if ( RNG( 100 ) < 50 )
         {
             AI_ACT_SKILL( 232 );
-            FUNCTION_006A( 5 );
+            AI_MUKOU( 5 );
             return;
         }
         else 
@@ -12170,7 +12170,7 @@ void AI_AMADAK_AEGIS()
     if ( MYHP( 235, 50 ) == 1 && BIT_CHK( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 449 ) == 0 )
     {
         AI_ACT_SKILL( 194 );
-        FUNCTION_0065( 235 );
+        AI_ID( 235 );
         BIT_ON( 0 + 0x0400 + 0x0800 + 0x0400 + 0x0400 + 449 );
         return;
     }
@@ -12456,7 +12456,7 @@ void AI_SANADA_AEGIS()
             else 
             {
                 AI_ACT_SKILL( 193 );
-                FUNCTION_0065( 236 );
+                AI_ID( 236 );
                 return;
             }
 
@@ -12480,7 +12480,7 @@ void AI_Junpei()
     if ( FUNCTION_003E( 4 ) == 1 )
     {
         AI_ACT_SKILL( 199 );
-        FUNCTION_0063( 4 );
+        AI_FUNCTION_0063( 4 );
         return;
     }
 
@@ -12551,19 +12551,19 @@ void AI_Junpei()
         if ( FUNCTION_004D( 3 ) == 1 )
         {
             AI_ACT_SKILL( 229 );
-            FUNCTION_0068( 3 );
+            AI_HANSYA( 3 );
             return;
         }
         else if ( FUNCTION_004F( 3 ) == 1 )
         {
             AI_ACT_SKILL( 229 );
-            FUNCTION_0069( 3 );
+            AI_KYUSYU( 3 );
             return;
         }
         else if ( FUNCTION_0051( 3 ) == 1 )
         {
             AI_ACT_SKILL( 229 );
-            FUNCTION_006A( 3 );
+            AI_MUKOU( 3 );
             return;
         }
         else 
@@ -12598,7 +12598,7 @@ void AI_Koromaru()
     if ( FUNCTION_003E( 1 ) == 1 )
     {
         AI_ACT_SKILL( 237 );
-        FUNCTION_0063( 1 );
+        AI_FUNCTION_0063( 1 );
         return;
     }
 
@@ -12777,19 +12777,19 @@ void AI_YUKARI_AEGIS()
                 if ( FUNCTION_004D( 4 ) == 1 )
                 {
                     AI_ACT_SKILL( 230 );
-                    FUNCTION_0068( 4 );
+                    AI_HANSYA( 4 );
                     return;
                 }
                 else if ( FUNCTION_004F( 4 ) == 1 )
                 {
                     AI_ACT_SKILL( 230 );
-                    FUNCTION_0069( 4 );
+                    AI_KYUSYU( 4 );
                     return;
                 }
                 else if ( FUNCTION_0051( 4 ) == 1 )
                 {
                     AI_ACT_SKILL( 230 );
-                    FUNCTION_006A( 4 );
+                    AI_MUKOU( 4 );
                     return;
                 }
                 else 
@@ -12808,7 +12808,7 @@ void AI_YUKARI_AEGIS()
             if ( FUNCTION_0043( 4 ) == 0 )
             {
                 AI_ACT_SKILL( 214 );
-                FUNCTION_0067();
+                AI_TAR_MYAI();
                 return;
             }
             else 
